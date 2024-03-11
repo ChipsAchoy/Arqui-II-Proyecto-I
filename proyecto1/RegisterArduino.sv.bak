@@ -1,0 +1,16 @@
+
+
+module RegisterArduino(input logic clk, rst, input logic [19:0] arduinoAddIn, output logic [19:0] arduinoAddOut);
+
+	
+	always @ (posedge clk or posedge rst) begin
+		
+		if (rst) arduinoAddOut = 0;
+		else
+		arduinoAddOut = arduinoAddIn;
+	
+	end
+
+
+
+endmodule

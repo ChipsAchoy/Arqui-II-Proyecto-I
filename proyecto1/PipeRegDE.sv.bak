@@ -1,0 +1,86 @@
+module PipeRegDE (
+    // Clock signal
+    input logic CLK,
+    // Input signals       					 	
+    input logic [DATA_WIDTH-1:0] RD1D,
+    input logic [DATA_WIDTH-1:0] RD2D,
+    input logic [DATA_WIDTH-1:0] ExtImmD,
+    input logic [3:0] CondD,
+    input logic [3:0] FlagsD,
+    input logic PCDSrcD,
+    input logic RegWriteD,
+    input logic MemtoRegD,
+    input logic MemWriteD,
+    input logic ALUControlD,
+    input logic BranchD,
+    input logic ALUSrcD,
+    input logic FlagWriteD,
+    input logic ImmSrcD,
+    // Output signals
+    output logic [DATA_WIDTH-1:0] RD1E,
+    output logic [DATA_WIDTH-1:0] RD2E,
+    output logic [DATA_WIDTH-1:0] ExtImmE,
+    output logic [3:0] CondE,
+    output logic [3:0] FlagsE,
+    output logic PCDSrcE,
+    output logic RegWriteE,
+    output logic MemtoRegE,
+    output logic MemWriteE,
+    output logic ALUControlE,
+    output logic BranchE,
+    output logic ALUSrcE,
+    output logic FlagWriteE,
+    output logic ImmSrcE
+);
+
+    parameter DATA_WIDTH = 32; 					// Define the data width
+
+    logic [DATA_WIDTH-1:0] RD1Reg;
+    logic [DATA_WIDTH-1:0] RD2Reg;
+    logic [DATA_WIDTH-1:0] ExtImmReg;
+    logic [3:0] CondReg;
+    logic [3:0] FlagsReg;
+    logic PCDSrcReg;
+    logic RegWriteReg;
+    logic MemtoRegReg;
+    logic MemWriteReg;
+    logic ALUControlReg;
+    logic BranchReg;
+    logic ALUSrcReg;
+    logic FlagWriteReg;
+    logic ImmSrcReg;
+
+    always @(posedge CLK) begin
+        RD1Reg <= RD1D;
+        RD2Reg <= RD2D;
+        ExtImmReg <= ExtImmD;
+        CondReg <= CondD;
+        FlagsReg <= FlagsD;
+        PCDSrcReg <= PCDSrcD;
+        RegWriteReg <= RegWriteD;
+        MemtoRegReg <= MemtoRegD;
+        MemWriteReg <= MemWriteD;
+        ALUControlReg <= ALUControlD;
+        BranchReg <= BranchD;
+        ALUSrcReg <= ALUSrcD;
+        FlagWriteReg <= FlagWriteD;
+        ImmSrcReg <= ImmSrcD;
+
+    end
+
+    assign RD1E = RD1Reg;
+    assign RD2E = RD2Reg;
+    assign ExtImmE = ExtImmReg;
+    assign CondE = CondReg;
+    assign FlagsE = FlagsReg;
+    assign PCDSrcE = PCDSrcReg;
+    assign RegWriteE = RegWriteReg;
+    assign MemtoRegE = MemtoRegReg;
+    assign MemWriteE = MemWriteReg;
+    assign ALUControlE = ALUControlReg;
+    assign BranchE = BranchReg;
+    assign ALUSrcE = ALUSrcReg;
+    assign FlagWriteE = FlagWriteReg;
+    assign ImmSrcE = ImmSrcReg;
+
+endmodule

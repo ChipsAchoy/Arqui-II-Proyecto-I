@@ -1,0 +1,27 @@
+module WriteToMIF;
+    reg [15:0] memory [0:255]; // 16-bit memory with 256 entries
+
+    initial begin
+        $fopen("memory.mif", "w"); // Open the MIF file for writing
+        $fwrite("memory.mif", "DEPTH = 256;\n"); // Write the depth
+        $fwrite("memory.mif", "WIDTH = 16;\n"); // Write the width
+        $fwrite("memory.mif", "ADDRESS_RADIX = HEX;\n"); // Specify the address radix
+        $fwrite("memory.mif", "DATA_RADIX = HEX;\n"); // Specify the data radix
+
+        // Write memory contents to specific locations in the MIF file
+        for (int i = 0; i < 256; i = i + 1) begin
+            // Write data to a specific address (e.g., address 0x0A)
+            if (i == 10) begin
+                memory[i] = 0xABCD; // Data to be written at address 0x0A
+                $fwrite("memory.mif", "%X : %X;\n", i, memory[i]);
+            end else begin
+                // Write other data to the rest of the memory locations
+                memory[i] = i;
+                $fwrite("memory.mif", "%X : %X;\n", i, memory[i]);
+            end
+        end
+
+        $fclose("memory.mif"); // Close the MIF file
+        $finish; // Terminate simulation
+    end
+endmodule

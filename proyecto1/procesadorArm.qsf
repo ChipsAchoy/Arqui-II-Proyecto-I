@@ -1,0 +1,182 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2022  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+# Date created = 00:52:35  May 18, 2023
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		procesadorArm_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Intel recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSEBA6U23I7
+set_global_assignment -name TOP_LEVEL_ENTITY procesadorArm
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 22.1STD.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "00:52:35  MAY 18, 2023"
+set_global_assignment -name LAST_QUARTUS_VERSION "22.1std.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim (SystemVerilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "SYSTEMVERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_timing
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP "-40"
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 100
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH program_tb -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME instruction_TB -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id instruction_TB
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME instruction_TB -section_id instruction_TB
+set_global_assignment -name EDA_TEST_BENCH_NAME program_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id program_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME program_tb -section_id program_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME rom_TB -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id rom_TB
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME rom_TB -section_id rom_TB
+set_global_assignment -name EDA_TEST_BENCH_NAME ram_TB -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id ram_TB
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME ram_TB -section_id ram_TB
+set_location_assignment PIN_V11 -to clk
+set_location_assignment PIN_Y24 -to rst
+set_global_assignment -name EDA_TEST_BENCH_NAME alu_TB -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id alu_TB
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME alu_TB -section_id alu_TB
+set_global_assignment -name EDA_TEST_BENCH_NAME register_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id register_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME register_tb -section_id register_tb
+set_global_assignment -name SYSTEMVERILOG_FILE PipeRegMW.sv
+set_global_assignment -name SYSTEMVERILOG_FILE PipeRegFD.sv
+set_global_assignment -name SYSTEMVERILOG_FILE PipeRegEM.sv
+set_global_assignment -name SYSTEMVERILOG_FILE PipeRegDE.sv
+set_global_assignment -name SOURCE_FILE program.mem
+set_global_assignment -name SYSTEMVERILOG_FILE InstructionMemory.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RegisterFile.sv
+set_global_assignment -name SYSTEMVERILOG_FILE MainDecoder.sv
+set_global_assignment -name SYSTEMVERILOG_FILE AluDecoder.sv
+set_global_assignment -name SYSTEMVERILOG_FILE PCLogic.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Decoder.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ConditionCheck.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ConditionLogic.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ControlUnit.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Extend.sv
+set_global_assignment -name SYSTEMVERILOG_FILE plus_n.sv
+set_global_assignment -name SYSTEMVERILOG_FILE mux_2_to_1_32.sv
+set_global_assignment -name SYSTEMVERILOG_FILE mux_2_to_1_4.sv
+set_global_assignment -name SYSTEMVERILOG_FILE alu.sv
+set_global_assignment -name SYSTEMVERILOG_FILE arith_alu.sv
+set_global_assignment -name SYSTEMVERILOG_FILE logic_alu.sv
+set_global_assignment -name SYSTEMVERILOG_FILE pcRegister.sv
+set_global_assignment -name SYSTEMVERILOG_FILE cpu.sv
+set_global_assignment -name SYSTEMVERILOG_FILE mux_3_to_1_32.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ChipSet.sv
+set_global_assignment -name SYSTEMVERILOG_FILE procesador.sv
+set_global_assignment -name SYSTEMVERILOG_FILE procesadorArm.sv
+set_global_assignment -name SYSTEMVERILOG_FILE divisorClock.sv
+set_global_assignment -name SYSTEMVERILOG_FILE controladorVGA.sv
+set_global_assignment -name SYSTEMVERILOG_FILE videocontroller.sv
+set_global_assignment -name SYSTEMVERILOG_FILE contadorXY.sv
+set_global_assignment -name SYSTEMVERILOG_FILE instruction_TB.sv
+set_global_assignment -name SYSTEMVERILOG_FILE program_tb.sv
+set_global_assignment -name SYSTEMVERILOG_FILE rom_TB.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ram_TB.sv
+set_global_assignment -name SYSTEMVERILOG_FILE program_final_tb.sv
+set_global_assignment -name SYSTEMVERILOG_FILE register_tb.sv
+set_global_assignment -name SYSTEMVERILOG_FILE adder_alu.sv
+set_global_assignment -name SYSTEMVERILOG_FILE multiplyUnit.sv
+set_global_assignment -name SYSTEMVERILOG_FILE divUnit.sv
+set_global_assignment -name MIF_FILE DRAM.mif
+set_global_assignment -name MIF_FILE DROM.mif
+set_global_assignment -name QIP_FILE DROMMemory.qip
+set_global_assignment -name SYSTEMVERILOG_FILE instRegister.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Commonregister.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Commonregister_4.sv
+set_global_assignment -name SYSTEMVERILOG_FILE alu_TB.sv
+set_global_assignment -name QIP_FILE DRAMMemory.qip
+set_global_assignment -name MIF_FILE DRAMArduino.mif
+set_global_assignment -name QIP_FILE DRAMMemoryArd.qip
+set_global_assignment -name SYSTEMVERILOG_FILE RegisterArduino.sv
+set_location_assignment PIN_Y15 -to clkArduino
+set_location_assignment PIN_AC24 -to dataArduino[0]
+set_location_assignment PIN_AA15 -to dataArduino[1]
+set_location_assignment PIN_AD26 -to dataArduino[2]
+set_location_assignment PIN_AG28 -to dataArduino[3]
+set_location_assignment PIN_AF28 -to dataArduino[4]
+set_location_assignment PIN_AE25 -to dataArduino[5]
+set_location_assignment PIN_AF27 -to dataArduino[6]
+set_location_assignment PIN_AG26 -to dataArduino[7]
+set_global_assignment -name SYSTEMVERILOG_FILE ArduinoAdd_p1.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ArduinoLogic.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RAM_ARD_tb.sv
+set_global_assignment -name EDA_TEST_BENCH_NAME RAM_ARD_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id RAM_ARD_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME RAM_ARD_tb -section_id RAM_ARD_tb
+set_global_assignment -name SYSTEMVERILOG_FILE WriteToMIF.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RAM_INC_tb.sv
+set_global_assignment -name EDA_TEST_BENCH_NAME RAM_INC_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id RAM_INC_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME RAM_INC_tb -section_id RAM_INC_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE instruction_TB.sv -section_id instruction_TB
+set_global_assignment -name EDA_TEST_BENCH_FILE program.mem -section_id instruction_TB
+set_global_assignment -name EDA_TEST_BENCH_FILE program.mem -section_id program_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE program_tb.sv -section_id program_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE DRAM.mif -section_id program_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE DROM.mif -section_id program_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE rom_TB.sv -section_id rom_TB
+set_global_assignment -name EDA_TEST_BENCH_FILE ROMSave.mif -section_id rom_TB
+set_global_assignment -name EDA_TEST_BENCH_FILE RomDataMem.v -section_id rom_TB
+set_global_assignment -name EDA_TEST_BENCH_FILE ram_TB.sv -section_id ram_TB
+set_global_assignment -name EDA_TEST_BENCH_FILE Ram.mif -section_id ram_TB
+set_global_assignment -name EDA_TEST_BENCH_FILE RamDataMem.v -section_id ram_TB
+set_global_assignment -name EDA_TEST_BENCH_FILE alu_TB.sv -section_id alu_TB
+set_global_assignment -name EDA_TEST_BENCH_FILE register_tb.sv -section_id register_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE RAM_ARD_tb.sv -section_id RAM_ARD_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE RAM_INC_tb.sv -section_id RAM_INC_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE ArduinoLogic.sv -section_id RAM_INC_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE RegisterArduino.sv -section_id RAM_INC_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE ArduinoAdd_p1.sv -section_id RAM_INC_tb
+set_location_assignment PIN_AG25 -to dataIn[0]
+set_location_assignment PIN_AH26 -to dataIn[1]
+set_location_assignment PIN_AH24 -to dataIn[2]
+set_location_assignment PIN_AF25 -to dataIn[3]
+set_location_assignment PIN_AG23 -to dataIn[4]
+set_location_assignment PIN_AF23 -to dataIn[5]
+set_location_assignment PIN_AG24 -to dataIn[6]
+set_location_assignment PIN_AH22 -to dataIn[7]
+set_location_assignment PIN_W24 -to start
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

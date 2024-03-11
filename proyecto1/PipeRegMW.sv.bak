@@ -1,0 +1,51 @@
+module PipeRegMW (
+    // Clock signal
+    input logic CLK,
+    // Input signals       					 	
+    input logic [DATA_WIDTH-1:0] ALUResultE,
+    input logic [DATA_WIDTH-1:0] WriteDataE,
+    input logic PCDSrcE,
+    input logic RegWriteE,
+    input logic MemtoRegE,
+    input logic MemWriteE,
+	 input logic WA3E,
+    // Output signals
+    output logic [DATA_WIDTH-1:0] ALUResultM,
+    output logic [DATA_WIDTH-1:0] WriteDataM,
+    output logic PCDSrcM,
+    output logic RegWriteM,
+    output logic MemtoRegM,
+    output logic MemWriteM,
+	 output logic WA3M
+);
+
+    parameter DATA_WIDTH = 32; 					// Define the data width
+
+    logic [DATA_WIDTH-1:0] ALUResultReg;
+    logic [DATA_WIDTH-1:0] WriteDataReg;
+    logic PCDSrcReg;
+    logic RegWriteReg;
+    logic MemtoRegReg;
+    logic MemWriteReg;
+	 logic WA3Reg;
+
+    always @(posedge CLK) begin
+        ALUResultReg <= ALUResultE;
+        WriteDataReg <= WriteDataE;
+        PCDSrcReg <= PCDSrcE;
+        RegWriteReg <= RegWriteE;
+        MemtoRegReg <= MemtoRegE;
+        MemWriteReg <= MemWriteE;
+		  WA3Reg <= WA3E;
+
+    end
+
+    assign ALUResultM = WriteDataReg;
+    assign WriteDataM = WriteDataReg;
+    assign PCDSrcM = PCDSrcReg;
+    assign RegWriteM = RegWriteReg;
+    assign MemtoRegM = MemtoRegReg;
+    assign MemWriteM = MemWriteReg;
+	 assign WA3M = WA3Reg;
+
+endmodule
