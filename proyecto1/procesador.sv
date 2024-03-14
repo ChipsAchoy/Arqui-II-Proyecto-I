@@ -6,7 +6,7 @@ input logic [7:0] dataIn, output logic [7:0] dataArduino);
 	logic [31:0] instructionD;
 	logic [31:0] pc;
 	logic [31:0] pcUse;
-	logic [31:0] dataRead, dataWrite;
+	logic [15:0][31:0] dataRead, dataWrite;
 	logic memWrite;
 	logic [20:0] addr;
 	logic [1:0] select; 
@@ -74,7 +74,7 @@ input logic [7:0] dataIn, output logic [7:0] dataArduino);
 	
 	
 	//assign dataArduino = dataArduinoAux;
-	assign dataRead = result;
+	assign dataRead[15] = result;
 	assign arduinoAdd[3:0] = dataIn[3:0];
 	assign arduinoAdd[19:4] = 0;
 	assign dataArduino[3:0] = dataArduinoAux[3:0];

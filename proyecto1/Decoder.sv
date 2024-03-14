@@ -1,6 +1,6 @@
 
 module Decoder(input logic [1:0] op, input logic [1:0] immS, input logic [3:0] cmd, input logic [3:0] condRd,
-					output logic [1:0] flagW, immSrc, regSrc, output logic [3:0] aluControl, output logic pcs, regW, memW, memtoReg,
+					output logic [1:0] flagW, immSrc, regSrc, output logic [2:0] aluControl, output logic pcs, regW, memW, memtoReg,
 					aluSrc, branchOut);
 	
 	logic branch, aluOp;	
