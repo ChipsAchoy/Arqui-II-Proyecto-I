@@ -20,7 +20,7 @@ module alu #(parameter N=32)(input [N-1:0] a, b, input logic[2:0] aluControl, ou
 	arith_alu AUR(a, b, 1, resultado_r, cout_aux_r, neg_aux_r, zero_aux_r, overflow_aux_r, shiftR2);
 	multiplyUnit MUL(a, b, resultado_m, cout_aux_m, zero_aux_m, overflow_aux_m);
 	divUnit DIV(a, b, resultado_d, cout_aux_d, zero_aux_d, overflow_aux_d);
-	0 MOD(a, b, resultado_mod, cout_aux_mod, zero_aux_mod, overflow_aux_mod);
+	modUnit MOD(a, b, resultado_mod, cout_aux_mod, zero_aux_mod, overflow_aux_mod);
 	
 	
 	
