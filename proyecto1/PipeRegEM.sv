@@ -3,16 +3,16 @@ module PipeRegEM (
     input logic CLK,
 	 input logic RST,
     // Input signals       					 	
-    input logic [31:0] ALUResultE,
-    input logic [31:0] WriteDataE,
+    input logic [15:0][31:0] ALUResultE,
+    input logic [15:0][31:0] WriteDataE,
     input logic PCSrcE,
     input logic RegWriteE,
     input logic MemtoRegE,
     input logic MemWriteE,
 	 input logic [3:0] WA3E,
     // Output signals
-    output logic [31:0] ALUResultM,
-    output logic [31:0] WriteDataM,
+    output logic [15:0][31:0] ALUResultM,
+    output logic [15:0][31:0] WriteDataM,
     output logic PCSrcM,
     output logic RegWriteM,
     output logic MemtoRegM,
@@ -22,8 +22,8 @@ module PipeRegEM (
 
     //parameter DATA_WIDTH = 32; 					// Define the data width
 
-    logic [31:0] ALUResultReg;
-    logic [31:0] WriteDataReg;
+    logic [15:0][31:0] ALUResultReg;
+    logic [15:0][31:0] WriteDataReg;
     logic PCSrcReg;
     logic RegWriteReg;
     logic MemtoRegReg;

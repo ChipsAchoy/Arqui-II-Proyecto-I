@@ -1,6 +1,6 @@
 
 module cpu(input logic clk, rst, input logic [31:0] instructionD, 
-            input logic [31:0] dataRead, input logic [31:0] pc,
+            input logic [15:0][31:0] dataRead, input logic [31:0] pc,
 				output logic [31:0] pcOut, dataWrite, output logic memWrite, 
 				output [20:0] addr);
 	
@@ -16,12 +16,12 @@ module cpu(input logic clk, rst, input logic [31:0] instructionD,
 	logic [31:0] pc_plus_4, pc_plus_4D;
 	logic [31:0] pc_plus_8;
 	logic [15:0][31:0] rd1D, rd1E, rd2D, rd2E;
-	logic [31:0] extImm, extImmE, aluResult, aluResultD, aluResultW, srcA; 
+	logic [31:0] extImm, extImmE;
 	logic [31:0] resultPc;
 	logic [3:0] WA3D, WA3E, WA3M, WA3W;
-	logic [31:0] ReadDataM, ReadDataW, ExtImmD, ExtImmE, WriteDataM, 
-	logic [15:0][31:0] ALUResultE, ALUResultM, ALUResultW;
-	logic [15:0][31:0] srcB;
+	logic [31:0] ExtImmD, ExtImmE;
+	logic [15:0][31:0] ALUResultE, ALUResultM, ALUResultW, WriteDataM, ReadDataM, ReadDataW;
+	logic [15:0][31:0] ExtImmSrc, srcB;
 	
 	logic PCSrcD, PCSrcE, PCSrcE2, PCSrcM, PCSrcW, 
 	RegWriteD, RegWriteE, RegWriteE2, RegWriteM, 
@@ -35,7 +35,7 @@ module cpu(input logic clk, rst, input logic [31:0] instructionD,
 	
 	PipeRegDE regDE(clk, rst, 
 						 rd1D, rd2D, ExtImmD, instructionD[23:20], FlagsD, PCSrcD, RegWriteD, MemtoRegD, MemWriteD, ALUControlD, BranchD, ALUSrcD, FlagWriteD, 
-						 D[23:20],
+						 instructionD[23:20],
 						 rd1E, rd2E, ExtImmE, CondE, FlagsE, PCSrcE, RegWriteE, MemtoRegE, MemWriteE, ALUControlE, BranchE, ALUSrcE, FlagWriteE, WA3E);
 	
 	ConditionLogic C1(CondE, aluFlags, FlagWriteE, 
@@ -62,7 +62,8 @@ module cpu(input logic clk, rst, input logic [31:0] instructionD,
                rd1D, rd2D);
 	
 	Extend E0(instructionD[15:0], ImmSrcD, ExtImmD);
-	mux_2_to_1_32 M2(ExtImmE, rd2E, ALUSrcE, srcB);
+	
+	mux_2_to_1_32_vec M2(ExtImmSrc, rd2E, ALUSrcE, srcB);
 	
 	alu A0(rd1E[15], srcB[15], ALUControlE, ALUResultE[15], aluFlags[1], aluFlags[2], aluFlags[3], aluFlags[0]);
 	alu A1(rd1E[14], srcB[14], ALUControlE, ALUResultE[14], aluFlagsF1[1], aluFlagsF1[2], aluFlagsF1[3], aluFlagsF1[0]);
@@ -85,7 +86,22 @@ module cpu(input logic clk, rst, input logic [31:0] instructionD,
 	mux_2_to_1_32 M3(ReadDataW, ALUResultW, MemtoRegW, resultPc);
 	mux_2_to_1_32 M4(resultPc, pc_plus_4, PCSrcW, pcOut);
 	
-	
+	assign ExtImmSrc[15] = ExtImmE;
+	assign ExtImmSrc[14] = 0;
+	assign ExtImmSrc[13] = 0;
+	assign ExtImmSrc[12] = 0;
+	assign ExtImmSrc[11] = 0;
+	assign ExtImmSrc[10] = 0;
+	assign ExtImmSrc[9] = 0;
+	assign ExtImmSrc[8] = 0;
+	assign ExtImmSrc[7] = 0;
+	assign ExtImmSrc[6] = 0;
+	assign ExtImmSrc[5] = 0;
+	assign ExtImmSrc[4] = 0;
+	assign ExtImmSrc[3] = 0;
+	assign ExtImmSrc[2] = 0;
+	assign ExtImmSrc[1] = 0;
+	assign ExtImmSrc[0] = 0;
 	assign addr = ALUResultM[20:0];
 	assign dataWrite = WriteDataM;
 	assign memWrite = MemWriteM;

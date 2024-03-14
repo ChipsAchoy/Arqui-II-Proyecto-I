@@ -3,8 +3,8 @@ module PipeRegDE (
     input logic CLK,
 	 input logic RST,
     // Input signals       					 	
-    input logic [31:0] RD1D,
-    input logic [31:0] RD2D,
+    input logic [15:0][31:0] RD1D,
+    input logic [15:0][31:0] RD2D,
     input logic [31:0] ExtImmD,
     input logic [3:0] CondD,
     input logic [3:0] FlagsD,
@@ -18,8 +18,8 @@ module PipeRegDE (
     input logic [1:0] FlagWriteD,
 	 input logic [3:0] WA3D,
     // Output signals
-    output logic [31:0] RD1E,
-    output logic [31:0] RD2E,
+    output logic [15:0][31:0] RD1E,
+    output logic [15:0][31:0] RD2E,
     output logic [31:0] ExtImmE,
     output logic [3:0] CondE,
     output logic [3:0] FlagsE,
@@ -36,8 +36,8 @@ module PipeRegDE (
 
     //parameter DATA_WIDTH = 32; 					// Define the data width
 
-    logic [31:0] RD1Reg;
-    logic [31:0] RD2Reg;
+    logic [15:0][31:0] RD1Reg;
+    logic [15:0][31:0] RD2Reg;
     logic [31:0] ExtImmReg;
     logic [3:0] CondReg;
     logic [3:0] FlagsReg;
