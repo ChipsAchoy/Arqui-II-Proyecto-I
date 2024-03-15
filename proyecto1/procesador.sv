@@ -19,7 +19,7 @@ input logic [7:0] dataIn, output logic [7:0] dataArduino);
 	logic [15:0] dataArduinoAux;
 	
 	logic ardwen;
-	
+	logic vec_scalar;
 	
 	initial begin
 	
@@ -41,7 +41,7 @@ input logic [7:0] dataIn, output logic [7:0] dataArduino);
 	
 	PipeRegFD regFD(clk, rst, instructionF, instructionD);
 	
-	cpu CPU(clk, rst, instructionD, dataRead, pcUse, pc, dataWrite, memWrite, addr);
+	cpu CPU(clk, rst, instructionD, dataRead, pcUse, pc, dataWrite, memWrite, addr, vec_scalar);
 	
 	ChipSet CS(addr, select, out_addr);
 	

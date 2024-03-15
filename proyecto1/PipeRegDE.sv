@@ -17,6 +17,7 @@ module PipeRegDE (
     input logic ALUSrcD,
     input logic [1:0] FlagWriteD,
 	 input logic [3:0] WA3D,
+	 input logic v_s_d,
     // Output signals
     output logic [15:0][31:0] RD1E,
     output logic [15:0][31:0] RD2E,
@@ -31,7 +32,8 @@ module PipeRegDE (
     output logic BranchE,
     output logic ALUSrcE,
     output logic [1:0] FlagWriteE,
-	 output logic [3:0] WA3E
+	 output logic [3:0] WA3E,
+	 output logic v_s_e
 );
 
     //parameter DATA_WIDTH = 32; 					// Define the data width
@@ -50,6 +52,7 @@ module PipeRegDE (
     logic ALUSrcReg;
     logic [1:0] FlagWriteReg;
 	 logic [3:0] WA3Reg;
+	 logic v_s_reg;
 
     always @(posedge CLK or posedge RST) begin
 	 
@@ -68,6 +71,7 @@ module PipeRegDE (
 			ALUSrcReg <= 0;
 			FlagWriteReg <= 0;
 			WA3Reg <= 0;
+			v_s_reg <= 0;
 		 end else begin
 			RD1Reg <= RD1D;
 			RD2Reg <= RD2D;
@@ -83,6 +87,7 @@ module PipeRegDE (
 			ALUSrcReg <= ALUSrcD;
 			FlagWriteReg <= FlagWriteD;
 			WA3Reg <= WA3D;
+			v_s_reg <= v_s_d;
 		 end
 
 
@@ -102,5 +107,6 @@ module PipeRegDE (
     assign ALUSrcE = ALUSrcReg;
     assign FlagWriteE = FlagWriteReg;
 	 assign WA3E = WA3Reg;
+	 assign v_s_e = v_s_d;
 
 endmodule

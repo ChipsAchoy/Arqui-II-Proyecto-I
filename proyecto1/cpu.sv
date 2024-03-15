@@ -2,7 +2,7 @@
 module cpu(input logic clk, rst, input logic [31:0] instructionD, 
             input logic [15:0][31:0] dataRead, input logic [31:0] pc,
 				output logic [31:0] pcOut, output logic [15:0][31:0] dataWrite, output logic memWrite, 
-				output [20:0] addr);
+				output [20:0] addr, output logic vec_scalar, output logic v_s_m);
 	
 	logic [3:0] aluFlags, aluControl, CondE, FlagsD, FlagsE;
 	logic [3:0] aluFlagsF1, aluFlagsF2, aluFlagsF3, aluFlagsF4, aluFlagsF5, aluFlagsF6, aluFlagsF7;
@@ -22,6 +22,7 @@ module cpu(input logic clk, rst, input logic [31:0] instructionD,
 	logic [31:0] ExtImmD, ExtImmE;
 	logic [15:0][31:0] ALUResultE, ALUResultM, ALUResultW, WriteDataM, ReadDataM, ReadDataW;
 	logic [15:0][31:0] ExtImmSrc, srcB;
+	logic v_s_d, v_s_e, v_s_m;
 	
 	logic PCSrcD, PCSrcE, PCSrcE2, PCSrcM, PCSrcW, 
 	RegWriteD, RegWriteE, RegWriteE2, RegWriteM, 
@@ -29,21 +30,21 @@ module cpu(input logic clk, rst, input logic [31:0] instructionD,
 	MemtoRegD, MemtoRegE, MemtoRegM, MemtoRegW, ALUSrcD, ALUSrcE, BranchD, BranchE;
 
 	
-	Decoder D0(instructionD[31:30], instructionD[25:24], instructionD[29:26], instructionD[23:20], 
+	Decoder D0(instructionD[31:30], instructionD[25:24], instructionD[29:27], instructionD[23:20], 
 					FlagWriteD, ImmSrcD, regSrc, ALUControlD, PCSrcD, RegWriteD, MemWriteD, MemtoRegD,
 					ALUSrcD, BranchD);
 	
 	PipeRegDE regDE(clk, rst, 
 						 rd1D, rd2D, ExtImmD, instructionD[23:20], FlagsD, PCSrcD, RegWriteD, MemtoRegD, MemWriteD, ALUControlD, BranchD, ALUSrcD, FlagWriteD, 
-						 instructionD[23:20],
-						 rd1E, rd2E, ExtImmE, CondE, FlagsE, PCSrcE, RegWriteE, MemtoRegE, MemWriteE, ALUControlE, BranchE, ALUSrcE, FlagWriteE, WA3E);
+						 instructionD[23:20], v_s_d,
+						 rd1E, rd2E, ExtImmE, CondE, FlagsE, PCSrcE, RegWriteE, MemtoRegE, MemWriteE, ALUControlE, BranchE, ALUSrcE, FlagWriteE, WA3E, v_s_e);
 	
 	ConditionLogic C1(CondE, aluFlags, FlagWriteE, 
 						   PCSrcE, RegWriteE, MemWriteE, clk, rst, PCSrcE2, RegWriteE2, MemWriteE2);
 	
 	PipeRegEM regEM(clk, rst, 
-						 ALUResultE, rd2E, PCSrcE2, RegWriteE2, MemtoRegE, MemWriteE2, WA3E,
-						 ALUResultM, WriteDataM, PCSrcM, RegWriteM, MemtoRegM, MemWriteM, WA3M);
+						 ALUResultE, rd2E, PCSrcE2, RegWriteE2, MemtoRegE, MemWriteE2, WA3E, v_s_e,
+						 ALUResultM, WriteDataM, PCSrcM, RegWriteM, MemtoRegM, MemWriteM, WA3M, v_s_m);
 	
 	PipeRegMW regMW(clk, rst, 
 						 ALUResultM, dataRead, PCSrcM, RegWriteM, MemtoRegM, WA3M,
@@ -96,3 +97,5 @@ module cpu(input logic clk, rst, input logic [31:0] instructionD,
 	
 
 endmodule
+
+

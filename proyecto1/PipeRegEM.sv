@@ -10,6 +10,7 @@ module PipeRegEM (
     input logic MemtoRegE,
     input logic MemWriteE,
 	 input logic [3:0] WA3E,
+	 input logic v_s_e,
     // Output signals
     output logic [15:0][31:0] ALUResultM,
     output logic [15:0][31:0] WriteDataM,
@@ -17,7 +18,8 @@ module PipeRegEM (
     output logic RegWriteM,
     output logic MemtoRegM,
     output logic MemWriteM,
-	 output logic [3:0] WA3M
+	 output logic [3:0] WA3M,
+	 output logic v_s_m
 );
 
     //parameter DATA_WIDTH = 32; 					// Define the data width
@@ -29,6 +31,7 @@ module PipeRegEM (
     logic MemtoRegReg;
     logic MemWriteReg;
 	 logic [3:0] WA3Reg;
+	 logic v_s_reg;
 
     always @(posedge CLK or posedge RST) begin
 	 
@@ -40,6 +43,7 @@ module PipeRegEM (
         MemtoRegReg <= 0;
         MemWriteReg <= 0;
 		  WA3Reg <= 0;
+		  v_s_reg <= 0;
 		 end else begin
 		  ALUResultReg <= ALUResultE;
         WriteDataReg <= WriteDataE;
@@ -48,6 +52,7 @@ module PipeRegEM (
         MemtoRegReg <= MemtoRegE;
         MemWriteReg <= MemWriteE;
 		  WA3Reg <= WA3E;
+		  v_s_reg <= v_s_e;
 		 end
 
     end
@@ -59,5 +64,6 @@ module PipeRegEM (
     assign MemtoRegM = MemtoRegReg;
     assign MemWriteM = MemWriteReg;
 	 assign WA3M = WA3Reg;
+	 assign v_s_m = v_s_reg;
 
 endmodule

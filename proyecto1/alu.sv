@@ -41,7 +41,7 @@ module alu #(parameter N=32)(input [N-1:0] a, b, input logic[2:0] aluControl, ou
 		3'b110:
 			resultado_aux = b;
 		3'b111:
-			resultado_aux =resultado_r;
+			resultado_aux = resultado_r;
 		
 		default: resultado_aux = 32'd0;
 	endcase
