@@ -48,7 +48,6 @@ input logic [7:0] dataIn, output logic [7:0] dataArduino);
 	clk, 
 	dataWrite,
 	addr,
-	addr,
 	memWrite,
 	vec_scalar,
 	dataRead);
