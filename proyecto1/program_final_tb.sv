@@ -6,8 +6,7 @@ module program_final_tb();
 	logic clk_25;
 	logic H_SYNC, V_SYNC, SYNC_B, SYNC_BLANK;
 	
-	procesadorArm PARM(clk, rst, r,g,b, clk_25,
-				H_SYNC, V_SYNC, SYNC_B, SYNC_BLANK);
+	procesadorArm PARM(clk, clk_25, rst, clk, r,g);
 	
 	initial begin 
 
@@ -19,8 +18,15 @@ module program_final_tb();
 		rst = 0;
 		#40
 		
-		//for (int i =0; i<2; i=i+1 ) begin
+		for (int i =0; i<6; i=i+1 ) begin
 			clk = 0;
+			#40
+			clk = 1;
+			#40
+			
+			clk = 0;
+			
+			/*
 			#40
 			clk = 1;
 			#40
@@ -30,28 +36,10 @@ module program_final_tb();
 			clk = 1;
 			#40
 			
-			clk = 0;
-			#40
-			clk = 1;
-			#40
+			*/
 			
 			clk = 0;
-			#40
-			clk = 1;
-			#40
-			
-			clk = 0;
-			#40
-			clk = 1;
-			#40
-			
-			clk = 0;
-			#40
-			clk = 1;
-			#40
-			
-			clk = 0;
-		clk = 0;
+		end
 		
 	end
 	

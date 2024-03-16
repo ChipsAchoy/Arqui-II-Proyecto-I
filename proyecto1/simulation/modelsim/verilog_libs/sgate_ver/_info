@@ -9,12 +9,12 @@ z2
 cModel Technology
 dC:/Users/INTEL/Desktop/VarasDeLaU/PrimerSem12023/proyecto1/simulation/modelsim
 vio_buf_opdrn
-Z0 !s110 1697798410
+Z0 !s110 1710580136
 !i10b 1
 !s100 VhizJG_UoJ<b<SS=?:bCT2
 IDMTZ_ncn47LZ17[834W@_1
 Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/simulation/modelsim
+Z2 dC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/simulation/modelsim
 Z3 w1666771457
 Z4 8d:/quartuslite/quartus/eda/sim_lib/sgate.v
 Z5 Fd:/quartuslite/quartus/eda/sim_lib/sgate.v
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1697798409.000000
+Z7 !s108 1710580136.000000
 Z8 !s107 d:/quartuslite/quartus/eda/sim_lib/sgate.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|sgate_ver|d:/quartuslite/quartus/eda/sim_lib/sgate.v|
 !i113 1

@@ -14,7 +14,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {d:/quartuslite/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:08 on Oct 20,2023
+# Start time: 03:08:54 on Mar 16,2024
 # vlog -reportprogress 300 -vlog01compat -work altera_ver d:/quartuslite/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -96,7 +96,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 04:40:09 on Oct 20,2023, Elapsed time: 0:00:01
+# End time: 03:08:55 on Mar 16,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -107,7 +107,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {d:/quartuslite/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:09 on Oct 20,2023
+# Start time: 03:08:55 on Mar 16,2024
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver d:/quartuslite/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -171,7 +171,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 04:40:09 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:08:56 on Mar 16,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -182,7 +182,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {d:/quartuslite/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:09 on Oct 20,2023
+# Start time: 03:08:56 on Mar 16,2024
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver d:/quartuslite/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -224,7 +224,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 04:40:10 on Oct 20,2023, Elapsed time: 0:00:01
+# End time: 03:08:56 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -235,7 +235,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {d:/quartuslite/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:10 on Oct 20,2023
+# Start time: 03:08:56 on Mar 16,2024
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver d:/quartuslite/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -365,7 +365,7 @@
 # 	alt_fault_injection
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 04:40:11 on Oct 20,2023, Elapsed time: 0:00:01
+# End time: 03:08:57 on Mar 16,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -376,7 +376,7 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {d:/quartuslite/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:11 on Oct 20,2023
+# Start time: 03:08:58 on Mar 16,2024
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver d:/quartuslite/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
@@ -459,7 +459,7 @@
 # 	altera_iopll
 # 	fourteennm_altera_iopll
 # 	fourteennm_simple_iopll
-# End time: 04:40:12 on Oct 20,2023, Elapsed time: 0:00:01
+# End time: 03:08:58 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_ver
@@ -470,7 +470,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_ver {d:/quartuslite/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:12 on Oct 20,2023
+# Start time: 03:08:58 on Mar 16,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver d:/quartuslite/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -484,19 +484,19 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 04:40:15 on Oct 20,2023, Elapsed time: 0:00:03
+# End time: 03:09:02 on Mar 16,2024, Elapsed time: 0:00:04
 # Errors: 0, Warnings: 20
 # vlog -vlog01compat -work cyclonev_ver {d:/quartuslite/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:15 on Oct 20,2023
+# Start time: 03:09:02 on Mar 16,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver d:/quartuslite/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 04:40:16 on Oct 20,2023, Elapsed time: 0:00:01
+# End time: 03:09:04 on Mar 16,2024, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_ver {d:/quartuslite/quartus/eda/sim_lib/cyclonev_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:16 on Oct 20,2023
+# Start time: 03:09:04 on Mar 16,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver d:/quartuslite/quartus/eda/sim_lib/cyclonev_atoms.v 
 # -- Compiling UDP CYCLONEV_PRIM_DFFE
 # -- Compiling UDP CYCLONEV_PRIM_DFFEAS
@@ -636,7 +636,7 @@
 # 	cyclonev_mem_phy
 # 	cyclonev_oscillator
 # 	cyclonev_hps_interface_fpga2sdram
-# End time: 04:40:17 on Oct 20,2023, Elapsed time: 0:00:01
+# End time: 03:09:04 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_hssi_ver
@@ -647,15 +647,15 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_hssi_ver {d:/quartuslite/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:17 on Oct 20,2023
+# Start time: 03:09:05 on Mar 16,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver d:/quartuslite/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 04:40:19 on Oct 20,2023, Elapsed time: 0:00:02
+# End time: 03:09:07 on Mar 16,2024, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_hssi_ver {d:/quartuslite/quartus/eda/sim_lib/cyclonev_hssi_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:19 on Oct 20,2023
+# Start time: 03:09:07 on Mar 16,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver d:/quartuslite/quartus/eda/sim_lib/cyclonev_hssi_atoms.v 
 # -- Compiling module cyclonev_hssi_8g_pcs_aggregate
 # -- Compiling module cyclonev_hssi_8g_rx_pcs
@@ -755,7 +755,7 @@
 # 	arriav_hssi_avmm_interface
 # 	arriav_hssi_pma_hi_pmaif
 # 	arriav_hssi_pma_hi_xcvrif
-# End time: 04:40:19 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:09:07 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_pcie_hip_ver
@@ -766,7 +766,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {d:/quartuslite/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:20 on Oct 20,2023
+# Start time: 03:09:07 on Mar 16,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver d:/quartuslite/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -776,18 +776,18 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 04:40:22 on Oct 20,2023, Elapsed time: 0:00:02
+# End time: 03:09:10 on Mar 16,2024, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 12
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {d:/quartuslite/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:22 on Oct 20,2023
+# Start time: 03:09:10 on Mar 16,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver d:/quartuslite/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v 
 # -- Compiling module cyclonev_hd_altpe2_hip_top
 # -- Compiling module arriav_hd_altpe2_hip_top
 # 
 # Top level modules:
 # 	cyclonev_hd_altpe2_hip_top
-# End time: 04:40:23 on Oct 20,2023, Elapsed time: 0:00:01
+# End time: 03:09:10 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -799,191 +799,171 @@
 # vmap work rtl_work 
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/DROMMemory.v}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegMW.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:23 on Oct 20,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/DROMMemory.v 
-# -- Compiling module DROMMemory
-# 
-# Top level modules:
-# 	DROMMemory
-# End time: 04:40:23 on Oct 20,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/DRAMMemoryArd.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:23 on Oct 20,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/DRAMMemoryArd.v 
-# -- Compiling module DRAMMemoryArd
-# 
-# Top level modules:
-# 	DRAMMemoryArd
-# End time: 04:40:23 on Oct 20,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegMW.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:23 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegMW.sv 
+# Start time: 03:09:11 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegMW.sv 
 # -- Compiling module PipeRegMW
 # 
 # Top level modules:
 # 	PipeRegMW
-# End time: 04:40:23 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:09:11 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegFD.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegFD.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:23 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegFD.sv 
+# Start time: 03:09:11 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegFD.sv 
 # -- Compiling module PipeRegFD
-# ** Warning: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegFD.sv(15): (vlog-2597) '3221225472' is being treated as 32-bit signed integer and will overflow.
+# ** Warning: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegFD.sv(15): (vlog-2597) '3221225472' is being treated as 32-bit signed integer and will overflow.
 # 
 # Top level modules:
 # 	PipeRegFD
-# End time: 04:40:23 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:09:11 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegEM.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegEM.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:23 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegEM.sv 
+# Start time: 03:09:11 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegEM.sv 
 # -- Compiling module PipeRegEM
 # 
 # Top level modules:
 # 	PipeRegEM
-# End time: 04:40:23 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:09:11 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegDE.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegDE.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:23 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegDE.sv 
+# Start time: 03:09:11 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegDE.sv 
 # -- Compiling module PipeRegDE
 # 
 # Top level modules:
 # 	PipeRegDE
-# End time: 04:40:23 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:09:11 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/RegisterFile.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterFile.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:23 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/RegisterFile.sv 
+# Start time: 03:09:11 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterFile.sv 
 # -- Compiling module RegisterFile
 # 
 # Top level modules:
 # 	RegisterFile
-# End time: 04:40:23 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:09:11 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/MainDecoder.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/MainDecoder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:23 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/MainDecoder.sv 
+# Start time: 03:09:11 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/MainDecoder.sv 
 # -- Compiling module MainDecoder
 # 
 # Top level modules:
 # 	MainDecoder
-# End time: 04:40:23 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:09:11 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/AluDecoder.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/AluDecoder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:23 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/AluDecoder.sv 
+# Start time: 03:09:11 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/AluDecoder.sv 
 # -- Compiling module AluDecoder
 # 
 # Top level modules:
 # 	AluDecoder
-# End time: 04:40:23 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:09:11 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PCLogic.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PCLogic.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:23 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PCLogic.sv 
+# Start time: 03:09:11 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PCLogic.sv 
 # -- Compiling module PCLogic
 # 
 # Top level modules:
 # 	PCLogic
-# End time: 04:40:23 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:09:11 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/Decoder.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Decoder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:23 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/Decoder.sv 
+# Start time: 03:09:11 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Decoder.sv 
 # -- Compiling module Decoder
 # 
 # Top level modules:
 # 	Decoder
-# End time: 04:40:23 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:09:11 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/ConditionCheck.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionCheck.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:23 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/ConditionCheck.sv 
+# Start time: 03:09:11 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionCheck.sv 
 # -- Compiling module ConditionCheck
 # 
 # Top level modules:
 # 	ConditionCheck
-# End time: 04:40:24 on Oct 20,2023, Elapsed time: 0:00:01
+# End time: 03:09:11 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/ConditionLogic.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionLogic.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:24 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/ConditionLogic.sv 
+# Start time: 03:09:11 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionLogic.sv 
 # -- Compiling module ConditionLogic
 # 
 # Top level modules:
 # 	ConditionLogic
-# End time: 04:40:24 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:09:11 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/Extend.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Extend.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:24 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/Extend.sv 
+# Start time: 03:09:11 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Extend.sv 
 # -- Compiling module Extend
 # 
 # Top level modules:
 # 	Extend
-# End time: 04:40:24 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:09:11 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/plus_n.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/plus_n.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:24 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/plus_n.sv 
+# Start time: 03:09:11 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/plus_n.sv 
 # -- Compiling module plus_n
 # 
 # Top level modules:
 # 	plus_n
-# End time: 04:40:24 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:09:12 on Mar 16,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_2_to_1_32.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:24 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_2_to_1_32.sv 
+# Start time: 03:09:12 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32.sv 
 # -- Compiling module mux_2_to_1_32
 # 
 # Top level modules:
 # 	mux_2_to_1_32
-# End time: 04:40:24 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:09:12 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_2_to_1_4.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_4.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:24 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_2_to_1_4.sv 
+# Start time: 03:09:12 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_4.sv 
 # -- Compiling module mux_2_to_1_4
 # 
 # Top level modules:
 # 	mux_2_to_1_4
-# End time: 04:40:24 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:09:12 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/alu.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:24 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/alu.sv 
+# Start time: 03:09:12 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 04:40:24 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:09:12 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:24 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv 
+# Start time: 03:09:12 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv 
 # -- Compiling module arith_alu
 # -- Compiling module resultado
 # -- Compiling module n_bit_substractor
@@ -999,12 +979,12 @@
 # 	arith_alu
 # 	bit_compare
 # 	shift_a
-# End time: 04:40:24 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:09:12 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/logic_alu.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:24 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/logic_alu.sv 
+# Start time: 03:09:12 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv 
 # -- Compiling module logic_alu
 # -- Compiling module and_gate
 # -- Compiling module or_gate
@@ -1015,115 +995,125 @@
 # 
 # Top level modules:
 # 	logic_alu
-# End time: 04:40:24 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:09:12 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/pcRegister.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/pcRegister.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:24 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/pcRegister.sv 
+# Start time: 03:09:12 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/pcRegister.sv 
 # -- Compiling module pcRegister
 # 
 # Top level modules:
 # 	pcRegister
-# End time: 04:40:24 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:09:12 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/cpu.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:24 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/cpu.sv 
+# Start time: 03:09:12 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv 
 # -- Compiling module cpu
 # 
 # Top level modules:
 # 	cpu
-# End time: 04:40:24 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:09:12 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_3_to_1_32.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:24 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_3_to_1_32.sv 
-# -- Compiling module mux_3_to_1_32
-# 
-# Top level modules:
-# 	mux_3_to_1_32
-# End time: 04:40:24 on Oct 20,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/ChipSet.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:24 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/ChipSet.sv 
-# -- Compiling module ChipSet
-# 
-# Top level modules:
-# 	ChipSet
-# End time: 04:40:24 on Oct 20,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesador.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:24 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesador.sv 
+# Start time: 03:09:12 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv 
 # -- Compiling module procesador
 # 
 # Top level modules:
 # 	procesador
-# End time: 04:40:24 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:09:12 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesadorArm.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesadorArm.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:24 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesadorArm.sv 
+# Start time: 03:09:12 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesadorArm.sv 
 # -- Compiling module procesadorArm
 # 
 # Top level modules:
 # 	procesadorArm
-# End time: 04:40:25 on Oct 20,2023, Elapsed time: 0:00:01
+# End time: 03:09:12 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/multiplyUnit.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/multiplyUnit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:25 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/multiplyUnit.sv 
+# Start time: 03:09:12 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/multiplyUnit.sv 
 # -- Compiling module multiplyUnit
 # 
 # Top level modules:
 # 	multiplyUnit
-# End time: 04:40:25 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:09:12 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/divUnit.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/divUnit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:25 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/divUnit.sv 
+# Start time: 03:09:12 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/divUnit.sv 
 # -- Compiling module divUnit
 # 
 # Top level modules:
 # 	divUnit
-# End time: 04:40:25 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:09:12 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/InstructionMemory.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32_vec.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:25 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/InstructionMemory.sv 
+# Start time: 03:09:12 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32_vec.sv 
+# -- Compiling module mux_2_to_1_32_vec
+# 
+# Top level modules:
+# 	mux_2_to_1_32_vec
+# End time: 03:09:12 on Mar 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/modUnit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:09:12 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/modUnit.sv 
+# -- Compiling module modUnit
+# 
+# Top level modules:
+# 	modUnit
+# End time: 03:09:12 on Mar 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:09:12 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv 
+# -- Compiling module mem_control
+# 
+# Top level modules:
+# 	mem_control
+# End time: 03:09:13 on Mar 16,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:09:13 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv 
 # -- Compiling module InstructionMemory
 # 
 # Top level modules:
 # 	InstructionMemory
-# End time: 04:40:25 on Oct 20,2023, Elapsed time: 0:00:00
+# End time: 03:09:13 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1 {C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/program_tb.sv}
+# vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_final_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 04:40:25 on Oct 20,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1" C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/program_tb.sv 
-# -- Compiling module program_tb
+# Start time: 03:09:13 on Mar 16,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_final_tb.sv 
+# -- Compiling module program_final_tb
 # 
 # Top level modules:
-# 	program_tb
-# End time: 04:40:25 on Oct 20,2023, Elapsed time: 0:00:00
+# 	program_final_tb
+# End time: 03:09:13 on Mar 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  program_tb
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" program_tb 
-# Start time: 04:40:25 on Oct 20,2023
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  program_final_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" program_final_tb 
+# Start time: 03:09:13 on Mar 16,2024
 # Loading sv_std.std
-# Loading work.program_tb
+# Loading work.program_final_tb
 # Loading work.procesadorArm
 # Loading work.procesador
 # Loading work.pcRegister
@@ -1143,7 +1133,7 @@
 # Loading work.plus_n
 # Loading work.RegisterFile
 # Loading work.Extend
-# Loading work.mux_2_to_1_32
+# Loading work.mux_2_to_1_32_vec
 # Loading work.alu
 # Loading work.logic_alu
 # Loading work.and_gate
@@ -1161,83 +1151,543 @@
 # Loading work.shiftR_arith
 # Loading work.multiplyUnit
 # Loading work.divUnit
-# Loading work.ChipSet
-# Loading work.mux_3_to_1_32
-# Loading work.DROMMemory
-# Loading altera_mf_ver.altsyncram
-# Loading work.DRAMMemoryArd
+# Loading work.modUnit
+# Loading work.mux_2_to_1_32
+# Loading work.mem_control
 # Loading work.full_adder
-# Loading altera_mf_ver.altsyncram_body
-# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
-# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
-# ** Warning: (vsim-3017) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/program_tb.sv(7): [TFMPC] - Too few port connections. Expected 6, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesadorArm.sv
-# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/program_tb.sv(7): [PCDPC] - Port size (8) does not match connection size (16) for port 'dataIn'. The port definition is at: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesadorArm.sv(3).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesadorArm.sv
-# ** Warning: (vsim-3722) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/program_tb.sv(7): [TFMPC] - Missing connection for port 'dataArduino'.
-# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesador.sv(38): [PCDPC] - Port size (33) does not match connection size (32) for port 'pcin'. The port definition is at: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/pcRegister.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR/P0 File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/pcRegister.sv
-# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesador.sv(38): [PCDPC] - Port size (33) does not match connection size (32) for port 'pcout'. The port definition is at: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/pcRegister.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR/P0 File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/pcRegister.sv
-# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/alu.sv(17): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_and'. The port definition is at: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/logic_alu.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR/CPU/A0/LU File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/logic_alu.sv
-# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/alu.sv(17): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_or'. The port definition is at: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/logic_alu.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR/CPU/A0/LU File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/logic_alu.sv
-# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/alu.sv(17): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_xor'. The port definition is at: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/logic_alu.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR/CPU/A0/LU File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/logic_alu.sv
-# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/alu.sv(17): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftR'. The port definition is at: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/logic_alu.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR/CPU/A0/LU File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/logic_alu.sv
-# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/alu.sv(17): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftL'. The port definition is at: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/logic_alu.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR/CPU/A0/LU File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/logic_alu.sv
-# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/alu.sv(17): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_not'. The port definition is at: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/logic_alu.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR/CPU/A0/LU File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/logic_alu.sv
-# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/alu.sv(18): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv(6).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR/CPU/A0/AUS File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv
-# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/alu.sv(19): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv(6).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR/CPU/A0/AUR File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv
-# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesador.sv(48): [PCDPC] - Port size (8) does not match connection size (32) for port 'i1'. The port definition is at: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_3_to_1_32.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR/MUX File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_3_to_1_32.sv
-# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesador.sv(48): [PCDPC] - Port size (8) does not match connection size (32) for port 'i2'. The port definition is at: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_3_to_1_32.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR/MUX File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_3_to_1_32.sv
-# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesador.sv(48): [PCDPC] - Port size (8) does not match connection size (32) for port 'i3'. The port definition is at: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_3_to_1_32.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR/MUX File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_3_to_1_32.sv
-# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesador.sv(48): [PCDPC] - Port size (8) does not match connection size (32) for port 'result'. The port definition is at: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_3_to_1_32.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR/MUX File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_3_to_1_32.sv
-# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesador.sv(62): [PCDPC] - Port size (16) does not match connection size (32) for port 'data_a'. The port definition is at: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/DRAMMemoryArd.v(45).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR/DRAM File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/DRAMMemoryArd.v
-# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesador.sv(62): [PCDPC] - Port size (16) does not match connection size (32) for port 'q_a'. The port definition is at: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/DRAMMemoryArd.v(49).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR/DRAM File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/DRAMMemoryArd.v
-# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv(21): Variable '/program_tb/PARM/PR/CPU/A0/AUS/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv(44).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR/CPU/A0/AUS File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv
-# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv(20): Variable '/program_tb/PARM/PR/CPU/A0/AUS/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv(44).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR/CPU/A0/AUS File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv
-# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv(19): Variable '/program_tb/PARM/PR/CPU/A0/AUS/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv(31).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR/CPU/A0/AUS File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv
-# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv(18): Variable '/program_tb/PARM/PR/CPU/A0/AUS/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv(32).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR/CPU/A0/AUS File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv
-# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv(21): Variable '/program_tb/PARM/PR/CPU/A0/AUR/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv(44).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR/CPU/A0/AUR File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv
-# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv(20): Variable '/program_tb/PARM/PR/CPU/A0/AUR/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv(44).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR/CPU/A0/AUR File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv
-# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv(19): Variable '/program_tb/PARM/PR/CPU/A0/AUR/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv(31).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR/CPU/A0/AUR File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv
-# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv(18): Variable '/program_tb/PARM/PR/CPU/A0/AUR/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv(32).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR/CPU/A0/AUR File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv
-# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesador.sv(28): Variable '/program_tb/PARM/PR/pcUse', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesador.sv(38).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesador.sv
-# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesador.sv(27): Variable '/program_tb/PARM/PR/pc', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesador.sv(44).
-#    Time: 0 ps  Iteration: 0  Instance: /program_tb/PARM/PR File: C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesador.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv(38): [PCDPC] - Port size (33) does not match connection size (32) for port 'pcin'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/pcRegister.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/P0 File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/pcRegister.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv(38): [PCDPC] - Port size (33) does not match connection size (32) for port 'pcout'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/pcRegister.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/P0 File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/pcRegister.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Decoder.sv(13): [PCDPC] - Port size (4) does not match connection size (3) for port 'aluControl'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/AluDecoder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/D0/A0 File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/AluDecoder.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_and'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A0/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_or'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A0/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_xor'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A0/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftR'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A0/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftL'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A0/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_not'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A0/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(19): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A0/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A0/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_and'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A1/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_or'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A1/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_xor'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A1/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftR'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A1/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftL'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A1/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_not'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A1/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(19): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A1/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A1/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_and'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A2/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_or'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A2/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_xor'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A2/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftR'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A2/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftL'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A2/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_not'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A2/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(19): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A2/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A2/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_and'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A3/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_or'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A3/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_xor'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A3/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftR'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A3/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftL'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A3/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_not'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A3/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(19): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A3/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A3/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_and'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A4/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_or'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A4/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_xor'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A4/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftR'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A4/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftL'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A4/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_not'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A4/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(19): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A4/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A4/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_and'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A5/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_or'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A5/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_xor'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A5/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftR'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A5/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftL'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A5/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_not'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A5/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(19): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A5/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A5/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_and'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A6/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_or'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A6/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_xor'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A6/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftR'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A6/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftL'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A6/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_not'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A6/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(19): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A6/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A6/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_and'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A7/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_or'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A7/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_xor'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A7/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftR'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A7/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftL'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A7/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_not'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A7/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(19): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A7/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A7/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_and'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A8/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_or'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A8/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_xor'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A8/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftR'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A8/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftL'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A8/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_not'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A8/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(19): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A8/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A8/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_and'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A9/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_or'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A9/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_xor'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A9/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftR'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A9/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftL'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A9/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_not'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A9/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(19): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A9/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A9/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_and'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A10/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_or'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A10/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_xor'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A10/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftR'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A10/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftL'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A10/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_not'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A10/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(19): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A10/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A10/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_and'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A11/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_or'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A11/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_xor'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A11/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftR'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A11/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftL'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A11/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_not'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A11/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(19): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A11/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A11/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_and'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A12/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_or'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A12/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_xor'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A12/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftR'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A12/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftL'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A12/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_not'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A12/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(19): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A12/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A12/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_and'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A13/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_or'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A13/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_xor'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A13/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftR'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A13/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftL'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A13/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_not'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A13/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(19): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A13/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A13/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_and'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A14/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_or'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A14/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_xor'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A14/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftR'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A14/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftL'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A14/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_not'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A14/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(19): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A14/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A14/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_and'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A15/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_or'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A15/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_xor'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A15/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftR'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A15/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_shiftL'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A15/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(18): [PCDPC] - Port size (32) does not match connection size (1) for port 'r_not'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A15/LU File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(19): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A15/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3015) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'option'. The port definition is at: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A15/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A0/AUS/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A0/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A0/AUS/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A0/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A0/AUS/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A0/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A0/AUS/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A0/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A0/AUR/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A0/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A0/AUR/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A0/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A0/AUR/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A0/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A0/AUR/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A0/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A1/AUS/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A1/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A1/AUS/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A1/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A1/AUS/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A1/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A1/AUS/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A1/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A1/AUR/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A1/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A1/AUR/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A1/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A1/AUR/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A1/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A1/AUR/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A1/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A2/AUS/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A2/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A2/AUS/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A2/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A2/AUS/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A2/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A2/AUS/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A2/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A2/AUR/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A2/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A2/AUR/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A2/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A2/AUR/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A2/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A2/AUR/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A2/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A3/AUS/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A3/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A3/AUS/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A3/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A3/AUS/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A3/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A3/AUS/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A3/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A3/AUR/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A3/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A3/AUR/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A3/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A3/AUR/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A3/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A3/AUR/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A3/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A4/AUS/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A4/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A4/AUS/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A4/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A4/AUS/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A4/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A4/AUS/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A4/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A4/AUR/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A4/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A4/AUR/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A4/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A4/AUR/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A4/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A4/AUR/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A4/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A5/AUS/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A5/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A5/AUS/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A5/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A5/AUS/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A5/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A5/AUS/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A5/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A5/AUR/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A5/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A5/AUR/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A5/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A5/AUR/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A5/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A5/AUR/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A5/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A6/AUS/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A6/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A6/AUS/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A6/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A6/AUS/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A6/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A6/AUS/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A6/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A6/AUR/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A6/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A6/AUR/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A6/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A6/AUR/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A6/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A6/AUR/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A6/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A7/AUS/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A7/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A7/AUS/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A7/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A7/AUS/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A7/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A7/AUS/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A7/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A7/AUR/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A7/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A7/AUR/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A7/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A7/AUR/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A7/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A7/AUR/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A7/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A8/AUS/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A8/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A8/AUS/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A8/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A8/AUS/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A8/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A8/AUS/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A8/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A8/AUR/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A8/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A8/AUR/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A8/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A8/AUR/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A8/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A8/AUR/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A8/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A9/AUS/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A9/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A9/AUS/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A9/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A9/AUS/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A9/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A9/AUS/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A9/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A9/AUR/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A9/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A9/AUR/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A9/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A9/AUR/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A9/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A9/AUR/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A9/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A10/AUS/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A10/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A10/AUS/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A10/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A10/AUS/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A10/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A10/AUS/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A10/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A10/AUR/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A10/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A10/AUR/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A10/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A10/AUR/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A10/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A10/AUR/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A10/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A11/AUS/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A11/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A11/AUS/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A11/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A11/AUS/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A11/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A11/AUS/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A11/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A11/AUR/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A11/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A11/AUR/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A11/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A11/AUR/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A11/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A11/AUR/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A11/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A12/AUS/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A12/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A12/AUS/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A12/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A12/AUS/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A12/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A12/AUS/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A12/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A12/AUR/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A12/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A12/AUR/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A12/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A12/AUR/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A12/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A12/AUR/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A12/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A13/AUS/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A13/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A13/AUS/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A13/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A13/AUS/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A13/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A13/AUS/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A13/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A13/AUR/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A13/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A13/AUR/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A13/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A13/AUR/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A13/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A13/AUR/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A13/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A14/AUS/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A14/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A14/AUS/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A14/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A14/AUS/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A14/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A14/AUS/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A14/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A14/AUR/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A14/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A14/AUR/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A14/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A14/AUR/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A14/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A14/AUR/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A14/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A15/AUS/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A15/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A15/AUS/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A15/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A15/AUS/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A15/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A15/AUS/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A15/AUS File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(21): Variable '/program_final_tb/PARM/PR/CPU/A15/AUR/over_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A15/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(20): Variable '/program_final_tb/PARM/PR/CPU/A15/AUR/zero_a', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A15/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(19): Variable '/program_final_tb/PARM/PR/CPU/A15/AUR/cout_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(31).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A15/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(18): Variable '/program_final_tb/PARM/PR/CPU/A15/AUR/neg_b', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR/CPU/A15/AUR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv(28): Variable '/program_final_tb/PARM/PR/pcUse', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv(38).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv
+# ** Warning: (vsim-3839) C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv(27): Variable '/program_final_tb/PARM/PR/pc', driven via a port connection, is multiply driven. See C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /program_final_tb/PARM/PR File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv
 # 
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: INTEL  Hostname: DESKTOP-LMJ5G1R  ProcessID: 26120
-#           Attempting to use alternate WLF file "./wlftnkb8bt".
+#           Attempting to use alternate WLF file "./wlft9mayff".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftnkb8bt
+#           Using alternate file: ./wlft9mayff
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# End time: 04:40:42 on Oct 20,2023, Elapsed time: 0:00:17
-# Errors: 0, Warnings: 31
+# End time: 03:09:47 on Mar 16,2024, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 263

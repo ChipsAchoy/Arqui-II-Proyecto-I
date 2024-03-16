@@ -1,5 +1,5 @@
 Flow report for procesadorArm
-Fri Oct 20 04:39:59 2023
+Sat Mar 16 03:08:43 2024
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +-----------------------------+------------------------------------------------+
-; Flow Status                 ; Successful - Fri Oct 20 04:39:59 2023          ;
+; Flow Status                 ; Successful - Sat Mar 16 03:08:43 2024          ;
 ; Quartus Prime Version       ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name               ; procesadorArm                                  ;
 ; Top-level Entity Name       ; procesadorArm                                  ;
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/20/2023 04:39:49 ;
+; Start date & time ; 03/16/2024 03:08:30 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; procesadorArm       ;
 +-------------------+---------------------+
@@ -74,27 +74,23 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 27214212235900.169779838911116         ; --            ; --          ; --                                ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; program_tb                        ;
+; COMPILER_SIGNATURE_ID                ; 27214212235900.171058011021456         ; --            ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; RAM_ARD_tb                        ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; register_tb                       ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; ram_TB                            ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; rom_TB                            ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; alu_TB                            ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; program_final_tb                  ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; RAM_INC_tb                        ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; instruction_TB                    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_signal_integrity ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_symbol           ;
-; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; program_tb                             ; --            ; --          ; eda_simulation                    ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; program_final_tb                       ; --            ; --          ; eda_simulation                    ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                      ; --            ; --          ; eda_simulation                    ;
 ; EDA_SIMULATION_TOOL                  ; ModelSim (SystemVerilog)               ; <None>        ; --          ; --                                ;
 ; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --            ; --          ; eda_simulation                    ;
-; EDA_TEST_BENCH_FILE                  ; program.mem                            ; --            ; --          ; program_tb                        ;
-; EDA_TEST_BENCH_FILE                  ; program_tb.sv                          ; --            ; --          ; program_tb                        ;
-; EDA_TEST_BENCH_FILE                  ; DRAM.mif                               ; --            ; --          ; program_tb                        ;
-; EDA_TEST_BENCH_FILE                  ; DROM.mif                               ; --            ; --          ; program_tb                        ;
 ; EDA_TEST_BENCH_FILE                  ; RAM_ARD_tb.sv                          ; --            ; --          ; RAM_ARD_tb                        ;
 ; EDA_TEST_BENCH_FILE                  ; register_tb.sv                         ; --            ; --          ; register_tb                       ;
 ; EDA_TEST_BENCH_FILE                  ; ram_TB.sv                              ; --            ; --          ; ram_TB                            ;
@@ -104,28 +100,32 @@ https://fpgasoftware.intel.com/eula.
 ; EDA_TEST_BENCH_FILE                  ; ROMSave.mif                            ; --            ; --          ; rom_TB                            ;
 ; EDA_TEST_BENCH_FILE                  ; RomDataMem.v                           ; --            ; --          ; rom_TB                            ;
 ; EDA_TEST_BENCH_FILE                  ; alu_TB.sv                              ; --            ; --          ; alu_TB                            ;
+; EDA_TEST_BENCH_FILE                  ; program.mem                            ; --            ; --          ; program_final_tb                  ;
+; EDA_TEST_BENCH_FILE                  ; DRAM.mif                               ; --            ; --          ; program_final_tb                  ;
+; EDA_TEST_BENCH_FILE                  ; DROM.mif                               ; --            ; --          ; program_final_tb                  ;
+; EDA_TEST_BENCH_FILE                  ; program_final_tb.sv                    ; --            ; --          ; program_final_tb                  ;
 ; EDA_TEST_BENCH_FILE                  ; RAM_INC_tb.sv                          ; --            ; --          ; RAM_INC_tb                        ;
 ; EDA_TEST_BENCH_FILE                  ; ArduinoLogic.sv                        ; --            ; --          ; RAM_INC_tb                        ;
 ; EDA_TEST_BENCH_FILE                  ; RegisterArduino.sv                     ; --            ; --          ; RAM_INC_tb                        ;
 ; EDA_TEST_BENCH_FILE                  ; ArduinoAdd_p1.sv                       ; --            ; --          ; RAM_INC_tb                        ;
 ; EDA_TEST_BENCH_FILE                  ; instruction_TB.sv                      ; --            ; --          ; instruction_TB                    ;
 ; EDA_TEST_BENCH_FILE                  ; program.mem                            ; --            ; --          ; instruction_TB                    ;
-; EDA_TEST_BENCH_MODULE_NAME           ; program_tb                             ; --            ; --          ; program_tb                        ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; RAM_ARD_tb                             ; --            ; --          ; RAM_ARD_tb                        ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; register_tb                            ; --            ; --          ; register_tb                       ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; ram_TB                                 ; --            ; --          ; ram_TB                            ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; rom_TB                                 ; --            ; --          ; rom_TB                            ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; alu_TB                                 ; --            ; --          ; alu_TB                            ;
+; EDA_TEST_BENCH_MODULE_NAME           ; program_final_tb                       ; --            ; --          ; program_final_tb                  ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; RAM_INC_tb                             ; --            ; --          ; RAM_INC_tb                        ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; instruction_TB                         ; --            ; --          ; instruction_TB                    ;
 ; EDA_TEST_BENCH_NAME                  ; instruction_TB                         ; --            ; --          ; eda_simulation                    ;
-; EDA_TEST_BENCH_NAME                  ; program_tb                             ; --            ; --          ; eda_simulation                    ;
 ; EDA_TEST_BENCH_NAME                  ; rom_TB                                 ; --            ; --          ; eda_simulation                    ;
 ; EDA_TEST_BENCH_NAME                  ; ram_TB                                 ; --            ; --          ; eda_simulation                    ;
 ; EDA_TEST_BENCH_NAME                  ; alu_TB                                 ; --            ; --          ; eda_simulation                    ;
 ; EDA_TEST_BENCH_NAME                  ; register_tb                            ; --            ; --          ; eda_simulation                    ;
 ; EDA_TEST_BENCH_NAME                  ; RAM_ARD_tb                             ; --            ; --          ; eda_simulation                    ;
 ; EDA_TEST_BENCH_NAME                  ; RAM_INC_tb                             ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; program_final_tb                       ; --            ; --          ; eda_simulation                    ;
 ; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation                    ;
 ; MAX_CORE_JUNCTION_TEMP               ; 100                                    ; --            ; --          ; --                                ;
 ; MIN_CORE_JUNCTION_TEMP               ; -40                                    ; --            ; --          ; --                                ;
@@ -146,8 +146,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:11     ; 1.0                     ; 4956 MB             ; 00:00:22                           ;
-; Total                  ; 00:00:11     ; --                      ; --                  ; 00:00:22                           ;
+; Analysis & Elaboration ; 00:00:13     ; 1.0                     ; 4894 MB             ; 00:00:26                           ;
+; Total                  ; 00:00:13     ; --                      ; --                  ; 00:00:26                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

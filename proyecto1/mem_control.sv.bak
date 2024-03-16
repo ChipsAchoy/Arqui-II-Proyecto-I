@@ -1,0 +1,12 @@
+module mem_control(
+	rst,
+	clk, 
+	data,
+	rdaddress,
+	rden,
+	wraddress,
+	wren,
+	q);
+	
+
+endmodule

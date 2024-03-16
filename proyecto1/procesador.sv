@@ -8,7 +8,7 @@ input logic [7:0] dataIn, output logic [7:0] dataArduino);
 	logic [31:0] pcUse;
 	logic [15:0][31:0] dataRead, dataWrite;
 	logic memWrite;
-	logic [20:0] addr;
+	logic [17:0] addr;
 	logic [1:0] select; 
 	logic [19:0] out_addr;
 	logic [31:0] i1, i2, i3;
@@ -43,12 +43,24 @@ input logic [7:0] dataIn, output logic [7:0] dataArduino);
 	
 	cpu CPU(clk, rst, instructionD, dataRead, pcUse, pc, dataWrite, memWrite, addr, vec_scalar);
 	
-	ChipSet CS(addr, select, out_addr);
+	mem_control MEM(
+	rst,
+	clk, 
+	dataWrite,
+	addr,
+	addr,
+	memWrite,
+	vec_scalar,
+	dataRead);
 	
-	mux_3_to_1_32 MUX(i1, i2, i3, select, result);
 	
 	
-	DROMMemory DROM(rst, out_addr[15:0], clk, i2);
+	//ChipSet CS(addr, select, out_addr);
+	
+	//mux_3_to_1_32 MUX(i1, i2, i3, select, result);
+	
+	
+	//DROMMemory DROM(rst, out_addr[15:0], clk, i2);
 	/*
    DRAMMemory DRAM(
 	rst,
@@ -59,6 +71,7 @@ input logic [7:0] dataIn, output logic [7:0] dataArduino);
 	i1);
 	
 	*/
+	/*
 	DRAMMemoryArd DRAM(
 	rst,
 	out_addr,
@@ -71,13 +84,13 @@ input logic [7:0] dataIn, output logic [7:0] dataArduino);
 	i1,
 	dataArduinoAux);
 	
-	
+	*/
 	
 	//assign dataArduino = dataArduinoAux;
-	assign dataRead[15] = result;
-	assign arduinoAdd[3:0] = dataIn[3:0];
-	assign arduinoAdd[19:4] = 0;
-	assign dataArduino[3:0] = dataArduinoAux[3:0];
-	assign dataArduino[7:4] = 0;
+	//assign dataRead = result;
+	//assign arduinoAdd[3:0] = dataIn[3:0];
+	//assign arduinoAdd[19:4] = 0;
+	//assign dataArduino[3:0] = dataArduinoAux[3:0];
+	//assign dataArduino[7:4] = 0;
 	
 endmodule

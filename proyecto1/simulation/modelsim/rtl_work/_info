@@ -7,1146 +7,1125 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/simulation/modelsim
+Z0 dC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/simulation/modelsim
 valu
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1697798424
+Z2 !s110 1710580152
 !i10b 1
-!s100 F9dGD];;`X1P0oIAE;ZA73
-Id9D1Z]kHhZ:DS5aZkAWYP3
+!s100 ?X=9LM[7mL]>HKaP30f5>3
+I`C4A=GE:HP2f:=I`;lHUb1
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 !s105 alu_sv_unit
 S1
 R0
-Z4 w1697789686
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/alu.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/alu.sv
+w1710486606
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv
 L0 1
-Z5 OV;L;10.5b;63
+Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z6 !s108 1697798424.000000
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/alu.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/alu.sv|
+Z5 !s108 1710580152.000000
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv|
 !i113 1
-Z7 o-sv -work work
-Z8 !s92 -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1
-Z9 tCvgOpt 0
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1
+Z8 tCvgOpt 0
 vAluDecoder
 R1
-Z10 !s110 1697798423
+Z9 !s110 1710580151
 !i10b 1
-!s100 ^Njz;P=nFM>H;[@nR6D2g2
-I5lQz1JAKi^MdaKVZFKUzQ1
+!s100 3d4oz1;OnAhnHBc<=?@AE1
+IAK^VHOTZH[D?0z^=]8S_A3
 R3
 !s105 AluDecoder_sv_unit
 S1
 R0
-R4
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/AluDecoder.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/AluDecoder.sv
+w1710486644
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/AluDecoder.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/AluDecoder.sv
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-Z11 !s108 1697798423.000000
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/AluDecoder.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/AluDecoder.sv|
+Z10 !s108 1710580151.000000
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/AluDecoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/AluDecoder.sv|
 !i113 1
+R6
 R7
 R8
-R9
 n@alu@decoder
 vand_gate
 R1
 R2
 !i10b 1
 !s100 HMal[KYQC17Yc0loB:dZ32
-Ie7?1Q:5l9T3V8B<Km;[=O1
+InHWf<J?;SdO@iTGJ<G1M91
 R3
-Z12 !s105 logic_alu_sv_unit
+Z11 !s105 logic_alu_sv_unit
 S1
 R0
-Z13 w1697789687
-Z14 8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/logic_alu.sv
-Z15 FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/logic_alu.sv
+Z12 w1697789687
+Z13 8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+Z14 FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
 L0 12
-R5
+R4
 r1
 !s85 0
 31
-R6
-Z16 !s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/logic_alu.sv|
-Z17 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/logic_alu.sv|
+R5
+Z15 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv|
+Z16 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv|
 !i113 1
+R6
 R7
 R8
-R9
 varith_alu
 R1
 R2
 !i10b 1
 !s100 M_?Y63HeJK6TE34B6CQ=m2
-I8Q[fiFkNdWz9lh4ge6N]l3
+IPbkL3PJY4e>HT0IjB]CfQ0
 R3
-Z18 !s105 arith_alu_sv_unit
+Z17 !s105 arith_alu_sv_unit
 S1
 R0
-R4
-Z19 8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv
-Z20 FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv
+Z18 w1697789686
+Z19 8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+Z20 FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
 L0 6
-R5
+R4
 r1
 !s85 0
 31
-R6
-Z21 !s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv|
-Z22 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/arith_alu.sv|
+R5
+Z21 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv|
+Z22 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv|
 !i113 1
+R6
 R7
 R8
-R9
 vbit_compare
 R1
 R2
 !i10b 1
 !s100 gm2]V]oWXE]1XO64I`6732
-Id1>F:BB?THe=f_gam4e;J2
+Ii7a1bjj;gPADO6^g`4l_:0
 R3
-R18
+R17
 S1
 R0
-R4
+R18
 R19
 R20
 L0 190
-R5
+R4
 r1
 !s85 0
 31
-R6
+R5
 R21
 R22
 !i113 1
-R7
-R8
-R9
-vChipSet
-R1
-R2
-!i10b 1
-!s100 AJkEDRBlHB:kca2BMK[0c1
-IELk_?jN5Z2KhV3<11H@Vz0
-R3
-!s105 ChipSet_sv_unit
-S1
-R0
-R4
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/ChipSet.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/ChipSet.sv
-L0 1
-R5
-r1
-!s85 0
-31
 R6
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/ChipSet.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/ChipSet.sv|
-!i113 1
 R7
 R8
-R9
-n@chip@set
 vConditionCheck
 R1
-R2
+R9
 !i10b 1
 !s100 S<j3:jA^akMh`L9L2WIDG0
-I3P]4R=ORb4Pj@JI4GLD?i1
+IJ6AQ?[z`TaHl1<@=E9YhH1
 R3
 !s105 ConditionCheck_sv_unit
 S1
 R0
-R4
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/ConditionCheck.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/ConditionCheck.sv
+R18
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionCheck.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionCheck.sv
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/ConditionCheck.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/ConditionCheck.sv|
+R10
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionCheck.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionCheck.sv|
 !i113 1
+R6
 R7
 R8
-R9
 n@condition@check
 vConditionLogic
 R1
-R2
+R9
 !i10b 1
 !s100 :lOg]92ML7oEfZ`aihCcJ1
-IWGeb<SdBC=AP^2NH1@Ucf0
+Ib<2QC:98[QlShU70maaaM2
 R3
 !s105 ConditionLogic_sv_unit
 S1
 R0
-R4
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/ConditionLogic.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/ConditionLogic.sv
+R18
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionLogic.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionLogic.sv
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/ConditionLogic.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/ConditionLogic.sv|
+R10
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionLogic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionLogic.sv|
 !i113 1
+R6
 R7
 R8
-R9
 n@condition@logic
 vcpu
 R1
 R2
 !i10b 1
-!s100 hXJM3`_;hDVZL5QYm^<Y80
-IC0E?bPznXa`GI6e0na7j_0
+!s100 ZRJ6?D2AK]BeYX=n^YAKV2
+IQab]GK;XY8K^[1Ce6HDYg0
 R3
 !s105 cpu_sv_unit
 S1
 R0
-R4
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/cpu.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/cpu.sv
+w1710580089
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/cpu.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/cpu.sv|
+R5
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv|
 !i113 1
+R6
 R7
 R8
-R9
 vDecoder
 R1
-R10
+R9
 !i10b 1
-!s100 MaFGhQ^[be:[DjG]GkFaF1
-I=DB>[2VWzKnF>gFW284?c1
+!s100 jV?IXSb]I62dX??miF3Lg1
+Ic7P^N6K`BM60ZihdT;caj0
 R3
 !s105 Decoder_sv_unit
 S1
 R0
-R4
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/Decoder.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/Decoder.sv
+w1710486908
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Decoder.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Decoder.sv
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/Decoder.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/Decoder.sv|
+R10
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Decoder.sv|
 !i113 1
+R6
 R7
 R8
-R9
 n@decoder
 vdivUnit
 R1
-Z23 !s110 1697798425
+R2
 !i10b 1
 !s100 A:2WH25T[?a?9=jc4;Q;<3
-IgN0bL=fzYQ8B4FMeIg8M01
+I[?<;8cPGoEjPf?M:<[l<A2
 R3
 !s105 divUnit_sv_unit
 S1
 R0
-R4
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/divUnit.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/divUnit.sv
+w1710486329
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/divUnit.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/divUnit.sv
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-Z24 !s108 1697798425.000000
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/divUnit.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/divUnit.sv|
+R5
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/divUnit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/divUnit.sv|
 !i113 1
+R6
 R7
 R8
-R9
 ndiv@unit
-vDRAMMemoryArd
-R10
-!i10b 1
-!s100 9glGS1afO^WlmE5h_e18]1
-I]]7BHi?ZZ=eVJIPUMIhV31
-R3
-R0
-R4
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/DRAMMemoryArd.v
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/DRAMMemoryArd.v
-Z25 L0 40
-R5
-r1
-!s85 0
-31
-R11
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/DRAMMemoryArd.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/DRAMMemoryArd.v|
-!i113 1
-Z26 o-vlog01compat -work work
-Z27 !s92 -vlog01compat -work work +incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1
-R9
-n@d@r@a@m@memory@ard
-vDROMMemory
-R10
-!i10b 1
-!s100 RTieG:LoQhRQD`6caaMgJ3
-IMEFO_dClj0@BJ3Bo^b^fI3
-R3
-R0
-R4
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/DROMMemory.v
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/DROMMemory.v
-R25
-R5
-r1
-!s85 0
-31
-R11
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/DROMMemory.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/DROMMemory.v|
-!i113 1
-R26
-R27
-R9
-n@d@r@o@m@memory
 vExtend
 R1
-R2
+R9
 !i10b 1
 !s100 Z:lO?71foJ<h`51C9oJ9B1
-IkW17n2PnBUQ?bTMHYcNS>3
+I?1Eb3T5Jc;7AzRcBWMNm80
 R3
 !s105 Extend_sv_unit
 S1
 R0
-R4
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/Extend.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/Extend.sv
+R18
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Extend.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Extend.sv
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/Extend.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/Extend.sv|
+R10
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Extend.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Extend.sv|
 !i113 1
+R6
 R7
 R8
-R9
 n@extend
 vfull_adder
 R1
 R2
 !i10b 1
 !s100 Zb3:Y>1T16L:6?TPjiUQT3
-Iioa0X2jOz<=:;H4omj8_;1
+IKd04OKV09>:VecbOcJ;5b0
 R3
-R18
+R17
 S1
 R0
-R4
+R18
 R19
 R20
 L0 164
-R5
+R4
 r1
 !s85 0
 31
-R6
+R5
 R21
 R22
 !i113 1
+R6
 R7
 R8
-R9
 vInstructionMemory
 R1
-R23
+Z23 !s110 1710580153
 !i10b 1
 !s100 gaC6BO0UhDkTW?Em_W;AU0
-Ia@L^9E=i=hB`j5Cl77g;70
+ILNdAFSFBg5mH9:WcmnCT>3
 R3
 !s105 InstructionMemory_sv_unit
 S1
 R0
-R4
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/InstructionMemory.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/InstructionMemory.sv
+R18
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv
 L0 1
-R5
+R4
 r1
 !s85 0
 31
-R24
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/InstructionMemory.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/InstructionMemory.sv|
+Z24 !s108 1710580153.000000
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv|
 !i113 1
+R6
 R7
 R8
-R9
 n@instruction@memory
 vlogic_alu
 R1
 R2
 !i10b 1
 !s100 ncjiCgHU7ReGQP0SK9[b]1
-Ib_GM1^z2g5iOdT`DT@?z61
+IC`:Ba4F:lTjJ<eY?NLG:k1
 R3
-R12
+R11
 S1
 R0
+R12
 R13
 R14
-R15
 L0 1
-R5
+R4
 r1
 !s85 0
 31
-R6
+R5
+R15
 R16
-R17
 !i113 1
+R6
 R7
 R8
-R9
 vMainDecoder
 R1
-R10
+R9
 !i10b 1
 !s100 2_jOPk7j4OaZGaL]d7kED3
-IZ_4X8z@EcXcH3ZUX3eJmd3
+IC>@<GbQLE`CYLi[RBE>O31
 R3
 !s105 MainDecoder_sv_unit
 S1
 R0
-R4
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/MainDecoder.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/MainDecoder.sv
+R18
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/MainDecoder.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/MainDecoder.sv
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/MainDecoder.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/MainDecoder.sv|
+R10
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/MainDecoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/MainDecoder.sv|
 !i113 1
+R6
 R7
 R8
-R9
 n@main@decoder
+vmem_control
+R1
+R2
+!i10b 1
+!s100 5ZFjU0BMomGk7VCJo[;dW2
+I>_C9G358zjd2Ngl`ZPhH_1
+R3
+!s105 mem_control_sv_unit
+S1
+R0
+w1710569421
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv|
+!i113 1
+R6
+R7
+R8
+vmodUnit
+R1
+R2
+!i10b 1
+!s100 S1aQd;i4UhC>PKgdDKCLb0
+IYzFKG[Q^c[Nz;MJDoJX4V2
+R3
+!s105 modUnit_sv_unit
+S1
+R0
+w1710486529
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/modUnit.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/modUnit.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/modUnit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/modUnit.sv|
+!i113 1
+R6
+R7
+R8
+nmod@unit
 vmultiplyUnit
 R1
-R23
+R2
 !i10b 1
 !s100 <S3faZ:[aAI;5Kf:VJNAR0
-IGI8ULmWI3V6R5[79X>;GY1
+I8K2;_b<M1Jl2zUUMfSZa01
 R3
 !s105 multiplyUnit_sv_unit
 S1
 R0
-R13
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/multiplyUnit.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/multiplyUnit.sv
+R12
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/multiplyUnit.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/multiplyUnit.sv
 L0 3
-R5
+R4
 r1
 !s85 0
 31
-R24
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/multiplyUnit.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/multiplyUnit.sv|
+R5
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/multiplyUnit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/multiplyUnit.sv|
 !i113 1
+R6
 R7
 R8
-R9
 nmultiply@unit
 vmux_2_to_1_32
 R1
 R2
 !i10b 1
 !s100 Aa_3_FJ=6ZHEY6di?Lk_U1
-IIYNfPI2nJQGT@QY;7:NAN2
+Io[dTVI0We;<bE6CXQQQe83
 R3
 !s105 mux_2_to_1_32_sv_unit
 S1
 R0
-R13
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_2_to_1_32.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_2_to_1_32.sv
+R12
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32.sv
 L0 1
-R5
+R4
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_2_to_1_32.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_2_to_1_32.sv|
+R5
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32.sv|
 !i113 1
+R6
 R7
 R8
-R9
+vmux_2_to_1_32_vec
+R1
+R2
+!i10b 1
+!s100 b]gBSXGM5SUC0L0C_jo;Z2
+I]Kdh=BoGd_c:8PbGBMF:81
+R3
+!s105 mux_2_to_1_32_vec_sv_unit
+S1
+R0
+w1710361957
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32_vec.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32_vec.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32_vec.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32_vec.sv|
+!i113 1
+R6
+R7
+R8
 vmux_2_to_1_4
 R1
 R2
 !i10b 1
 !s100 cIC9TQ=i>48o9GBRV1g]40
-IIPd=B6=QUNGF:ZAmT1=?<0
+I;cgVIMUYl?UagSWPKbR6C1
 R3
 !s105 mux_2_to_1_4_sv_unit
 S1
 R0
-R13
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_2_to_1_4.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_2_to_1_4.sv
+R12
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_4.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_4.sv
 L0 1
-R5
+R4
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_2_to_1_4.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_2_to_1_4.sv|
-!i113 1
-R7
-R8
-R9
-vmux_3_to_1_32
-R1
-R2
-!i10b 1
-!s100 XCQfg>TjF`[e7]MLj<8H61
-I^;gLo:1OL_lYVf<QdB[1a3
-R3
-!s105 mux_3_to_1_32_sv_unit
-S1
-R0
-R13
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_3_to_1_32.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_3_to_1_32.sv
-L0 1
 R5
-r1
-!s85 0
-31
-R6
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_3_to_1_32.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/mux_3_to_1_32.sv|
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_4.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_4.sv|
 !i113 1
+R6
 R7
 R8
-R9
 vn_bit_adder
 R1
 R2
 !i10b 1
 !s100 gVRa5T9zUOgi<B=A?f_L>3
-ISE]@cCW=H1D]nGcHiSbDU3
+ICYhSSIcHIlE_XhcSkBZ<L2
 R3
-R18
+R17
 S1
 R0
-R4
+R18
 R19
 R20
 L0 127
-R5
+R4
 r1
 !s85 0
 31
-R6
+R5
 R21
 R22
 !i113 1
+R6
 R7
 R8
-R9
 vn_bit_adder_sub
 R1
 R2
 !i10b 1
 !s100 c:YC=NZj]Sj_]4a1`hf<o2
-Ig6j9dh2agVg6k_Y?282@l3
+Il=dEdbV@96IEF6E5fWFY70
 R3
-R18
+R17
 S1
 R0
-R4
+R18
 R19
 R20
 L0 138
-R5
+R4
 r1
 !s85 0
 31
-R6
+R5
 R21
 R22
 !i113 1
+R6
 R7
 R8
-R9
 vn_bit_compare
 R1
 R2
 !i10b 1
 !s100 >;EIlYhc8XmJNEPnc>KJF1
-IfHPNFZ;UTDW=0;^9VAJTA1
+IHD3D8oe^5Y_bAWc]<A=3P1
 R3
-R18
+R17
 S1
 R0
-R4
+R18
 R19
 R20
 L0 173
-R5
+R4
 r1
 !s85 0
 31
-R6
+R5
 R21
 R22
 !i113 1
+R6
 R7
 R8
-R9
 vn_bit_substractor
 R1
 R2
 !i10b 1
 !s100 1:FUCOWZNUBA20_;PdlTL3
-IJXI3CAi@@=Bcd=Z:aWUaD0
+IgS7R=@R:3ZZ]L<@HCaTNh1
 R3
-R18
+R17
 S1
 R0
-R4
+R18
 R19
 R20
 L0 91
-R5
+R4
 r1
 !s85 0
 31
-R6
+R5
 R21
 R22
 !i113 1
+R6
 R7
 R8
-R9
 vnot_gate
 R1
 R2
 !i10b 1
 !s100 fJYo]E]h<THVQE>KNY0U]2
-IFnlnS^XV:cKjf6W:^0V_O2
+I:9b0R]AJD[j2NRQbMMnYW2
 R3
-R12
+R11
 S1
 R0
+R12
 R13
 R14
-R15
 L0 42
-R5
+R4
 r1
 !s85 0
 31
-R6
+R5
+R15
 R16
-R17
 !i113 1
+R6
 R7
 R8
-R9
 vor_gate
 R1
 R2
 !i10b 1
 !s100 G@eM9JALIJOZ6gJK73Yz11
-Ii9?RPB`C[K`G>1>ik2oKV2
+I]g3NcPO9CcN=dL06ioAn91
 R3
-R12
+R11
 S1
 R0
+R12
 R13
 R14
-R15
 L0 24
-R5
+R4
 r1
 !s85 0
 31
-R6
+R5
+R15
 R16
-R17
 !i113 1
+R6
 R7
 R8
-R9
 vPCLogic
 R1
-R10
+R9
 !i10b 1
 !s100 N3zWgn<oeK_<HT4SNGLo11
-I?>m^LoblkARK8Tzn71UQ_0
+IRKBjKFmXjUbR3@Mj=C7OX3
 R3
 !s105 PCLogic_sv_unit
 S1
 R0
-R4
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PCLogic.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PCLogic.sv
+R18
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PCLogic.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PCLogic.sv
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PCLogic.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PCLogic.sv|
+R10
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PCLogic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PCLogic.sv|
 !i113 1
+R6
 R7
 R8
-R9
 n@p@c@logic
 vpcRegister
 R1
 R2
 !i10b 1
 !s100 GT[GlOnT_ojPJh]3anI963
-Ij[z8;F8Z=mFai]?kC[P130
+I8m41o=HmhIio9NW_HX[NO3
 R3
 !s105 pcRegister_sv_unit
 S1
 R0
-R13
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/pcRegister.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/pcRegister.sv
+R12
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/pcRegister.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/pcRegister.sv
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/pcRegister.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/pcRegister.sv|
+R5
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/pcRegister.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/pcRegister.sv|
 !i113 1
+R6
 R7
 R8
-R9
 npc@register
 vPipeRegDE
 R1
-R10
+R9
 !i10b 1
-!s100 LAGzZ7c2eV<IXCGUzR3]]2
-ImflLdH=JoCGk_ZJHYiGN^2
+!s100 ]8K?5^Bd[6]N1N8B2oWf80
+I7h3L7@S^RDInel<P=;0Tm3
 R3
 !s105 PipeRegDE_sv_unit
 S1
 R0
-R4
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegDE.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegDE.sv
+w1710576528
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegDE.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegDE.sv
 L0 1
-R5
+R4
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegDE.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegDE.sv|
+R10
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegDE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegDE.sv|
 !i113 1
+R6
 R7
 R8
-R9
 n@pipe@reg@d@e
 vPipeRegEM
 R1
-R10
+R9
 !i10b 1
-!s100 j0?>@JiSmoTi15=QVm[;a0
-IG3=oV9o_>RPK>GU^N@8K83
+!s100 UPQH1Qama>ZkXKo?I=U>g3
+IaX_Aco2WClESB3hT0a_>T1
 R3
 !s105 PipeRegEM_sv_unit
 S1
 R0
-R4
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegEM.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegEM.sv
+w1710488152
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegEM.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegEM.sv
 L0 1
-R5
+R4
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegEM.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegEM.sv|
+R10
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegEM.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegEM.sv|
 !i113 1
+R6
 R7
 R8
-R9
 n@pipe@reg@e@m
 vPipeRegFD
 R1
-R10
+R9
 !i10b 1
 !s100 b3MHJPIQ89F8JDFTL3>^32
-Id9TDDl_8^LF;LOLC4E:Je0
+Il169G7;oX^>dI@@z2kS0G0
 R3
 !s105 PipeRegFD_sv_unit
 S1
 R0
-R4
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegFD.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegFD.sv
+R18
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegFD.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegFD.sv
 L0 1
-R5
+R4
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegFD.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegFD.sv|
+R10
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegFD.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegFD.sv|
 !i113 1
+R6
 R7
 R8
-R9
 n@pipe@reg@f@d
 vPipeRegMW
 R1
-R10
+R9
 !i10b 1
-!s100 fmS:FZz`]X`^<mN=jQ`eT1
-I@o`3TG:amfQo7KT;aFP3Z2
+!s100 OM>]]e4V8h>4nSG52gY2Q1
+Iz8Y4?eTb@O8428PJQ@fJ13
 R3
 !s105 PipeRegMW_sv_unit
 S1
 R0
-R4
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegMW.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegMW.sv
+w1710579764
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegMW.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegMW.sv
 L0 1
-R5
+R4
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegMW.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/PipeRegMW.sv|
+R10
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegMW.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegMW.sv|
 !i113 1
+R6
 R7
 R8
-R9
 n@pipe@reg@m@w
 vplus_n
 R1
 R2
 !i10b 1
 !s100 oz=<1]FXjFz3O9V6BY<Ug2
-InDkX9blSk>NXF:;G`fL8Y1
+I=P_74L1kHFekH`NWnzR6Z3
 R3
 !s105 plus_n_sv_unit
 S1
 R0
-R13
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/plus_n.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/plus_n.sv
+R12
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/plus_n.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/plus_n.sv
 L0 1
-R5
+R4
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/plus_n.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/plus_n.sv|
+R10
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/plus_n.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/plus_n.sv|
 !i113 1
+R6
 R7
 R8
-R9
 vprocesador
 R1
 R2
 !i10b 1
-!s100 N0<VnYjk8m5EW1?27LM8:2
-I18X?<0;?lNaXIoa>fc]^43
+!s100 k0zKl?Ne9`2c@P7j``?X>1
+IT2TiQi1DH]1HWJCMMT@Nk3
 R3
 !s105 procesador_sv_unit
 S1
 R0
-w1697793645
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesador.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesador.sv
+w1710575955
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesador.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesador.sv|
+R5
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv|
 !i113 1
+R6
 R7
 R8
-R9
 vprocesadorArm
 R1
-R23
+R2
 !i10b 1
 !s100 =caL8lY<HgVZ4loEI2dh01
-IlEWoUeRKFU>1ZdAJT5KTd3
+I5W1JR4lnD`Yeah;8njRVY2
 R3
 !s105 procesadorArm_sv_unit
 S1
 R0
 w1697789871
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesadorArm.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesadorArm.sv
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesadorArm.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesadorArm.sv
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesadorArm.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/procesadorArm.sv|
+R5
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesadorArm.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesadorArm.sv|
 !i113 1
+R6
 R7
 R8
-R9
 nprocesador@arm
-vprogram_tb
+vprogram_final_tb
 R1
 R23
 !i10b 1
-!s100 P8bSAD6=kX`BXPm5LoWPj1
-I8N7EDIWh_AiYJ1Ez@Nzl30
+!s100 ;e094;^T>^6ZP3c4n<zF61
+I8@>4RClAmlA]DO>jP;IFH3
 R3
-!s105 program_tb_sv_unit
+!s105 program_final_tb_sv_unit
 S1
 R0
-w1697791427
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/program_tb.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/program_tb.sv
+w1710580107
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_final_tb.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_final_tb.sv
 L0 2
-R5
+R4
 r1
 !s85 0
 31
 R24
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/program_tb.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/program_tb.sv|
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_final_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_final_tb.sv|
 !i113 1
+R6
 R7
 R8
-R9
 vRegisterFile
 R1
-R10
+R9
 !i10b 1
-!s100 hoKG`]QkLNSCY@Z5Z0dNl1
-IjGC6mafeVV:e4ikC9f2G<2
+!s100 ZZTDKjOHBV^DBIb5Jok:U2
+I<Y9kDXJEd_i]ddlGT`MKI3
 R3
 !s105 RegisterFile_sv_unit
 S1
 R0
-w1697798343
-8C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/RegisterFile.sv
-FC:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/RegisterFile.sv
+w1710579638
+8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterFile.sv
+FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterFile.sv
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/RegisterFile.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1|C:/Users/INTEL/Documents/GitHub/jretana_computer_architecture_1_2023_s2/ProyectoGrupal1/proyecto1/RegisterFile.sv|
+R10
+!s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterFile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterFile.sv|
 !i113 1
+R6
 R7
 R8
-R9
 n@register@file
 vresultado
 R1
 R2
 !i10b 1
 !s100 lXNV`LN:eiBcTSIkGSSHo1
-I2_Mk@A3KeS8Dd10MWeVII3
+IRM6hlbcg7D^dLISNVaBYl0
 R3
-R18
+R17
 S1
 R0
-R4
+R18
 R19
 R20
 L0 59
-R5
+R4
 r1
 !s85 0
 31
-R6
+R5
 R21
 R22
 !i113 1
+R6
 R7
 R8
-R9
 vshift_a
 R1
 R2
 !i10b 1
 !s100 oJN`U]KP45^k3IfeRU3]h1
-ID=8R]9j20SS]R8TJf59f]3
+Ij9[7RA;TYDLLCS2fXkoF70
 R3
-R18
+R17
 S1
 R0
-R4
+R18
 R19
 R20
 L0 214
-R5
+R4
 r1
 !s85 0
 31
-R6
+R5
 R21
 R22
 !i113 1
+R6
 R7
 R8
-R9
 vshiftL_gate
 R1
 R2
 !i10b 1
 !s100 Ig94oA7iLkh]1m;Nc=@NI2
-IKF0<3KIXDlXjBQhfC=?>l2
+I_DI0fW]4c6:9k]a7;QaaR0
 R3
-R12
+R11
 S1
 R0
+R12
 R13
 R14
-R15
 L0 61
-R5
+R4
 r1
 !s85 0
 31
-R6
+R5
+R15
 R16
-R17
 !i113 1
+R6
 R7
 R8
-R9
 nshift@l_gate
 vshiftR_arith
 R1
 R2
 !i10b 1
 !s100 bR`iZ7303m?B<WQ4H^nAZ0
-I4W;0YBSLZzdC3mE@Pfhl[3
+IlLbdRgU5;`lnATmlZ^dEJ0
 R3
-R18
+R17
 S1
 R0
-R4
+R18
 R19
 R20
 L0 201
-R5
+R4
 r1
 !s85 0
 31
-R6
+R5
 R21
 R22
 !i113 1
+R6
 R7
 R8
-R9
 nshift@r_arith
 vshiftR_gate
 R1
 R2
 !i10b 1
 !s100 <nOmbQI;Ji5bAE=CLK1oh1
-I?4hjSBaYQ7>SKN_kZ?3^03
+IZ0=HdkT6XLMBR28RPJ_Y50
 R3
-R12
+R11
 S1
 R0
+R12
 R13
 R14
-R15
 L0 51
-R5
+R4
 r1
 !s85 0
 31
-R6
+R5
+R15
 R16
-R17
 !i113 1
+R6
 R7
 R8
-R9
 nshift@r_gate
 vxor_gate
 R1
 R2
 !i10b 1
 !s100 Ae<lETXW78i?CzJ38DVaH1
-I=]:jK<e0IeV330GnjMHim1
+I[JUWJPJ]9[3S5Sj`gUoek1
 R3
-R12
+R11
 S1
 R0
+R12
 R13
 R14
-R15
 L0 33
-R5
+R4
 r1
 !s85 0
 31
-R6
+R5
+R15
 R16
-R17
 !i113 1
+R6
 R7
 R8
-R9

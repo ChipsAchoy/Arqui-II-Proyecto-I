@@ -12,7 +12,7 @@ module PipeRegDE (
     input logic RegWriteD,
     input logic MemtoRegD,
     input logic MemWriteD,
-    input logic [3:0]ALUControlD,
+    input logic [2:0]ALUControlD,
     input logic BranchD,
     input logic ALUSrcD,
     input logic [1:0] FlagWriteD,
@@ -28,7 +28,7 @@ module PipeRegDE (
     output logic RegWriteE,
     output logic MemtoRegE,
     output logic MemWriteE,
-    output logic [3:0] ALUControlE,
+    output logic [2:0] ALUControlE,
     output logic BranchE,
     output logic ALUSrcE,
     output logic [1:0] FlagWriteE,
@@ -47,7 +47,7 @@ module PipeRegDE (
     logic RegWriteReg;
     logic MemtoRegReg;
     logic MemWriteReg;
-    logic [3:0]ALUControlReg;
+    logic [2:0]ALUControlReg;
     logic BranchReg;
     logic ALUSrcReg;
     logic [1:0] FlagWriteReg;
