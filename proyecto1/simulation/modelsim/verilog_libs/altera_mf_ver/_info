@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Users/INTEL/Desktop/VarasDeLaU/PrimerSem12023/proyecto1/simulation/modelsim
 va_graycounter
-Z0 !s110 1710580137
+Z0 !s110 1710649357
 !i10b 1
 !s100 dbSQenUhE^>zo5H5zAI>X2
 I;I[AFP7AUPf`CZhVn9[:M3
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1710580136.000000
+Z7 !s108 1710649356.000000
 Z8 !s107 d:/quartuslite/quartus/eda/sim_lib/altera_mf.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|altera_mf_ver|d:/quartuslite/quartus/eda/sim_lib/altera_mf.v|
 !i113 1
@@ -366,7 +366,7 @@ R9
 R10
 R11
 vALTERA_DEVICE_FAMILIES
-Z12 !s110 1710580136
+Z12 !s110 1710649356
 !i10b 1
 !s100 Ie0_`X3Yi6=65^n?0c5aN3
 I`NNY4h>G[zYNceo^3S5[g3
@@ -831,7 +831,7 @@ R9
 R10
 R11
 varm_m_cntr
-R12
+R0
 !i10b 1
 !s100 aE>Dk`dHV;WL1F5DL`IJe0
 IWd[[6PXo?Z_AKGMoHPl=43
@@ -852,7 +852,7 @@ R9
 R10
 R11
 varm_n_cntr
-R12
+R0
 !i10b 1
 !s100 XVOhjdU?l`B?8Uf;M45`N2
 IC5;1NGT]TS[>zz92RG8l30
@@ -873,7 +873,7 @@ R9
 R10
 R11
 varm_scale_cntr
-R12
+R0
 !i10b 1
 !s100 j]gN?cGBNo4nUKi^cZIh[0
 INjHfJXBn<ndW6JW@TB;cc1
@@ -1383,7 +1383,7 @@ R10
 R11
 n@m@f_pll_reg
 vMF_stratix_pll
-R12
+R0
 !i10b 1
 !s100 kITDCAAk7nE?EU[@=@9Oo1
 IeJ5^UG?j`k_o5[nY@izHJ1
