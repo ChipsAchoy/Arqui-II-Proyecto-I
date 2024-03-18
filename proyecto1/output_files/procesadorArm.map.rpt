@@ -1,5 +1,5 @@
 Analysis & Elaboration report for procesadorArm
-Sat Mar 16 22:22:22 2024
+Mon Mar 18 01:50:56 2024
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -604,7 +604,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                 ;
 +-------------------------------+------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Sat Mar 16 22:22:22 2024          ;
+; Analysis & Elaboration Status ; Successful - Mon Mar 18 01:50:56 2024          ;
 ; Quartus Prime Version         ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                 ; procesadorArm                                  ;
 ; Top-level Entity Name         ; procesadorArm                                  ;
@@ -7419,7 +7419,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Sat Mar 16 22:22:08 2024
+    Info: Processing started: Mon Mar 18 01:50:41 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off procesadorArm -c procesadorArm --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -7563,7 +7563,7 @@ Info (12128): Elaborating entity "procesador" for hierarchy "procesador:PR" File
 Warning (10034): Output port "dataArduino" at procesador.sv(3) has no driver File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv Line: 3
 Info (12128): Elaborating entity "pcRegister" for hierarchy "procesador:PR|pcRegister:P0" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv Line: 38
 Info (12128): Elaborating entity "InstructionMemory" for hierarchy "procesador:PR|InstructionMemory:IM" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv Line: 40
-Warning (10850): Verilog HDL warning at InstructionMemory.sv(8): number of words (8) in memory file does not match the number of elements in the address range [0:4000] File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv Line: 8
+Warning (10850): Verilog HDL warning at InstructionMemory.sv(8): number of words (12) in memory file does not match the number of elements in the address range [0:4000] File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv Line: 8
 Warning (10855): Verilog HDL warning at InstructionMemory.sv(8): initial value for variable rom should be constant File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv Line: 8
 Warning (10030): Net "rom" at InstructionMemory.sv(5) has no driver or initial value, using a default initial value '0' File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv Line: 5
 Info (12128): Elaborating entity "PipeRegFD" for hierarchy "procesador:PR|PipeRegFD:regFD" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv Line: 42
@@ -7574,7 +7574,6 @@ Info (12128): Elaborating entity "MainDecoder" for hierarchy "procesador:PR|cpu:
 Info (12128): Elaborating entity "PCLogic" for hierarchy "procesador:PR|cpu:CPU|Decoder:D0|PCLogic:L0" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Decoder.sv Line: 12
 Info (12128): Elaborating entity "AluDecoder" for hierarchy "procesador:PR|cpu:CPU|Decoder:D0|AluDecoder:A0" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Decoder.sv Line: 13
 Info (12128): Elaborating entity "PipeRegDE" for hierarchy "procesador:PR|cpu:CPU|PipeRegDE:regDE" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 40
-Warning (10036): Verilog HDL or VHDL warning at PipeRegDE.sv(55): object "v_s_reg" assigned a value but never read File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegDE.sv Line: 55
 Info (12128): Elaborating entity "ConditionLogic" for hierarchy "procesador:PR|cpu:CPU|ConditionLogic:C1" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 43
 Info (12128): Elaborating entity "ConditionCheck" for hierarchy "procesador:PR|cpu:CPU|ConditionLogic:C1|ConditionCheck:H0" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionLogic.sv Line: 9
 Info (12128): Elaborating entity "PipeRegEM" for hierarchy "procesador:PR|cpu:CPU|PipeRegEM:regEM" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 47
@@ -7814,11 +7813,11 @@ Warning (12030): Port "ordered port 6" on the entity instantiation of "LU" is co
 Warning (12030): Port "ordered port 7" on the entity instantiation of "LU" is connected to a signal of width 1. The formal width of the signal in the module is 32.  The extra bits will be left dangling without any fan-out logic. File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv Line: 18
 Warning (12241): 5 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (144001): Generated suppressed messages file C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/output_files/procesadorArm.map.smsg
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 157 warnings
-    Info: Peak virtual memory: 5041 megabytes
-    Info: Processing ended: Sat Mar 16 22:22:22 2024
-    Info: Elapsed time: 00:00:14
-    Info: Total CPU time (on all processors): 00:00:27
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 156 warnings
+    Info: Peak virtual memory: 5046 megabytes
+    Info: Processing ended: Mon Mar 18 01:50:56 2024
+    Info: Elapsed time: 00:00:15
+    Info: Total CPU time (on all processors): 00:00:28
 
 
 +--------------------------------------------+

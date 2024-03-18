@@ -10,7 +10,7 @@ cModel Technology
 Z0 dC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/simulation/modelsim
 valu
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1710649370
+Z2 !s110 1710748283
 !i10b 1
 !s100 ?X=9LM[7mL]>HKaP30f5>3
 I`C4A=GE:HP2f:=I`;lHUb1
@@ -26,7 +26,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1710649370.000000
+Z5 !s108 1710748283.000000
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv|
 !i113 1
@@ -61,7 +61,7 @@ R8
 n@alu@decoder
 vand_gate
 R1
-Z9 !s110 1710649371
+Z9 !s110 1710748284
 !i10b 1
 !s100 HMal[KYQC17Yc0loB:dZ32
 InHWf<J?;SdO@iTGJ<G1M91
@@ -77,7 +77,7 @@ R4
 r1
 !s85 0
 31
-Z14 !s108 1710649371.000000
+Z14 !s108 1710748284.000000
 Z15 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv|
 Z16 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv|
 !i113 1
@@ -86,7 +86,7 @@ R7
 R8
 varith_alu
 R1
-R2
+R9
 !i10b 1
 !s100 M_?Y63HeJK6TE34B6CQ=m2
 IPbkL3PJY4e>HT0IjB]CfQ0
@@ -102,7 +102,7 @@ R4
 r1
 !s85 0
 31
-R5
+R14
 Z21 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv|
 Z22 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv|
 !i113 1
@@ -111,7 +111,7 @@ R7
 R8
 vbit_compare
 R1
-R2
+R9
 !i10b 1
 !s100 gm2]V]oWXE]1XO64I`6732
 Ii7a1bjj;gPADO6^g`4l_:0
@@ -127,7 +127,7 @@ R4
 r1
 !s85 0
 31
-R5
+R14
 R21
 R22
 !i113 1
@@ -190,13 +190,13 @@ vcpu
 R1
 R9
 !i10b 1
-!s100 lfeOi>TYf63EE]2>N[_aI1
-IPVF9TTgXI>ATIfD>zn6@o2
+!s100 zAf>:>ZO>TZD^5mOSQaI11
+I7PhP:Z6K4S3=5emSbZJ=:2
 R3
 !s105 cpu_sv_unit
 S1
 R0
-w1710645173
+w1710743027
 8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv
 FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv
 L0 2
@@ -291,7 +291,7 @@ R8
 n@extend
 vfull_adder
 R1
-R2
+R9
 !i10b 1
 !s100 Zb3:Y>1T16L:6?TPjiUQT3
 IKd04OKV09>:VecbOcJ;5b0
@@ -307,7 +307,7 @@ R4
 r1
 !s85 0
 31
-R5
+R14
 R21
 R22
 !i113 1
@@ -545,7 +545,7 @@ R7
 R8
 vn_bit_adder
 R1
-R2
+R9
 !i10b 1
 !s100 gVRa5T9zUOgi<B=A?f_L>3
 ICYhSSIcHIlE_XhcSkBZ<L2
@@ -561,7 +561,7 @@ R4
 r1
 !s85 0
 31
-R5
+R14
 R21
 R22
 !i113 1
@@ -570,7 +570,7 @@ R7
 R8
 vn_bit_adder_sub
 R1
-R2
+R9
 !i10b 1
 !s100 c:YC=NZj]Sj_]4a1`hf<o2
 Il=dEdbV@96IEF6E5fWFY70
@@ -586,7 +586,7 @@ R4
 r1
 !s85 0
 31
-R5
+R14
 R21
 R22
 !i113 1
@@ -595,7 +595,7 @@ R7
 R8
 vn_bit_compare
 R1
-R2
+R9
 !i10b 1
 !s100 >;EIlYhc8XmJNEPnc>KJF1
 IHD3D8oe^5Y_bAWc]<A=3P1
@@ -611,7 +611,7 @@ R4
 r1
 !s85 0
 31
-R5
+R14
 R21
 R22
 !i113 1
@@ -620,7 +620,7 @@ R7
 R8
 vn_bit_substractor
 R1
-R2
+R9
 !i10b 1
 !s100 1:FUCOWZNUBA20_;PdlTL3
 IgS7R=@R:3ZZ]L<@HCaTNh1
@@ -636,7 +636,7 @@ R4
 r1
 !s85 0
 31
-R5
+R14
 R21
 R22
 !i113 1
@@ -749,13 +749,13 @@ vPipeRegDE
 R1
 R2
 !i10b 1
-!s100 ]8K?5^Bd[6]N1N8B2oWf80
-I7h3L7@S^RDInel<P=;0Tm3
+!s100 :EU`^a:DI^9OOMKP7H1[d0
+IlGDf^IJbUOZEEQSIiENQ;0
 R3
 !s105 PipeRegDE_sv_unit
 S1
 R0
-w1710576528
+w1710743612
 8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegDE.sv
 FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegDE.sv
 L0 1
@@ -815,7 +815,7 @@ R4
 r1
 !s85 0
 31
-Z23 !s108 1710649369.000000
+R5
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegFD.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegFD.sv|
 !i113 1
@@ -825,7 +825,7 @@ R8
 n@pipe@reg@f@d
 vPipeRegMW
 R1
-Z24 !s110 1710649369
+R2
 !i10b 1
 !s100 OM>]]e4V8h>4nSG52gY2Q1
 Iz8Y4?eTb@O8428PJQ@fJ13
@@ -841,7 +841,7 @@ R4
 r1
 !s85 0
 31
-R23
+R5
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegMW.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegMW.sv|
 !i113 1
@@ -929,13 +929,13 @@ vprogram_final_tb
 R1
 R9
 !i10b 1
-!s100 ?`[CFMzAU6:@^e2]cI<LU0
-If_VHK?kDGj`^5f]k`J5W70
+!s100 eMPdLT[SfRo5Ydenc=K;B0
+I4oV_YG<6H?01:glJ@kjhj1
 R3
 !s105 program_final_tb_sv_unit
 S1
 R0
-w1710649322
+w1710748230
 8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_final_tb.sv
 FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_final_tb.sv
 L0 2
@@ -951,7 +951,7 @@ R6
 R7
 R8
 vram
-R24
+R2
 !i10b 1
 !s100 hFd01=:=[T@]^jb`cdkez2
 I1Hm^o<P]lVUP:DT<[>1bm1
@@ -965,7 +965,7 @@ R4
 r1
 !s85 0
 31
-R23
+!s108 1710748282.000000
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram.v|
 !i113 1
@@ -976,13 +976,13 @@ vRegisterFile
 R1
 R2
 !i10b 1
-!s100 6;70`0aME=l_Y2[RD6YlU3
-ITeFBQTL]`<:^J^d:YPPTH1
+!s100 O<:=WSC954F^P=O]GP6aD3
+I6982@D[AX=8^EI`Rj`:bI1
 R3
 !s105 RegisterFile_sv_unit
 S1
 R0
-w1710649152
+w1710748240
 8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterFile.sv
 FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterFile.sv
 L0 2
@@ -1000,7 +1000,7 @@ R8
 n@register@file
 vresultado
 R1
-R2
+R9
 !i10b 1
 !s100 lXNV`LN:eiBcTSIkGSSHo1
 IRM6hlbcg7D^dLISNVaBYl0
@@ -1016,7 +1016,7 @@ R4
 r1
 !s85 0
 31
-R5
+R14
 R21
 R22
 !i113 1
@@ -1025,7 +1025,7 @@ R7
 R8
 vshift_a
 R1
-R2
+R9
 !i10b 1
 !s100 oJN`U]KP45^k3IfeRU3]h1
 Ij9[7RA;TYDLLCS2fXkoF70
@@ -1041,7 +1041,7 @@ R4
 r1
 !s85 0
 31
-R5
+R14
 R21
 R22
 !i113 1
@@ -1076,7 +1076,7 @@ R8
 nshift@l_gate
 vshiftR_arith
 R1
-R2
+R9
 !i10b 1
 !s100 bR`iZ7303m?B<WQ4H^nAZ0
 IlLbdRgU5;`lnATmlZ^dEJ0
@@ -1092,7 +1092,7 @@ R4
 r1
 !s85 0
 31
-R5
+R14
 R21
 R22
 !i113 1

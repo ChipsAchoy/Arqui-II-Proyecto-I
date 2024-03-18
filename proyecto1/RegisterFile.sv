@@ -85,8 +85,8 @@ module RegisterFile(input  logic clk,rst,we3,
 			
 			rf_v[4][15] = 0;
 			
-			rf_s[0] = 1;
-			rf_s[1] = 4;
+			rf_s[4] = 1;
+			rf_s[8] = 12;
 			rf_s[2] = 1;
 			
 			

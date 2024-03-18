@@ -22,7 +22,7 @@ module cpu(input logic clk, rst, input logic [31:0] instructionD,
 	logic [31:0] ExtImmD, ExtImmE;
 	logic [15:0][31:0] ALUResultE, ALUResultM, ALUResultW, WriteDataM, ReadDataM, ReadDataW;
 	logic [15:0][31:0] ExtImmSrc, srcB;
-	logic v_s_d, v_s_e, v_s_m, v_s_z;
+	logic v_s, v_s_d, v_s_e, v_s_m, v_s_z;
 	
 	logic PCSrcD, PCSrcE, PCSrcE2, PCSrcM, PCSrcW, 
 	RegWriteD, RegWriteE, RegWriteE2, RegWriteM, 
@@ -36,7 +36,7 @@ module cpu(input logic clk, rst, input logic [31:0] instructionD,
 	
 	PipeRegDE regDE(clk, rst, 
 						 rd1D, rd2D, ExtImmD, instructionD[23:20], FlagsD, PCSrcD, RegWriteD, MemtoRegD, MemWriteD, ALUControlD, BranchD, ALUSrcD, FlagWriteD, 
-						 instructionD[23:20], instructionD[26],
+						 instructionD[23:20], v_s,
 						 rd1E, rd2E, ExtImmE, CondE, FlagsE, PCSrcE, RegWriteE, MemtoRegE, MemWriteE, ALUControlE, BranchE, ALUSrcE, FlagWriteE, WA3E, v_s_e);
 	
 	ConditionLogic C1(CondE, aluFlags, FlagWriteE, 
@@ -96,6 +96,7 @@ module cpu(input logic clk, rst, input logic [31:0] instructionD,
 	assign dataWrite_i = WriteDataM;
 	assign memWrite = MemWriteM;
 	assign vec_scalar = v_s_m;
+	assign v_s = instructionD[26];
 
 endmodule
 

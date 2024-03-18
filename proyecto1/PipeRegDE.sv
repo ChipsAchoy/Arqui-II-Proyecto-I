@@ -107,6 +107,6 @@ module PipeRegDE (
     assign ALUSrcE = ALUSrcReg;
     assign FlagWriteE = FlagWriteReg;
 	 assign WA3E = WA3Reg;
-	 assign v_s_e = v_s_d;
+	 assign v_s_e = v_s_reg;
 
 endmodule
