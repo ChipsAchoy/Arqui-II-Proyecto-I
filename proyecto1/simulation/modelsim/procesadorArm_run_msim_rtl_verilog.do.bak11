@@ -45,6 +45,7 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
+vlog -vlog01compat -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram.v}
 vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegMW.sv}
 vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegFD.sv}
 vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegEM.sv}

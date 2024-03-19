@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Users/INTEL/Desktop/VarasDeLaU/PrimerSem12023/proyecto1/simulation/modelsim
 vlpm_abs
-Z0 !s110 1710580136
+Z0 !s110 1710748269
 !i10b 1
 !s100 O9i<YS?ECZC8XU2m2T>HQ0
 IhbiMHN4OjboRhC3:=TQli2
@@ -23,14 +23,14 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1710580135.000000
+Z7 !s108 1710748269.000000
 Z8 !s107 d:/quartuslite/quartus/eda/sim_lib/220model.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|lpm_ver|d:/quartuslite/quartus/eda/sim_lib/220model.v|
 !i113 1
 Z10 o-vlog01compat -work lpm_ver
 Z11 tCvgOpt 0
 vlpm_add_sub
-Z12 !s110 1710580135
+R0
 !i10b 1
 !s100 F?SK4NkV;2lfzWh1<UGXX1
 IgB@OU2egUYZ4gd:AYBYaM3
@@ -51,7 +51,7 @@ R9
 R10
 R11
 vlpm_and
-R12
+R0
 !i10b 1
 !s100 =VzM;OhZJQ@Wjl;2UNDFd0
 IGZG2]63h;<DhYTQC=m_G31
@@ -93,7 +93,7 @@ R9
 R10
 R11
 vlpm_bustri
-R12
+R0
 !i10b 1
 !s100 J0ek53f5aGEe08O]9M7g41
 IbhEY1W^5NMMETkKNl?5J>3
@@ -114,7 +114,7 @@ R9
 R10
 R11
 vlpm_clshift
-R12
+R0
 !i10b 1
 !s100 CP<i@cgQUkc]3i2];nPVY1
 IM;7FRMfckb[Qo6RRC:z@D0
@@ -135,7 +135,7 @@ R9
 R10
 R11
 vlpm_compare
-R12
+R0
 !i10b 1
 !s100 HQ<EAlR:a2A5A=OK;22fi1
 IJ02@7LlLKE1=]P[OQ1@C<3
@@ -156,7 +156,7 @@ R9
 R10
 R11
 vlpm_constant
-R12
+R0
 !i10b 1
 !s100 FkMf<gh?_E[^916k78`m>1
 IM5<MVjYV?WHZi8YHMb5kB2
@@ -198,7 +198,7 @@ R9
 R10
 R11
 vlpm_decode
-R12
+R0
 !i10b 1
 !s100 9gcEgnXo<S5MFjD`]mj9V3
 I9Lg[hJX<c8?<cJ2BahYk90
@@ -219,7 +219,7 @@ R9
 R10
 R11
 vLPM_DEVICE_FAMILIES
-R12
+R0
 !i10b 1
 !s100 Vmk]JQUO8I;QjWc9g7CYA2
 IgdlEN=XIiSB@JR_UZ`?B?3
@@ -388,7 +388,7 @@ R9
 R10
 R11
 vLPM_HINT_EVALUATION
-R12
+R0
 !i10b 1
 !s100 `WKMS]SM@JbIe0gCi<3f82
 I1RO2R]JUPa[6gHYHD0lQJ1
@@ -431,7 +431,7 @@ R9
 R10
 R11
 vlpm_inv
-R12
+R0
 !i10b 1
 !s100 ^?DV;oC5m>1zlEkCWIQzM1
 IN<Eo=K063d711THX2D<702
@@ -473,7 +473,7 @@ R9
 R10
 R11
 vLPM_MEMORY_INITIALIZATION
-R12
+R0
 !i10b 1
 !s100 DR_SV_J4fzH0gTOLESO6;1
 IZWa1_MQ1K6C8k0?93FEBQ3
@@ -495,7 +495,7 @@ R10
 R11
 n@l@p@m_@m@e@m@o@r@y_@i@n@i@t@i@a@l@i@z@a@t@i@o@n
 vlpm_mult
-R12
+R0
 !i10b 1
 !s100 c@WEh7lH>@G6PFA3ZG8WE1
 I_STCck]MaGK?^bf3KV^^80
@@ -516,7 +516,7 @@ R9
 R10
 R11
 vlpm_mux
-R12
+R0
 !i10b 1
 !s100 27TaUnFLk_F<gH`najTXL3
 I4Dh1^KQ=c4T9i_fEm5eLn3
@@ -537,7 +537,7 @@ R9
 R10
 R11
 vlpm_or
-R12
+R0
 !i10b 1
 !s100 PVk12KKE0fG4m[5a;LJV22
 IoZBahIPd^Ll[BjU<F<OZ23
@@ -684,7 +684,7 @@ R9
 R10
 R11
 vlpm_xor
-R12
+R0
 !i10b 1
 !s100 5BXY01B<ogg>d2@mk^Kmo0
 IQ5NN9DFUijfV6<kj4?jX13

@@ -77,6 +77,36 @@ set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME alu_TB -section_id alu_TB
 set_global_assignment -name EDA_TEST_BENCH_NAME register_tb -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id register_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME register_tb -section_id register_tb
+set_location_assignment PIN_Y15 -to clkArduino
+set_location_assignment PIN_AC24 -to dataArduino[0]
+set_location_assignment PIN_AA15 -to dataArduino[1]
+set_location_assignment PIN_AD26 -to dataArduino[2]
+set_location_assignment PIN_AG28 -to dataArduino[3]
+set_location_assignment PIN_AF28 -to dataArduino[4]
+set_location_assignment PIN_AE25 -to dataArduino[5]
+set_location_assignment PIN_AF27 -to dataArduino[6]
+set_location_assignment PIN_AG26 -to dataArduino[7]
+set_global_assignment -name EDA_TEST_BENCH_NAME RAM_ARD_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id RAM_ARD_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME RAM_ARD_tb -section_id RAM_ARD_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME RAM_INC_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id RAM_INC_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME RAM_INC_tb -section_id RAM_INC_tb
+set_location_assignment PIN_AG25 -to dataIn[0]
+set_location_assignment PIN_AH26 -to dataIn[1]
+set_location_assignment PIN_AH24 -to dataIn[2]
+set_location_assignment PIN_AF25 -to dataIn[3]
+set_location_assignment PIN_AG23 -to dataIn[4]
+set_location_assignment PIN_AF23 -to dataIn[5]
+set_location_assignment PIN_AG24 -to dataIn[6]
+set_location_assignment PIN_AH22 -to dataIn[7]
+set_location_assignment PIN_W24 -to start
+set_global_assignment -name EDA_TEST_BENCH_NAME program_final_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id program_final_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME program_final_tb -section_id program_final_tb
+set_global_assignment -name MIF_FILE ram_ini.mif
+set_global_assignment -name VERILOG_FILE ram.v
+set_global_assignment -name QIP_FILE ram.qip
 set_global_assignment -name SYSTEMVERILOG_FILE PipeRegMW.sv
 set_global_assignment -name SYSTEMVERILOG_FILE PipeRegFD.sv
 set_global_assignment -name SYSTEMVERILOG_FILE PipeRegEM.sv
@@ -128,41 +158,14 @@ set_global_assignment -name QIP_FILE DRAMMemory.qip
 set_global_assignment -name MIF_FILE DRAMArduino.mif
 set_global_assignment -name QIP_FILE DRAMMemoryArd.qip
 set_global_assignment -name SYSTEMVERILOG_FILE RegisterArduino.sv
-set_location_assignment PIN_Y15 -to clkArduino
-set_location_assignment PIN_AC24 -to dataArduino[0]
-set_location_assignment PIN_AA15 -to dataArduino[1]
-set_location_assignment PIN_AD26 -to dataArduino[2]
-set_location_assignment PIN_AG28 -to dataArduino[3]
-set_location_assignment PIN_AF28 -to dataArduino[4]
-set_location_assignment PIN_AE25 -to dataArduino[5]
-set_location_assignment PIN_AF27 -to dataArduino[6]
-set_location_assignment PIN_AG26 -to dataArduino[7]
 set_global_assignment -name SYSTEMVERILOG_FILE ArduinoAdd_p1.sv
 set_global_assignment -name SYSTEMVERILOG_FILE ArduinoLogic.sv
 set_global_assignment -name SYSTEMVERILOG_FILE RAM_ARD_tb.sv
-set_global_assignment -name EDA_TEST_BENCH_NAME RAM_ARD_tb -section_id eda_simulation
-set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id RAM_ARD_tb
-set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME RAM_ARD_tb -section_id RAM_ARD_tb
 set_global_assignment -name SYSTEMVERILOG_FILE WriteToMIF.sv
 set_global_assignment -name SYSTEMVERILOG_FILE RAM_INC_tb.sv
-set_global_assignment -name EDA_TEST_BENCH_NAME RAM_INC_tb -section_id eda_simulation
-set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id RAM_INC_tb
-set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME RAM_INC_tb -section_id RAM_INC_tb
-set_location_assignment PIN_AG25 -to dataIn[0]
-set_location_assignment PIN_AH26 -to dataIn[1]
-set_location_assignment PIN_AH24 -to dataIn[2]
-set_location_assignment PIN_AF25 -to dataIn[3]
-set_location_assignment PIN_AG23 -to dataIn[4]
-set_location_assignment PIN_AF23 -to dataIn[5]
-set_location_assignment PIN_AG24 -to dataIn[6]
-set_location_assignment PIN_AH22 -to dataIn[7]
-set_location_assignment PIN_W24 -to start
 set_global_assignment -name SYSTEMVERILOG_FILE mux_2_to_1_32_vec.sv
 set_global_assignment -name SYSTEMVERILOG_FILE modUnit.sv
 set_global_assignment -name SYSTEMVERILOG_FILE mem_control.sv
-set_global_assignment -name EDA_TEST_BENCH_NAME program_final_tb -section_id eda_simulation
-set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id program_final_tb
-set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME program_final_tb -section_id program_final_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE instruction_TB.sv -section_id instruction_TB
 set_global_assignment -name EDA_TEST_BENCH_FILE program.mem -section_id instruction_TB
 set_global_assignment -name EDA_TEST_BENCH_FILE rom_TB.sv -section_id rom_TB
