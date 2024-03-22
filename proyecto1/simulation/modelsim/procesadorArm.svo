@@ -15,9 +15,9 @@
 
 // VENDOR "Altera"
 // PROGRAM "Quartus Prime"
-// VERSION "Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition"
+// VERSION "Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
 
-// DATE "03/16/2024 15:34:19"
+// DATE "03/21/2024 23:43:53"
 
 // 
 // Device: Altera 5CSEBA6U23I7 Package UFBGA672
@@ -36,12 +36,12 @@ module procesadorArm (
 	start,
 	dataIn,
 	dataArduino);
-input 	logic clk ;
-input 	logic clkArduino ;
-input 	logic rst ;
-input 	logic start ;
-input 	logic [7:0] dataIn ;
-output 	logic [7:0] dataArduino ;
+input 	clk;
+input 	clkArduino;
+input 	rst;
+input 	start;
+input 	[7:0] dataIn;
+output 	[7:0] dataArduino;
 
 // Design Ports Information
 // clk	=>  Location: PIN_V11,	 I/O Standard: 2.5 V,	 Current Strength: Default
@@ -352,7 +352,7 @@ defparam \dataIn[7]~input .bus_hold = "false";
 defparam \dataIn[7]~input .simulate_z_as = "z";
 // synopsys translate_on
 
-// Location: LABCELL_X42_Y17_N0
+// Location: LABCELL_X74_Y36_N0
 cyclonev_lcell_comb \~QUARTUS_CREATED_GND~I (
 // Equation(s):
 
