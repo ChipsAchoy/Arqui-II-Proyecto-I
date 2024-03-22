@@ -17,23 +17,13 @@ from compiler_config import (
     vector_registers
 )
 
-# instructions_file_path = sys.argv[1]
-# compiled_file_path = sys.argv[2]
-instructions_file_path = './instructions.asm'
-compiled_file_path = './compiled_instructions.mem'
-
-if (os.path.exists(compiled_file_path)):
-    os.remove(compiled_file_path)
-
-instructions_file = open(instructions_file_path, 'r')
-compiled_file = open(compiled_file_path, 'a')
-
 
 def split_nibbles(binary_string):
     result = []
     for i in range(int(len(binary_string)/4)):
         result.append(f'{binary_string[i*4:(i+1)*4]}')
     return result
+  
   
 def to_binary_string(number, width):
     if (number < 0):
@@ -124,6 +114,10 @@ def data_instruction(op_code, cmd, type, operands):
     return result
 
 
+def stall_instruction():
+    return STALL_NIBBLES
+
+
 def get_inst_type(cmd_key):
     for inst_type in inst_types:
         if cmd_key in inst_type['cmd']:
@@ -138,7 +132,7 @@ def get_inst_type(cmd_key):
 def decode_instruction(cmd_key, operands, current_pc, labels):
     try:
         op_code, cmd, type = get_inst_type(cmd_key)
-
+        
         if (op_code == OP_CODES['DATA']):
             return data_instruction(op_code, cmd, type, operands)
         elif (op_code == OP_CODES['MEMORY']):
@@ -151,40 +145,35 @@ def decode_instruction(cmd_key, operands, current_pc, labels):
         raise Exception(str(error))
 
 
-pc = 0
-labels = []
-instructions = []
-for instruction in instructions_file:
-    instruction = instruction.strip().lower()
+def split_instruction(instruction):
+    instruction = instruction.split(' ', 1)
+    
+    cmd_key = instruction[0]
+    operands = instruction[1].replace(' ', '').split(',')
+    
+    return cmd_key, operands
 
-    if (instruction == '' or instruction[0] == ';'):
-        continue
-    # elif (instruction[-1] == ':'):
-    #     label = {'label_name': instruction[:-1], 'pc': pc}
-    #     labels.append(label)
-    #     continue
 
-    instructions.append(instruction)
-    pc += 8
-
-pc = 0
-try:
+def compile_instructions(instructions, labels, compiled_file):
+    pc = 0
     for instruction in instructions:
-        instruction = instruction.split(' ', 1)
-        
-        cmd_key = instruction[0]
-        operands = instruction[1].replace(' ', '').split(',')
-        
-        instruction_blocks = decode_instruction(cmd_key, operands, pc, labels)
-        instruction_bits = "".join(instruction_blocks)
-        instruction_nibbles = split_nibbles(instruction_bits)
-        
         print('-'*75)
-        print(instruction)
-        print(instruction_blocks)
-        print(instruction_nibbles)
-        print(f'PC: {pc}')
-        print(f'Instruction length: {len(instruction_bits)}')
+        if(instruction == 'nop'):
+            instruction_nibbles = stall_instruction()
+            print(f'Adding Stall...')
+            print(instruction_nibbles)
+            print(f'PC: {pc}')
+        else:
+            cmd_key, operands = split_instruction(instruction)
+            instruction_blocks = decode_instruction(cmd_key, operands, pc, labels)
+            instruction_bits = "".join(instruction_blocks)
+            instruction_nibbles = split_nibbles(instruction_bits)
+            
+            print(instruction)
+            print(instruction_blocks)
+            print(instruction_nibbles)
+            print(f'PC: {pc}')
+            print(f'Instruction length: {len(instruction_bits)}')
         print('-'*75)
 
         for nibble in instruction_nibbles:
@@ -196,7 +185,116 @@ try:
             compiled_file.write(f'{STALL_NIBBLE}\n')
             pc += 1
 
-except Exception as error:
-    print(str(error))
-    os.remove(compiled_file_path)
-    sys.exit(1)
+
+def has_dependencies(instruction_0, instruction_1, instruction_2):
+    operands_0 = split_instruction(instruction_0)[1]
+    operands_1 = split_instruction(instruction_1)[1]
+    
+    if(instruction_2 != None):
+        operands_2 = split_instruction(instruction_2)[1]
+    else:
+        operands_2 = None
+    
+    dependency_instruction = None
+    dependency_operand = None
+    
+    if(operands_0[0] == operands_1[1]):
+        dependency_instruction = instruction_1
+        dependency_operand = operands_1[1]
+    
+    if((len(operands_1) == 3) and (operands_0[0] == operands_1[2])):
+        dependency_instruction = instruction_1
+        dependency_operand = operands_1[2]    
+    
+    if(operands_2 != None):
+        if(operands_0[0] == operands_2[1]):
+            dependency_instruction = instruction_2
+            dependency_operand = operands_2[1]
+        
+        if((len(operands_2) == 3) and (operands_0[0] == operands_2[2])):
+            dependency_instruction = instruction_2
+            dependency_operand = operands_2[2]
+    
+    if((dependency_instruction != None) and (dependency_operand != None)):
+        print(f'Dependency Found: Instruction "{dependency_instruction}" needs "{dependency_operand}" from instruction "{instruction_0}"')
+        return True
+    
+    return False
+
+
+def resolve_dependencies(instructions, labels):
+    new_instructions = []
+    new_labels = []
+    
+    print('-'*100)
+    for index in range (len(instructions)):
+        instruction_0 = instructions[index]
+        
+        new_instructions.append(instruction_0)
+        
+        if(index + 1 == len(instructions)):
+            break
+        else:
+            instruction_1 = instructions[index + 1]
+        
+        if(index + 2 < len(instructions)):
+            instruction_2 = instructions[index + 2]
+        else:
+            instruction_2 = None
+            
+        if(has_dependencies(instruction_0, instruction_1, instruction_2)):
+            new_instructions.append('nop')
+            new_instructions.append('nop')
+        
+    for instruction in new_instructions:
+        print(instruction)
+        
+    print('-'*100)
+    
+    return new_instructions, new_labels
+
+
+def read_instructions(instructions_file):
+    pc = 0
+    labels = []
+    instructions = []
+    for instruction in instructions_file:
+        instruction = instruction.strip().lower()
+
+        if (instruction == '' or instruction[0] == ';'):
+            continue
+        # elif (instruction[-1] == ':'):
+        #     label = {'label_name': instruction[:-1], 'pc': pc}
+        #     labels.append(label)
+        #     continue
+
+        instructions.append(instruction)
+        pc += 8
+            
+    return instructions, labels
+
+  
+def main():
+    # instructions_file_path = sys.argv[1]
+    # compiled_file_path = sys.argv[2]
+    # instructions_file_path = './tests/instructions.asm'
+    instructions_file_path = './tests/stalls.asm'
+    compiled_file_path = './compiled_instructions.mem'
+
+    if (os.path.exists(compiled_file_path)):
+        os.remove(compiled_file_path)
+
+    instructions_file = open(instructions_file_path, 'r')
+    compiled_file = open(compiled_file_path, 'a')
+    
+    try:
+        instructions, labels = read_instructions(instructions_file)
+        instructions, labels = resolve_dependencies(instructions, labels)
+        compile_instructions(instructions, labels, compiled_file)
+    except Exception as error:
+        print(str(error))
+        os.remove(compiled_file_path)
+        sys.exit(1)
+
+
+if __name__ == '__main__': main()

@@ -1,0 +1,9 @@
+/**/**/*.bak
+/**/**/db
+/**/**/incremental_db
+/**/**/output_files
+/**/**/simulation
+/**/**/greybox_tmp
+/**/**/*.ver
+/**/**/*.qws
+/**/**/__pycache__
