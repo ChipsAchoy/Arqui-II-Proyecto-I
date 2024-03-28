@@ -1,6 +1,5 @@
 
-module procesador(input logic clk, clkArduino, rst,  readEnable, 
-input logic [7:0] dataIn, output logic [7:0] dataArduino);
+module procesador(input logic clk, rst);
 	
 	logic [31:0] instructionF;
 	logic [31:0] instructionD;
@@ -17,6 +16,7 @@ input logic [7:0] dataIn, output logic [7:0] dataArduino);
 	logic [19:0] arduinoAddUse;
 	logic [15:0] arduinoW;
 	logic [15:0] dataArduinoAux;
+	logic [5:0][31:0] perf_countF, perf_countD;
 	
 	logic ardwen;
 	logic vec_scalar;
@@ -26,6 +26,8 @@ input logic [7:0] dataIn, output logic [7:0] dataArduino);
 		//arduinoAdd = 0;
 		pc = 0;
 		pcUse = 0;
+		perf_countF = 0;
+		perf_countD = 0;
 		
 	end
 	
@@ -37,9 +39,11 @@ input logic [7:0] dataIn, output logic [7:0] dataArduino);
 	
 	pcRegister P0(clk, rst, pc, pcUse);
 	
+	perfRegister REG(clk, rst, perf_countD, perf_countF);
+	
 	InstructionMemory IM(clk,rst, pcUse, instructionF);
 	
-	PipeRegFD regFD(clk, rst, instructionF, instructionD);
+	PipeRegFD regFD(clk, rst, instructionF, perf_countF, instructionD, perf_countD);
 	
 	cpu CPU(clk, rst, instructionD, dataRead, pcUse, pc, dataWrite, memWrite, addr, vec_scalar);
 	
@@ -52,6 +56,8 @@ input logic [7:0] dataIn, output logic [7:0] dataArduino);
 	vec_scalar,
 	dataRead);
 	
+	
+	//assign perf_countF = perf_countD;
 	
 	
 	//ChipSet CS(addr, select, out_addr);
