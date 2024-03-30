@@ -4,14 +4,10 @@ import os
 from compiler_config import (
     MEMORY_SIZE,
     EMPTY_NIBBLE,
-    STALL_NIBBLES,
+    STALL_BYTES,
     OP_CODES,
     SCALAR_DATA_CMD,
-    SCALAR_MEMORY_CMD,
-    VECTOR_DATA_CMD,
-    VECTOR_MEMORY_CMD,
     BRANCH_CMD,
-    BRANCH_COND,
     IND,
     inst_types,
     scalar_registers,
@@ -19,10 +15,10 @@ from compiler_config import (
 )
 
 
-def split_nibbles(binary_string):
+def split_bytes(binary_string):
     result = []
-    for i in range(int(len(binary_string)/4)):
-        result.append(f'{binary_string[i*4:(i+1)*4]}')
+    for i in range(int(len(binary_string) / 8)):
+        result.append(f'{binary_string[i * 8:(i + 1) * 8]}')
     return result
   
   
@@ -57,7 +53,7 @@ def get_immediate_operand(operand):
             
         print(f'Immediate Representation: {float_operand} -> {binary_operand}')
             
-        return split_nibbles(binary_operand)
+        return split_bytes(binary_operand)
     except Exception as error:
         raise Exception(str(error))
 
@@ -89,7 +85,7 @@ def branch_instruction(op_code, cond_key, branch_label, labels):
                     raise Exception(f'Invalid condition: {cond_key}')
                 
                 label_pc = to_binary_string(label['pc'] * 4, 16)
-                label_pc = split_nibbles(label_pc)
+                label_pc = split_bytes(label_pc)
                 
                 return [op_code, cmd, ind, cond, EMPTY_NIBBLE] + label_pc
             
@@ -159,7 +155,7 @@ def data_instruction(op_code, cmd, type, operands):
 
 
 def stall_instruction():
-    return STALL_NIBBLES
+    return STALL_BYTES
 
 
 def get_inst_type(cmd_key):
@@ -219,7 +215,7 @@ def compile_instructions(instructions, labels, compiled_file):
             cmd_key, operands = split_instruction(instruction)
             instruction_blocks = decode_instruction(cmd_key, operands, labels)
             instruction_bits = "".join(instruction_blocks)
-            instruction_nibbles = split_nibbles(instruction_bits)
+            instruction_nibbles = split_bytes(instruction_bits)
             
             print(instruction)
             print(instruction_blocks)
@@ -233,8 +229,8 @@ def compile_instructions(instructions, labels, compiled_file):
             pc += 1
 
     while pc < MEMORY_SIZE:
-        for STALL_NIBBLE in STALL_NIBBLES:
-            compiled_file.write(f'{STALL_NIBBLE}\n')
+        for STALL_BYTE in STALL_BYTES:
+            compiled_file.write(f'{STALL_BYTE}\n')
             pc += 1
 
 
@@ -320,7 +316,7 @@ def resolve_dependencies(instructions, labels):
             new_instructions.append('nop')
             for label in labels:
                 if(label['pc'] == current_pc):
-                    label['pc'] += 16
+                    label['pc'] += 8
                     print(f'Updating Label "{label["label_name"]}" PC from {current_pc} to {label["pc"]}')
         
     for instruction in new_instructions:
@@ -346,7 +342,7 @@ def read_instructions(instructions_file):
             continue
         else:
             instructions.append(instruction)
-            pc += 8
+            pc += 4
             
     return instructions, labels
 
@@ -366,10 +362,6 @@ def main():
     
     try:
         instructions, labels = read_instructions(instructions_file)
-        
-        print(f'Instructions: {instructions}')
-        print(f'Labels: {labels}')
-        
         instructions, labels = resolve_dependencies(instructions, labels)
         
         compile_instructions(instructions, labels, compiled_file)
