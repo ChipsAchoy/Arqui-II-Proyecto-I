@@ -1,16 +1,12 @@
-MEMORY_SIZE = 400 # In nibbles
+MEMORY_SIZE = 400 # In bytes
 
 EMPTY_NIBBLE = '0000'
 
-STALL_NIBBLES = [
-    '1100',
-    '0000',
-    '0000',
-    '0000',
-    '0000',
-    '0000',
-    '0000',
-    '0000'
+STALL_BYTES = [
+    '11000000',
+    '00000000',
+    '00000000',
+    '00000000'
 ]
 
 OP_CODES = {
@@ -49,6 +45,25 @@ VECTOR_MEMORY_CMD = {
 
 
 BRANCH_CMD = '110'
+
+
+BRANCH_COND = {
+    'EQ':   '0000',
+    'NE':   '0001',
+    'HS':   '0010',
+    'LO':   '0011',
+    'MI':   '0100',
+    'PL':   '0101',
+    'VS':   '0110',
+    'VC':   '0111',
+    'HI':   '1000',
+    'LS':   '1001',
+    'GE':   '1010',
+    'LT':   '1011',
+    'GT':   '1100',
+    'LE':   '1101',
+    'JUMP': '1110'
+}
 
 IND = {
     'scalar':        '000',
@@ -102,21 +117,38 @@ inst_types = [
     {
         'op_code': OP_CODES['BRANCH'],
         'type': 'branch',
-        'cmd': BRANCH_CMD
+        'cmd': BRANCH_CMD,
+        'cond': {
+            'beq':  BRANCH_COND['EQ'],
+            'bne':  BRANCH_COND['NE'],
+            'bhs':  BRANCH_COND['HS'],
+            'blo':  BRANCH_COND['LO'],
+            'bmi':  BRANCH_COND['MI'],
+            'bpl':  BRANCH_COND['PL'],
+            'bvs':  BRANCH_COND['VS'],
+            'bvc':  BRANCH_COND['VC'],
+            'bhi':  BRANCH_COND['HI'],
+            'bls':  BRANCH_COND['LS'],
+            'bge':  BRANCH_COND['GE'],
+            'blt':  BRANCH_COND['LT'],
+            'bgt':  BRANCH_COND['GT'],
+            'ble':  BRANCH_COND['LE'],
+            'jump': BRANCH_COND['JUMP']
+        }
     }
 ]
 
 scalar_registers = {
-    'r0': '0000',
-    'r1': '0001',
-    'r2': '0010',
-    'r3': '0011',
-    'r4': '0100',
-    'r5': '0101',
-    'r6': '0110',
-    'r7': '0111',
-    'r8': '1000',
-    'r9': '1001',
+    'r0':  '0000',
+    'r1':  '0001',
+    'r2':  '0010',
+    'r3':  '0011',
+    'r4':  '0100',
+    'r5':  '0101',
+    'r6':  '0110',
+    'r7':  '0111',
+    'r8':  '1000',
+    'r9':  '1001',
     'r10': '1010',
     'r11': '1011',
     'r12': '1100',
@@ -126,16 +158,16 @@ scalar_registers = {
 }
 
 vector_registers = {
-    'v0': '0000',
-    'v1': '0001',
-    'v2': '0010',
-    'v3': '0011',
-    'v4': '0100',
-    'v5': '0101',
-    'v6': '0110',
-    'v7': '0111',
-    'v8': '1000',
-    'v9': '1001',
+    'v0':  '0000',
+    'v1':  '0001',
+    'v2':  '0010',
+    'v3':  '0011',
+    'v4':  '0100',
+    'v5':  '0101',
+    'v6':  '0110',
+    'v7':  '0111',
+    'v8':  '1000',
+    'v9':  '1001',
     'v10': '1010',
     'v11': '1011',
     'v12': '1100',
