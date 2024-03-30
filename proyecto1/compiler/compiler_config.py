@@ -50,6 +50,25 @@ VECTOR_MEMORY_CMD = {
 
 BRANCH_CMD = '110'
 
+
+BRANCH_COND = {
+    'EQ':   '0000',
+    'NE':   '0001',
+    'HS':   '0010',
+    'LO':   '0011',
+    'MI':   '0100',
+    'PL':   '0101',
+    'VS':   '0110',
+    'VC':   '0111',
+    'HI':   '1000',
+    'LS':   '1001',
+    'GE':   '1010',
+    'LT':   '1011',
+    'GT':   '1100',
+    'LE':   '1101',
+    'JUMP': '1110'
+}
+
 IND = {
     'scalar':        '000',
     'cmp_scalar':    '001',
@@ -102,7 +121,24 @@ inst_types = [
     {
         'op_code': OP_CODES['BRANCH'],
         'type': 'branch',
-        'cmd': BRANCH_CMD
+        'cmd': BRANCH_CMD,
+        'cond': {
+            'beq':  BRANCH_COND['EQ'],
+            'bne':  BRANCH_COND['NE'],
+            'bhs':  BRANCH_COND['HS'],
+            'blo':  BRANCH_COND['LO'],
+            'bmi':  BRANCH_COND['MI'],
+            'bpl':  BRANCH_COND['PL'],
+            'bvs':  BRANCH_COND['VS'],
+            'bvc':  BRANCH_COND['VC'],
+            'bhi':  BRANCH_COND['HI'],
+            'bls':  BRANCH_COND['LS'],
+            'bge':  BRANCH_COND['GE'],
+            'blt':  BRANCH_COND['LT'],
+            'bgt':  BRANCH_COND['GT'],
+            'ble':  BRANCH_COND['LE'],
+            'jump': BRANCH_COND['JUMP']
+        }
     }
 ]
 
