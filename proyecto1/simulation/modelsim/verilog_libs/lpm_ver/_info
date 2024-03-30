@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Users/INTEL/Desktop/VarasDeLaU/PrimerSem12023/proyecto1/simulation/modelsim
 vlpm_abs
-Z0 !s110 1711663775
+Z0 !s110 1711787605
 !i10b 1
 !s100 O9i<YS?ECZC8XU2m2T>HQ0
 IhbiMHN4OjboRhC3:=TQli2
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1711663775.000000
+Z7 !s108 1711787604.000000
 Z8 !s107 d:/quartuslite/quartus/eda/sim_lib/220model.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|lpm_ver|d:/quartuslite/quartus/eda/sim_lib/220model.v|
 !i113 1
@@ -51,7 +51,7 @@ R9
 R10
 R11
 vlpm_and
-R0
+Z12 !s110 1711787604
 !i10b 1
 !s100 =VzM;OhZJQ@Wjl;2UNDFd0
 IGZG2]63h;<DhYTQC=m_G31
@@ -93,7 +93,7 @@ R9
 R10
 R11
 vlpm_bustri
-R0
+R12
 !i10b 1
 !s100 J0ek53f5aGEe08O]9M7g41
 IbhEY1W^5NMMETkKNl?5J>3
@@ -156,7 +156,7 @@ R9
 R10
 R11
 vlpm_constant
-R0
+R12
 !i10b 1
 !s100 FkMf<gh?_E[^916k78`m>1
 IM5<MVjYV?WHZi8YHMb5kB2
@@ -219,7 +219,7 @@ R9
 R10
 R11
 vLPM_DEVICE_FAMILIES
-R0
+R12
 !i10b 1
 !s100 Vmk]JQUO8I;QjWc9g7CYA2
 IgdlEN=XIiSB@JR_UZ`?B?3
@@ -388,7 +388,7 @@ R9
 R10
 R11
 vLPM_HINT_EVALUATION
-R0
+R12
 !i10b 1
 !s100 `WKMS]SM@JbIe0gCi<3f82
 I1RO2R]JUPa[6gHYHD0lQJ1
@@ -431,7 +431,7 @@ R9
 R10
 R11
 vlpm_inv
-R0
+R12
 !i10b 1
 !s100 ^?DV;oC5m>1zlEkCWIQzM1
 IN<Eo=K063d711THX2D<702
@@ -473,7 +473,7 @@ R9
 R10
 R11
 vLPM_MEMORY_INITIALIZATION
-R0
+R12
 !i10b 1
 !s100 DR_SV_J4fzH0gTOLESO6;1
 IZWa1_MQ1K6C8k0?93FEBQ3
@@ -537,7 +537,7 @@ R9
 R10
 R11
 vlpm_or
-R0
+R12
 !i10b 1
 !s100 PVk12KKE0fG4m[5a;LJV22
 IoZBahIPd^Ll[BjU<F<OZ23
@@ -684,7 +684,7 @@ R9
 R10
 R11
 vlpm_xor
-R0
+R12
 !i10b 1
 !s100 5BXY01B<ogg>d2@mk^Kmo0
 IQ5NN9DFUijfV6<kj4?jX13

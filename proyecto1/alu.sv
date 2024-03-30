@@ -16,8 +16,8 @@ module alu #(parameter N=32)(input [N-1:0] a, b, input logic[2:0] aluControl, ou
 	
 	logic [N-1:0] aux;
 	logic_alu LU(a, b, r_and, r_or, r_xor, r_shiftR, r_shiftL, r_not);
-	arith_alu AUS(a, b, 0, resultado_s, cout_aux_s, neg_aux_s, zero_aux_s, overflow_aux_s, shiftR1);
-	arith_alu AUR(a, b, 1, resultado_r, cout_aux_r, neg_aux_r, zero_aux_r, overflow_aux_r, shiftR2);
+	addUnit AUS(a, b, resultado_s, cout_aux_s, zero_aux_s, overflow_aux_s, neg_aux_s);
+	subUnit AUR(a, b, resultado_r, cout_aux_r, zero_aux_r, overflow_aux_r, neg_aux_r);
 	multiplyUnit MUL(a, b, resultado_m, cout_aux_m, zero_aux_m, overflow_aux_m);
 	divUnit DIV(a, b, resultado_d, cout_aux_d, zero_aux_d, overflow_aux_d);
 	modUnit MOD(a, b, resultado_mod, cout_aux_mod, zero_aux_mod, overflow_aux_mod);
