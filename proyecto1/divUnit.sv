@@ -4,24 +4,34 @@ module divUnit #(parameter N=32)(
 	output logic [N-1:0] c,
 	output logic cout, zero, overflow, neg);
 
-	logic [15:0] a_op, b_op;
+	logic [31:0] a_op, b_op;
 	logic [31:0] c_op;
-	
-	assign a_op[14:0] = a[14:0];
-	assign b_op[14:0] = b[14:0];
-	
-	assign a_op[15] = 0;
-	assign b_op[15] = 0;
-	
-	assign c_op = (a_op / b_op) << 8;
-	assign c[31:16] = 0;
-	assign c[15] = a[15] ^ b[15];
-	assign c[14:0] = c_op[14:0];
-	
-	assign zero = (a_op == 0);
-	assign cout = c_op[15];
-	assign overflow = 0;
-	assign neg = c[15];
 
+	always_comb begin
+		a_op[31:15] = 0;
+		b_op[31:15] = 0;
+		
+		a_op[14:0] = a[14:0];
+		b_op[14:0] = b[14:0];
+	end
+	
+	always_comb begin
+		if(a_op[7:0]) begin
+			c_op = ((a_op << 8) / b_op);
+		end
+		else begin
+			c_op = (a_op / b_op) << 8;
+		end
 
+		c[31:16] = 0;
+		c[15] = a[15] ^ b[15];
+		c[14:0] = c_op[14:0];
+	end
+	
+	always_comb begin
+		zero = (a_op == 0);
+		cout = c_op[15];
+		overflow = 0;
+		neg = c[15];
+	end
 endmodule

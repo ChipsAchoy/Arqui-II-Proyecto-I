@@ -61,22 +61,11 @@ mov r0, #1
 mov r1, #2
 mov r2, #2
 
-;r2 = r2 << 1 = 4
+;r2 = r2 << 1 = 4 **** NO SIRVE ****
 sll r2, r0
 
-;r2 = r2 << 2 = 16
+;r2 = r2 << 2 = 16 **** NO SIRVE ****
 sll r2, r1
 
-;r2 = r2 << 2 = 64
+;r2 = r2 << 2 = 64 **** NO SIRVE ****
 sll r2, r1
-
-; addv v1, v2, v3
-; subv v4, v2, v3
-; mulv v5, v2, v3
-; divv v6, v2, v3
-
-; str r1, r2
-; ldr r2, r3
-
-; strv v1, r2
-; ldrv v2, r3

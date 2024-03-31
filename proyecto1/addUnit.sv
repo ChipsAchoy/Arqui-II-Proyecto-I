@@ -5,12 +5,14 @@ module addUnit #(parameter N=32)(
 
 	logic [15:0] a_op, b_op, c_op;
 	
-	assign a_op[14:0] = a[14:0];
-	assign b_op[14:0] = b[14:0];
-	
-	assign a_op[15] = 0;
-	assign b_op[15] = 0;
-	
+	always_comb begin
+		a_op[14:0] = a[14:0];
+		b_op[14:0] = b[14:0];
+		
+		a_op[15] = 0;
+		b_op[15] = 0;
+	end
+
 	always_comb begin
 		if((~a[15] & b[15]) | (a[15] & ~b[15])) begin
 			c_op = (a_op < b_op) ? (b_op - a_op) : (a_op - b_op);
