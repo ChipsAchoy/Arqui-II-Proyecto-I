@@ -317,8 +317,9 @@ def resolve_dependencies(instructions, labels):
             new_instructions.append('nop')
             new_instructions.append('nop')
             for label in labels:
-                if(label['pc'] == current_pc):
+                if(label['pc'] == current_pc and not label['updated']):
                     label['pc'] += 8
+                    label['updated'] = True
                     print(f'Updating Label "{label["label_name"]}" PC from {current_pc} to {label["pc"]}')
         
     for instruction in new_instructions:
@@ -339,7 +340,7 @@ def read_instructions(instructions_file):
         if(instruction == '' or instruction[0] == ';'):
             continue
         elif(instruction[-1] == ':'):
-            label = {'label_name': instruction[:-1], 'pc': pc}
+            label = {'label_name': instruction[:-1], 'pc': pc, 'updated': False}
             labels.append(label)
             continue
         else:
