@@ -1,0 +1,8 @@
+add wave -position insertpoint  \
+sim:/data_instructions_tb/dut/PR/CPU/clk
+add wave -position insertpoint  \
+sim:/data_instructions_tb/dut/PR/CPU/pc
+add wave -position insertpoint  \
+sim:/data_instructions_tb/dut/PR/CPU/instructionD
+add wave -position insertpoint  \
+sim:/data_instructions_tb/dut/PR/CPU/R0/rf_s

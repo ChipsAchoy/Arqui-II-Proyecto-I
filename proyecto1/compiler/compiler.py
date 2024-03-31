@@ -207,30 +207,32 @@ def compile_instructions(instructions, labels, compiled_file):
     for instruction in instructions:
         print('-'*75)
         if(instruction == 'nop'):
-            instruction_nibbles = stall_instruction()
+            instruction_bytes = stall_instruction()
             print(f'Adding Stall...')
-            print(instruction_nibbles)
+            print(instruction_bytes)
             print(f'PC: {pc}')
         else:
             cmd_key, operands = split_instruction(instruction)
             instruction_blocks = decode_instruction(cmd_key, operands, labels)
             instruction_bits = "".join(instruction_blocks)
-            instruction_nibbles = split_bytes(instruction_bits)
+            instruction_bytes = split_bytes(instruction_bits)
             
             print(instruction)
             print(instruction_blocks)
-            print(instruction_nibbles)
+            print(instruction_bytes)
             print(f'PC: {pc}')
             print(f'Instruction length: {len(instruction_bits)}')
         print('-'*75)
 
-        for nibble in instruction_nibbles:
-            compiled_file.write(f'{nibble}\n')
+        for byte in instruction_bytes:
+            hex_byte = '{:02x}'.format(int(byte, 2))
+            compiled_file.write(f'{hex_byte}\n')
             pc += 1
 
     while pc < MEMORY_SIZE:
         for STALL_BYTE in STALL_BYTES:
-            compiled_file.write(f'{STALL_BYTE}\n')
+            hex_byte = '{:02x}'.format(int(STALL_BYTE, 2))
+            compiled_file.write(f'{hex_byte}\n')
             pc += 1
 
 
@@ -295,7 +297,7 @@ def resolve_dependencies(instructions, labels):
     
     print('-'*100)
     for index in range (len(instructions)):
-        current_pc = index * 8
+        current_pc = index * 4
         instruction_0 = instructions[index]
         
         new_instructions.append(instruction_0)
@@ -315,8 +317,9 @@ def resolve_dependencies(instructions, labels):
             new_instructions.append('nop')
             new_instructions.append('nop')
             for label in labels:
-                if(label['pc'] == current_pc):
+                if(label['pc'] == current_pc and not label['updated']):
                     label['pc'] += 8
+                    label['updated'] = True
                     print(f'Updating Label "{label["label_name"]}" PC from {current_pc} to {label["pc"]}')
         
     for instruction in new_instructions:
@@ -337,7 +340,7 @@ def read_instructions(instructions_file):
         if(instruction == '' or instruction[0] == ';'):
             continue
         elif(instruction[-1] == ':'):
-            label = {'label_name': instruction[:-1], 'pc': pc}
+            label = {'label_name': instruction[:-1], 'pc': pc, 'updated': False}
             labels.append(label)
             continue
         else:
@@ -348,11 +351,8 @@ def read_instructions(instructions_file):
 
   
 def main():
-    # instructions_file_path = sys.argv[1]
-    # compiled_file_path = sys.argv[2]
-    # instructions_file_path = './tests/instructions.asm'
-    instructions_file_path = './tests/branches.asm'
-    compiled_file_path = './compiled_instructions.mem'
+    instructions_file_path = sys.argv[1]
+    compiled_file_path = sys.argv[2]
 
     if(os.path.exists(compiled_file_path)):
         os.remove(compiled_file_path)
