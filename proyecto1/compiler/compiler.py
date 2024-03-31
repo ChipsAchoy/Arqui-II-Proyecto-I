@@ -297,7 +297,7 @@ def resolve_dependencies(instructions, labels):
     
     print('-'*100)
     for index in range (len(instructions)):
-        current_pc = index * 8
+        current_pc = index * 4
         instruction_0 = instructions[index]
         
         new_instructions.append(instruction_0)
