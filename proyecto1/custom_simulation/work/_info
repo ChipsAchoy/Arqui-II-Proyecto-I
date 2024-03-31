@@ -1,0 +1,2183 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/rijegaro
+vadder
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1711861789
+!i10b 1
+!s100 H3L[;I?]HD`L@o8O;oToz2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IH`NCZF;6PelI9kC_9?JEX3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 d/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/custom_simulation
+Z5 w1710872834
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/adder_alu.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/adder_alu.sv
+!i122 952
+L0 3 74
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1711861789.000000
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/adder_alu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/adder_alu.sv|
+!i113 1
+Z8 o-work work -sv
+Z9 tCvgOpt 0
+vaddUnit
+R0
+R1
+!i10b 1
+!s100 4KJQGW1zA:zdYiMJcC`4@1
+R2
+Ief@Z>;MNUm@TiSzjfz[nM3
+R3
+S1
+R4
+w1711861718
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/addUnit.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/addUnit.sv
+!i122 953
+Z10 L0 1 46
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/addUnit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/addUnit.sv|
+!i113 1
+R8
+R9
+nadd@unit
+valu
+R0
+R1
+!i10b 1
+!s100 hSKK=>z3>nl6N>hAG_[R62
+R2
+Ik1Y>NS]]4JQU02`WDOhN13
+R3
+S1
+R4
+Z11 w1711842244
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv
+!i122 954
+L0 1 107
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv|
+!i113 1
+R8
+R9
+valu_TB
+R0
+R1
+!i10b 1
+!s100 ]oGoH9YmTVAQ`9CQWOkb:2
+R2
+I2NXdS`U<e::eYTTo]IF@B1
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu_TB.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu_TB.sv
+!i122 955
+L0 5 21
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu_TB.sv|
+!i113 1
+R8
+R9
+nalu_@t@b
+vAluDecoder
+R0
+R1
+!i10b 1
+!s100 HzofXhcJBj0kCIeVU9cII1
+R2
+I?d:T?ll]Am09^G@LcThPP3
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/AluDecoder.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/AluDecoder.sv
+!i122 956
+Z12 L0 2 17
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/AluDecoder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/AluDecoder.sv|
+!i113 1
+R8
+R9
+n@alu@decoder
+vand_gate
+R0
+Z13 !s110 1711861791
+!i10b 1
+!s100 JlI34_L0o8?;[S52i_QRY2
+R2
+I;IZL[@3Dc6Eoc8CIAmBza2
+R3
+S1
+R4
+R5
+Z14 8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+Z15 F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+!i122 999
+L0 12 8
+R6
+r1
+!s85 0
+31
+Z16 !s108 1711861791.000000
+Z17 !s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv|
+Z18 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv|
+!i113 1
+R8
+R9
+vArduinoAdd_p1
+R0
+R1
+!i10b 1
+!s100 k72]>bPz931l]F8An=cAF2
+R2
+IWk4?M?`9E?A0a_fEfIgzk1
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ArduinoAdd_p1.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ArduinoAdd_p1.sv
+!i122 957
+L0 3 7
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ArduinoAdd_p1.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ArduinoAdd_p1.sv|
+!i113 1
+R8
+R9
+n@arduino@add_p1
+vArduinoLogic
+R0
+R1
+!i10b 1
+!s100 <om0Pf9iJZTUmG_`ACRPR3
+R2
+I[fcS^1ezZZJJgQ^j;M2k20
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ArduinoLogic.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ArduinoLogic.sv
+!i122 958
+Z19 L0 2 19
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ArduinoLogic.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ArduinoLogic.sv|
+!i113 1
+R8
+R9
+n@arduino@logic
+varith_alu
+R0
+R1
+!i10b 1
+!s100 C_<V4SzDa=iROEi?fW7SX3
+R2
+I=U<CoUiNJaH4ocZ[==9OW3
+R3
+S1
+R4
+R5
+Z20 8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+Z21 F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+!i122 959
+L0 6 50
+R6
+r1
+!s85 0
+31
+R7
+Z22 !s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv|
+Z23 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv|
+!i113 1
+R8
+R9
+vbit_compare
+R0
+R1
+!i10b 1
+!s100 E2SC0L^:6@X:55JC7>;ll2
+R2
+I@LVLg7A9KYJ>GR_>QhVZf2
+R3
+S1
+R4
+R5
+R20
+R21
+!i122 959
+L0 190 9
+R6
+r1
+!s85 0
+31
+R7
+R22
+R23
+!i113 1
+R8
+R9
+vChipSet
+R0
+R1
+!i10b 1
+!s100 OX;aO7Y<D9EVA9iJ6FF:E3
+R2
+I6L:IleDSoY756@VV<W1W^1
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ChipSet.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ChipSet.sv
+!i122 960
+L0 1 25
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ChipSet.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ChipSet.sv|
+!i113 1
+R8
+R9
+n@chip@set
+vCommonregister
+R0
+R1
+!i10b 1
+!s100 _>mn?4E^BoglMbY`L9PPi2
+R2
+I@LjXnQFka<Da`DR]AZ[mT2
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Commonregister.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Commonregister.sv
+!i122 961
+Z24 L0 2 12
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Commonregister.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Commonregister.sv|
+!i113 1
+R8
+R9
+n@commonregister
+vCommonregister_4
+R0
+R1
+!i10b 1
+!s100 Lg5cOTY>ZOFR;0FAZiXf10
+R2
+IS>XXg=Xe1cHQM=SCR`5BB0
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Commonregister_4.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Commonregister_4.sv
+!i122 962
+R24
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Commonregister_4.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Commonregister_4.sv|
+!i113 1
+R8
+R9
+n@commonregister_4
+vConditionCheck
+R0
+R1
+!i10b 1
+!s100 f9@IJPX`Q<hdjd3`oQi:51
+R2
+ID]_D1jW<^2za:1Ebgb2Fi0
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionCheck.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionCheck.sv
+!i122 963
+L0 2 42
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionCheck.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionCheck.sv|
+!i113 1
+R8
+R9
+n@condition@check
+vConditionLogic
+R0
+R1
+!i10b 1
+!s100 JAne7f8NPTc[8Ngg9NQVF1
+R2
+I4e:Ymn5zUJe?gF1Q3G8J50
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionLogic.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionLogic.sv
+!i122 964
+L0 2 54
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionLogic.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionLogic.sv|
+!i113 1
+R8
+R9
+n@condition@logic
+vcontadorXY
+R0
+R1
+!i10b 1
+!s100 ]cCVAl>BX^4dBn4IcaB;91
+R2
+IeJmW?Zmda_31VXz>dlSUO2
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/contadorXY.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/contadorXY.sv
+!i122 965
+Z25 L0 2 26
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/contadorXY.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/contadorXY.sv|
+!i113 1
+R8
+R9
+ncontador@x@y
+vcontroladorVGA
+R0
+R1
+!i10b 1
+!s100 LVUFT>37cW52aNIF^8Ogi2
+R2
+IZiL2?TX1`<jYdM@6_F^Hk0
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/controladorVGA.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/controladorVGA.sv
+!i122 966
+L0 3 31
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/controladorVGA.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/controladorVGA.sv|
+!i113 1
+R8
+R9
+ncontrolador@v@g@a
+vControlUnit
+R0
+R1
+!i10b 1
+!s100 W@^3bFmWEjAkVUOOj=2k_0
+R2
+IWG9[Y9I0zK16MoC]Eh5W43
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ControlUnit.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ControlUnit.sv
+!i122 967
+L0 2 21
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ControlUnit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ControlUnit.sv|
+!i113 1
+R8
+R9
+n@control@unit
+vcpu
+R0
+Z26 !s110 1711861790
+!i10b 1
+!s100 M[ICf9@@]KenOi4fVILH=1
+R2
+I2h1jPzYMl:MaER3YX=8j81
+R3
+S1
+R4
+Z27 w1710873095
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv
+!i122 968
+Z28 L0 2 100
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv|
+!i113 1
+R8
+R9
+vdata_instructions_tb
+R0
+Z29 !s110 1711861792
+!i10b 1
+!s100 V1NYL]B`TzJ@VTG:1Tn7o0
+R2
+I;O<D16<L>mb7nSdQMcP6a1
+R3
+S1
+R4
+w1711848701
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/tests/data_instructions_tb.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/tests/data_instructions_tb.sv
+!i122 1038
+L0 3 29
+R6
+r1
+!s85 0
+31
+Z30 !s108 1711861792.000000
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/tests/data_instructions_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/tests/data_instructions_tb.sv|
+!i113 1
+R8
+R9
+vDataMemory
+R26
+!i10b 1
+!s100 O2Bj=Be;TAUXed6do6QU;3
+R2
+Iacjo=?zMOlPF`2_^J?OmS3
+R3
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DataMemory_bb.v
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DataMemory_bb.v
+!i122 971
+Z31 L0 35 33
+R6
+r1
+!s85 0
+31
+Z32 !s108 1711861790.000000
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DataMemory_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DataMemory_bb.v|
+!i113 1
+Z33 o-work work
+R9
+n@data@memory
+vdataMemoryRam
+R26
+!i10b 1
+!s100 4Z0YR0BD60GW38X6D<l1^0
+R2
+IS8mEkGK]LaRoQ5elF`>?`1
+R3
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemoryRam_bb.v
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemoryRam_bb.v
+!i122 973
+Z34 L0 35 39
+R6
+r1
+!s85 0
+31
+R32
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemoryRam_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemoryRam_bb.v|
+!i113 1
+R33
+R9
+ndata@memory@ram
+vdataMemoryROM
+R26
+!i10b 1
+!s100 `i]:U3V9=T2]Ai[[BCdm:0
+R2
+I>1Hzi<hMN5i99<z_Yj?_a0
+R3
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemoryROM_bb.v
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemoryROM_bb.v
+!i122 975
+Z35 L0 35 17
+R6
+r1
+!s85 0
+31
+R32
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemoryROM_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemoryROM_bb.v|
+!i113 1
+R33
+R9
+ndata@memory@r@o@m
+vdataMemRAM
+R26
+!i10b 1
+!s100 zDC]ZZOd;of7OVaT5cgmk2
+R2
+IW33oe3>47R>G`dXl07A[63
+R3
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemRAM_bb.v
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemRAM_bb.v
+!i122 977
+R31
+R6
+r1
+!s85 0
+31
+R32
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemRAM_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemRAM_bb.v|
+!i113 1
+R33
+R9
+ndata@mem@r@a@m
+vdataMemRom
+R26
+!i10b 1
+!s100 LZ_oMXlfYJGBLUY^5c_T92
+R2
+IKg_Bb_Hn=EgnREXlWFmQo1
+R3
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemRom_bb.v
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemRom_bb.v
+!i122 979
+R35
+R6
+r1
+!s85 0
+31
+R32
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemRom_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemRom_bb.v|
+!i113 1
+R33
+R9
+ndata@mem@rom
+vDecoder
+R0
+R26
+!i10b 1
+!s100 ]@cDXW=[EUJTJJ5ZQDkZd3
+R2
+I8d>e;LN7CdG4kW^4NPjGc1
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Decoder.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Decoder.sv
+!i122 980
+L0 2 16
+R6
+r1
+!s85 0
+31
+R32
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Decoder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Decoder.sv|
+!i113 1
+R8
+R9
+n@decoder
+vdivisorClock
+R0
+R26
+!i10b 1
+!s100 g>mjolR[EYYWCQX:`;SCM0
+R2
+I7mSD7dVaGbHgBJeY@?gF?0
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/divisorClock.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/divisorClock.sv
+!i122 981
+L0 4 11
+R6
+r1
+!s85 0
+31
+R32
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/divisorClock.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/divisorClock.sv|
+!i113 1
+R8
+R9
+ndivisor@clock
+vdivUnit
+R0
+R26
+!i10b 1
+!s100 FkH;z8ea:IQ?96F225lXf2
+R2
+IFW?OHLBzjcFjEj0MCf[EG1
+R3
+S1
+R4
+R11
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/divUnit.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/divUnit.sv
+!i122 982
+L0 2 22
+R6
+r1
+!s85 0
+31
+R32
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/divUnit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/divUnit.sv|
+!i113 1
+R8
+R9
+ndiv@unit
+vDRAMMem
+R26
+!i10b 1
+!s100 HA;Uj6hn1<C?H>4W2RGcT1
+R2
+I>V:0BGhBmD>F`][TE13`z3
+R3
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DRAMMem_bb.v
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DRAMMem_bb.v
+!i122 984
+Z36 L0 35 24
+R6
+r1
+!s85 0
+31
+R32
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DRAMMem_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DRAMMem_bb.v|
+!i113 1
+R33
+R9
+n@d@r@a@m@mem
+vDRAMMemory
+R26
+!i10b 1
+!s100 zhWMA]bdUd7`EBi[cko9R1
+R2
+IQI^zf]h`^76odL1Dd9@GI2
+R3
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DRAMMemory_bb.v
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DRAMMemory_bb.v
+!i122 986
+R36
+R6
+r1
+!s85 0
+31
+R32
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DRAMMemory_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DRAMMemory_bb.v|
+!i113 1
+R33
+R9
+n@d@r@a@m@memory
+vDRAMMemoryArd
+R26
+!i10b 1
+!s100 an<hziYB?CLo:B]PiAOd;2
+R2
+Ie[?6KE5kP;U>FWkoT5SZl2
+R3
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DRAMMemoryArd_bb.v
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DRAMMemoryArd_bb.v
+!i122 988
+L0 35 34
+R6
+r1
+!s85 0
+31
+R32
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DRAMMemoryArd_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DRAMMemoryArd_bb.v|
+!i113 1
+R33
+R9
+n@d@r@a@m@memory@ard
+vDROMMemory
+R26
+!i10b 1
+!s100 PDhE@HFoz^P>eT]JGFN4d0
+R2
+I>LV_?G`HEiWmAh8DmI2]82
+R3
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DROMMemory_bb.v
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DROMMemory_bb.v
+!i122 990
+Z37 L0 35 20
+R6
+r1
+!s85 0
+31
+R32
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DROMMemory_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DROMMemory_bb.v|
+!i113 1
+R33
+R9
+n@d@r@o@m@memory
+vExtend
+R0
+R26
+!i10b 1
+!s100 nRji7KDdX4g=l;GC9P_e_2
+R2
+Ii5Ze0c:<?>Z:^VUW>ZLSm2
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Extend.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Extend.sv
+!i122 991
+R25
+R6
+r1
+!s85 0
+31
+R32
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Extend.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Extend.sv|
+!i113 1
+R8
+R9
+n@extend
+vfull_adder
+R0
+R1
+!i10b 1
+!s100 LzURl4BCRZT<[Jz=H0DFQ2
+R2
+IK=MdN;LJ122OT2;S]g7CY0
+R3
+S1
+R4
+R5
+R20
+R21
+!i122 959
+L0 164 6
+R6
+r1
+!s85 0
+31
+R7
+R22
+R23
+!i113 1
+R8
+R9
+vimage
+R26
+!i10b 1
+!s100 Oe6BMMLE?@YmnOK80l<Ei3
+R2
+Ih?OC0hc96TQ11<RX[9ZUD0
+R3
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/image_bb.v
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/image_bb.v
+!i122 993
+R31
+R6
+r1
+!s85 0
+31
+R32
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/image_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/image_bb.v|
+!i113 1
+R33
+R9
+vinstRegister
+R0
+R13
+!i10b 1
+!s100 KGE=>z^nj0gzF7a4KmChZ2
+R2
+I0Xk2PId5km7izll5[@eeC2
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/instRegister.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/instRegister.sv
+!i122 994
+R24
+R6
+r1
+!s85 0
+31
+R16
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/instRegister.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/instRegister.sv|
+!i113 1
+R8
+R9
+ninst@register
+vinstruction_mem
+R13
+!i10b 1
+!s100 f4F:[6RMg2DY1:C9Ja35C2
+R2
+IY4m^JVbSmJCESGW[RiWd82
+R3
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/instruction_mem_bb.v
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/instruction_mem_bb.v
+!i122 996
+R35
+R6
+r1
+!s85 0
+31
+R16
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/instruction_mem_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/instruction_mem_bb.v|
+!i113 1
+R33
+R9
+vinstruction_TB
+R0
+R13
+!i10b 1
+!s100 ZgZWTIzPnBcN262[UPk_Z0
+R2
+IDN??Kz>d[lc9HW2JM4JIY3
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/instruction_TB.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/instruction_TB.sv
+!i122 997
+L0 3 36
+R6
+r1
+!s85 0
+31
+R16
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/instruction_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/instruction_TB.sv|
+!i113 1
+R8
+R9
+ninstruction_@t@b
+vInstructionMemory
+R0
+R13
+!i10b 1
+!s100 ^3`X0VEDE5_8bVj1lHaRd0
+R2
+IIg=LD^`^7^QiGdKn:TZ9K0
+R3
+S1
+R4
+w1711846568
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv
+!i122 998
+L0 1 19
+R6
+r1
+!s85 0
+31
+R16
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv|
+!i113 1
+R8
+R9
+n@instruction@memory
+vlogic_alu
+R0
+R13
+!i10b 1
+!s100 3>Ce6hTeNCNQ;1GS=ZK3e0
+R2
+Igo7LU_32EQcb<Hmg?6kIe1
+R3
+S1
+R4
+R5
+R14
+R15
+!i122 999
+Z38 L0 1 10
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R8
+R9
+vMainDecoder
+R0
+R13
+!i10b 1
+!s100 g01?lmGn9moScQ^U@1hV20
+R2
+I]g<HoH:Ia5>F<en=C]d[>1
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/MainDecoder.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/MainDecoder.sv
+!i122 1000
+R12
+R6
+r1
+!s85 0
+31
+R16
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/MainDecoder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/MainDecoder.sv|
+!i113 1
+R8
+R9
+n@main@decoder
+vmem_control
+R0
+R13
+!i10b 1
+!s100 BgI<V>hbonC0azk:>JU`F0
+R2
+IRFWEXBA7LZSHiBkMA]?>=2
+R3
+S1
+R4
+Z39 w1710873096
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv
+!i122 1001
+L0 1 237
+R6
+r1
+!s85 0
+31
+R16
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv|
+!i113 1
+R8
+R9
+vmodUnit
+R0
+R13
+!i10b 1
+!s100 dV;@mVOHLE3^]4BdYibQh1
+R2
+I1fJ=46eXk6W[4XH[gcVH43
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/modUnit.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/modUnit.sv
+!i122 1002
+R19
+R6
+r1
+!s85 0
+31
+R16
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/modUnit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/modUnit.sv|
+!i113 1
+R8
+R9
+nmod@unit
+vmultiplyUnit
+R0
+R13
+!i10b 1
+!s100 =ZIW04DfePFcCa>DL4<oN1
+R2
+I;U@41?2jImgZ]OLmXP`NO0
+R3
+S1
+R4
+R11
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/multiplyUnit.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/multiplyUnit.sv
+!i122 1003
+L0 3 20
+R6
+r1
+!s85 0
+31
+R16
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/multiplyUnit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/multiplyUnit.sv|
+!i113 1
+R8
+R9
+nmultiply@unit
+vmux_2_to_1_32
+R0
+R13
+!i10b 1
+!s100 mhWi5=n`1@Te5fUoJ1Ydz1
+R2
+IlF;U6X1QDbZ`F@Y;dY35f2
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32.sv
+!i122 1006
+Z40 L0 1 11
+R6
+r1
+!s85 0
+31
+R16
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32.sv|
+!i113 1
+R8
+R9
+vmux_2_to_1_32_vec
+R0
+R13
+!i10b 1
+!s100 Ngn6lNfmz5?KWd]81`Y:h3
+R2
+I1nj4MhAXGA49?J7]97:cm1
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32_vec.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32_vec.sv
+!i122 1007
+R40
+R6
+r1
+!s85 0
+31
+R16
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32_vec.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32_vec.sv|
+!i113 1
+R8
+R9
+vmux_2_to_1_4
+R0
+R13
+!i10b 1
+!s100 U;D77Q9O[@KmY`o;f60df1
+R2
+I4?Mn^A;:>eATiScY`gmzU0
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_4.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_4.sv
+!i122 1005
+R38
+R6
+r1
+!s85 0
+31
+R16
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_4.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_4.sv|
+!i113 1
+R8
+R9
+vmux_3_to_1_32
+R0
+R13
+!i10b 1
+!s100 b;:4I5_?ol_:jYce7;Lo01
+R2
+Ih6oCViA@e^l[`5:HAnU>J0
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_3_to_1_32.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_3_to_1_32.sv
+!i122 1008
+L0 1 16
+R6
+r1
+!s85 0
+31
+R16
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_3_to_1_32.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_3_to_1_32.sv|
+!i113 1
+R8
+R9
+vn_bit_adder
+R0
+R1
+!i10b 1
+!s100 agImMXS0OnoSoKB5mf?8?3
+R2
+IGJH:l_FfS7oeh2n1Z9`Dj1
+R3
+S1
+R4
+R5
+R20
+R21
+!i122 959
+L0 127 10
+R6
+r1
+!s85 0
+31
+R7
+R22
+R23
+!i113 1
+R8
+R9
+vn_bit_adder_sub
+R0
+R1
+!i10b 1
+!s100 DE<1?nj]`Zd=Gh?O=?OL72
+R2
+I@z8g>N;YIKz9nOV[QnQ^n2
+R3
+S1
+R4
+R5
+R20
+R21
+!i122 959
+L0 138 21
+R6
+r1
+!s85 0
+31
+R7
+R22
+R23
+!i113 1
+R8
+R9
+vn_bit_compare
+R0
+R1
+!i10b 1
+!s100 ^L3G4QA57KLVhBMd?Bb?b1
+R2
+InFL5ISbjlNI[8c<hkG16Z0
+R3
+S1
+R4
+R5
+R20
+R21
+!i122 959
+L0 173 13
+R6
+r1
+!s85 0
+31
+R7
+R22
+R23
+!i113 1
+R8
+R9
+vn_bit_substractor
+R0
+R1
+!i10b 1
+!s100 Lh8@?Yl=W0^TS@gFPWbf`3
+R2
+IKQQcO>D=iL7>7lczcbI[d1
+R3
+S1
+R4
+R5
+R20
+R21
+!i122 959
+L0 91 35
+R6
+r1
+!s85 0
+31
+R7
+R22
+R23
+!i113 1
+R8
+R9
+vnot_gate
+R0
+R13
+!i10b 1
+!s100 nPj?De@TmP]mI[no@n@PP1
+R2
+IoanVoJ;lVPI_KZgZ[=aHW2
+R3
+S1
+R4
+R5
+R14
+R15
+!i122 999
+L0 42 8
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R8
+R9
+vor_gate
+R0
+R13
+!i10b 1
+!s100 V@J_TX:k:WONEWY_>>B]52
+R2
+Ik:h>lo^VjKoPHnj:h`QN=1
+R3
+S1
+R4
+R5
+R14
+R15
+!i122 999
+L0 24 8
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R8
+R9
+vPCLogic
+R0
+R13
+!i10b 1
+!s100 j8bSKA6Q[_lnSMzGo47eA1
+R2
+IEX5KHokHFF73ChN^<_iE01
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PCLogic.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PCLogic.sv
+!i122 1009
+L0 2 5
+R6
+r1
+!s85 0
+31
+R16
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PCLogic.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PCLogic.sv|
+!i113 1
+R8
+R9
+n@p@c@logic
+vpcRegister
+R0
+R13
+!i10b 1
+!s100 l64^6A2^]nP@VE:CKzOKg3
+R2
+I7RB1CoN54GL=mJSakH1XL2
+R3
+S1
+R4
+R11
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/pcRegister.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/pcRegister.sv
+!i122 1010
+Z41 L0 2 18
+R6
+r1
+!s85 0
+31
+R16
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/pcRegister.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/pcRegister.sv|
+!i113 1
+R8
+R9
+npc@register
+vperfRegister
+R0
+R13
+!i10b 1
+!s100 0<1LoDXZk6V?gPAP]@a2^3
+R2
+I3?1iPWnbCzeT7gcng`iW61
+R3
+S1
+R4
+R11
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/perfRegister.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/perfRegister.sv
+!i122 1011
+R41
+R6
+r1
+!s85 0
+31
+R16
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/perfRegister.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/perfRegister.sv|
+!i113 1
+R8
+R9
+nperf@register
+vPipeRegDE
+R0
+R13
+!i10b 1
+!s100 =CQI2MLHMU5G@Ul8Rz4QK0
+R2
+Iddmhgmlm2zc2D``04_R>I1
+R3
+S1
+R4
+R27
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegDE.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegDE.sv
+!i122 1012
+L0 1 112
+R6
+r1
+!s85 0
+31
+R16
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegDE.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegDE.sv|
+!i113 1
+R8
+R9
+n@pipe@reg@d@e
+vPipeRegEM
+R0
+R13
+!i10b 1
+!s100 aDY2L>[CJd;h2]I;X520]3
+R2
+Ibb@WVF7DYF=iDz6=B4Zmz2
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegEM.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegEM.sv
+!i122 1013
+L0 1 69
+R6
+r1
+!s85 0
+31
+R16
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegEM.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegEM.sv|
+!i113 1
+R8
+R9
+n@pipe@reg@e@m
+vPipeRegFD
+R0
+R13
+!i10b 1
+!s100 5IDJ[n8K4LCkObEAkK:G60
+R2
+IL@21M`MV=_e4nJOkZzRI=3
+R3
+S1
+R4
+R11
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegFD.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegFD.sv
+!i122 1014
+L0 1 57
+R6
+r1
+!s85 0
+31
+R16
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegFD.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegFD.sv|
+!i113 1
+R8
+R9
+n@pipe@reg@f@d
+vPipeRegMW
+R0
+R13
+!i10b 1
+!s100 X;1Ym?cXOP>1n@`afWKH53
+R2
+I;5[gYjg5XNO@UhjaXOc=W1
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegMW.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegMW.sv
+!i122 1015
+L0 1 63
+R6
+r1
+!s85 0
+31
+R16
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegMW.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegMW.sv|
+!i113 1
+R8
+R9
+n@pipe@reg@m@w
+vplus_n
+R0
+R13
+!i10b 1
+!s100 FK=IVlaTD2>_7GNDdC:ff1
+R2
+IOBU?1z3Wb_f>mZhaLmmWV1
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/plus_n.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/plus_n.sv
+!i122 1016
+Z42 L0 1 5
+R6
+r1
+!s85 0
+31
+R16
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/plus_n.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/plus_n.sv|
+!i113 1
+R8
+R9
+vprocesador
+R0
+R13
+!i10b 1
+!s100 P^;OVGbPf`Cd6F5P0aX?h1
+R2
+I0G@NKmZ?4a^=gJkkDFLR[1
+R3
+S1
+R4
+R11
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv
+!i122 1017
+R28
+R6
+r1
+!s85 0
+31
+R16
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv|
+!i113 1
+R8
+R9
+vprocesadorArm
+R0
+R29
+!i10b 1
+!s100 <X4WB`L7gZWbNP6LPQnEi0
+R2
+I9L_FDUK_RbicBzM?IQizY1
+R3
+S1
+R4
+R11
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesadorArm.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesadorArm.sv
+!i122 1018
+L0 2 10
+R6
+r1
+!s85 0
+31
+R30
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesadorArm.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesadorArm.sv|
+!i113 1
+R8
+R9
+nprocesador@arm
+vprogram_final_tb
+R0
+R29
+!i10b 1
+!s100 6T@IRBg`BT1E]1@f6n1jE1
+R2
+IP4Eg1ZS__gO6SEhHj<BUB2
+R3
+S1
+R4
+w1711842245
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_final_tb.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_final_tb.sv
+!i122 1019
+L0 2 45
+R6
+r1
+!s85 0
+31
+R30
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_final_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_final_tb.sv|
+!i113 1
+R8
+R9
+vprogram_tb
+R0
+R29
+!i10b 1
+!s100 <c[?VQelIJHi[ma9X^S5L3
+R2
+I>PO7=VWgP:_jC>OfPE]G61
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_tb.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_tb.sv
+!i122 1020
+L0 2 32
+R6
+r1
+!s85 0
+31
+R30
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_tb.sv|
+!i113 1
+R8
+R9
+vram
+R29
+!i10b 1
+!s100 FKXI52k9Bag]>HB4canh73
+R2
+IOUz7^R2]GDE22iYDXh8d13
+R3
+R4
+R39
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram.v
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram.v
+!i122 1021
+L0 40 69
+R6
+r1
+!s85 0
+31
+R30
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram.v|
+!i113 1
+R33
+R9
+vram2
+R29
+!i10b 1
+!s100 5RWGFMa0zfIRZh7@AoJRg3
+R2
+Iec>jF9ij=H;0g4bIQ@TVJ1
+R3
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram2_bb.v
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram2_bb.v
+!i122 1023
+R31
+R6
+r1
+!s85 0
+31
+R30
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram2_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram2_bb.v|
+!i113 1
+R33
+R9
+vRAM_ARD_tb
+R0
+R29
+!i10b 1
+!s100 Pfie5egClzb9Zkej7YK^61
+R2
+ImXAAJ2Y3FVYV74E<>GHne1
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RAM_ARD_tb.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RAM_ARD_tb.sv
+!i122 1024
+L0 3 72
+R6
+r1
+!s85 0
+31
+R30
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RAM_ARD_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RAM_ARD_tb.sv|
+!i113 1
+R8
+R9
+n@r@a@m_@a@r@d_tb
+vRAM_INC_tb
+R0
+R29
+!i10b 1
+!s100 GIOShHZ?Pc;4?lo3mk5X70
+R2
+IH?2MQJA_XIC>ci4nmU=XI1
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RAM_INC_tb.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RAM_INC_tb.sv
+!i122 1025
+L0 3 73
+R6
+r1
+!s85 0
+31
+R30
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RAM_INC_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RAM_INC_tb.sv|
+!i113 1
+R8
+R9
+n@r@a@m_@i@n@c_tb
+vram_tb
+R0
+R29
+!i10b 1
+!s100 e2NL0j]LAN6Z7MB:IB]m;1
+R2
+IbPjKfGdR0BZ8TfK1oPMK?0
+R3
+S1
+R4
+R39
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram_TB.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram_TB.sv
+!i122 1026
+L0 3 53
+R6
+r1
+!s85 0
+31
+R30
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram_TB.sv|
+!i113 1
+R8
+R9
+vRamDataMem
+R29
+!i10b 1
+!s100 FT;]7:b8AgE5PmFLlXUmK3
+R2
+IazzE@n?ZJ:zd0XmN2@]P83
+R3
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RamDataMem_bb.v
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RamDataMem_bb.v
+!i122 1028
+R34
+R6
+r1
+!s85 0
+31
+R30
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RamDataMem_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RamDataMem_bb.v|
+!i113 1
+R33
+R9
+n@ram@data@mem
+vregister_tb
+R0
+R29
+!i10b 1
+!s100 E[IN6<k0zV=HnU_[ZC9EI3
+R2
+I:5dlb;XKmLGQPY:1_Oez^3
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/register_tb.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/register_tb.sv
+!i122 1029
+L0 1 31
+R6
+r1
+!s85 0
+31
+R30
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/register_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/register_tb.sv|
+!i113 1
+R8
+R9
+vRegisterArduino
+R0
+R29
+!i10b 1
+!s100 SEGOa2eLH<V1@?RELA4hF3
+R2
+IR0kIMz`c=W8;F5z;YHimn0
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterArduino.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterArduino.sv
+!i122 1030
+L0 3 17
+R6
+r1
+!s85 0
+31
+R30
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterArduino.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterArduino.sv|
+!i113 1
+R8
+R9
+n@register@arduino
+vRegisterFile
+R0
+R29
+!i10b 1
+!s100 XO072?^nGAWo_@LlHlD@d3
+R2
+ISa[?O@9mLo?IznO;>2o942
+R3
+S1
+R4
+R11
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterFile.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterFile.sv
+!i122 1031
+L0 2 113
+R6
+r1
+!s85 0
+31
+R30
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterFile.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterFile.sv|
+!i113 1
+R8
+R9
+n@register@file
+vresultado
+R0
+R1
+!i10b 1
+!s100 Bb5e^X_>J6:Sd:cK1eDGS3
+R2
+I=]JVV7_7MOVXz5a65;F:A0
+R3
+S1
+R4
+R5
+R20
+R21
+!i122 959
+L0 59 30
+R6
+r1
+!s85 0
+31
+R7
+R22
+R23
+!i113 1
+R8
+R9
+vrom_TB
+R0
+R29
+!i10b 1
+!s100 8AdU:2GEVCb4>WAc?jim83
+R2
+I6RUA`L@Sn`S]_8AY4i5i10
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/rom_TB.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/rom_TB.sv
+!i122 1032
+L0 3 43
+R6
+r1
+!s85 0
+31
+R30
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/rom_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/rom_TB.sv|
+!i113 1
+R8
+R9
+nrom_@t@b
+vRomDataMem
+R29
+!i10b 1
+!s100 :bnK;JO@8CO7cfO=T97i`3
+R2
+I6k^ziYd:O@7NQn:RFE9;12
+R3
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RomDataMem_bb.v
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RomDataMem_bb.v
+!i122 1034
+R37
+R6
+r1
+!s85 0
+31
+R30
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RomDataMem_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RomDataMem_bb.v|
+!i113 1
+R33
+R9
+n@rom@data@mem
+vshift_a
+R0
+R1
+!i10b 1
+!s100 znJ7WWNGJ3Hf<0@g?hmLR3
+R2
+I2WeSkM`1A0GUk_]H6^2h43
+R3
+S1
+R4
+R5
+R20
+R21
+!i122 959
+L0 214 3
+R6
+r1
+!s85 0
+31
+R7
+R22
+R23
+!i113 1
+R8
+R9
+vshiftL_gate
+R0
+R13
+!i10b 1
+!s100 o>9QNUga@kjKQ:09;>6<Q2
+R2
+I]F[@@4`5@E=4C5J6X3PIB2
+R3
+S1
+R4
+R5
+R14
+R15
+!i122 999
+L0 61 9
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R8
+R9
+nshift@l_gate
+vshiftR_arith
+R0
+R1
+!i10b 1
+!s100 0Rf^33[;:3A6kRUUC23773
+R2
+I:PY<VSn1N9;N5j?HD[YK11
+R3
+S1
+R4
+R5
+R20
+R21
+!i122 959
+L0 201 10
+R6
+r1
+!s85 0
+31
+R7
+R22
+R23
+!i113 1
+R8
+R9
+nshift@r_arith
+vshiftR_gate
+R0
+R13
+!i10b 1
+!s100 k8395K?Udh@aIGIJ@7>be0
+R2
+I6OoNG0o<aFUAbX6AX^K5n2
+R3
+S1
+R4
+R5
+R14
+R15
+!i122 999
+L0 51 9
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R8
+R9
+nshift@r_gate
+vsubUnit
+R0
+R29
+!i10b 1
+!s100 5kD=0UeUif>7d[eI]F[MB3
+R2
+I5Zz;BF5GC0fkb@;fh;^J<0
+R3
+S1
+R4
+w1711861723
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/subUnit.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/subUnit.sv
+!i122 1035
+R10
+R6
+r1
+!s85 0
+31
+R30
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/subUnit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/subUnit.sv|
+!i113 1
+R8
+R9
+nsub@unit
+vvideocontroller
+R0
+R29
+!i10b 1
+!s100 eRPl=5NN[I3@NeCTPmGeU2
+R2
+If[60k:hm9Z5NP]_I<a4_a3
+R3
+S1
+R4
+w1710872835
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/videocontroller.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/videocontroller.sv
+!i122 1036
+L0 3 13
+R6
+r1
+!s85 0
+31
+R30
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/videocontroller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/videocontroller.sv|
+!i113 1
+R8
+R9
+vWriteToMIF
+R0
+R29
+!i10b 1
+!s100 dG3N5o[_@Lk`VD`@oB3Dh0
+R2
+I56VmY?=19R3:nlhEU9J?K2
+R3
+S1
+R4
+R5
+8/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/WriteToMIF.sv
+F/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/WriteToMIF.sv
+!i122 1037
+R42
+R6
+r1
+!s85 0
+31
+R30
+!s107 /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/WriteToMIF.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/WriteToMIF.sv|
+!i113 1
+R8
+R9
+n@write@to@m@i@f
+vxor_gate
+R0
+R13
+!i10b 1
+!s100 :EN;l7?eEGVJg2?WEN_Iz3
+R2
+IaT<7A>]ig0gg_m5A6z1>j0
+R3
+S1
+R4
+R5
+R14
+R15
+!i122 999
+L0 33 8
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R8
+R9

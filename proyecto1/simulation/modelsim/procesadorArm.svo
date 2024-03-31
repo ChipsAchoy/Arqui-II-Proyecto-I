@@ -17,7 +17,7 @@
 // PROGRAM "Quartus Prime"
 // VERSION "Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
 
-// DATE "03/21/2024 23:43:53"
+// DATE "03/30/2024 23:10:17"
 
 // 
 // Device: Altera 5CSEBA6U23I7 Package UFBGA672
@@ -31,39 +31,19 @@
 
 module procesadorArm (
 	clk,
-	clkArduino,
+	clk_step,
 	rst,
-	start,
-	dataIn,
-	dataArduino);
+	clk_select);
 input 	clk;
-input 	clkArduino;
+input 	clk_step;
 input 	rst;
-input 	start;
-input 	[7:0] dataIn;
-output 	[7:0] dataArduino;
+input 	clk_select;
 
 // Design Ports Information
 // clk	=>  Location: PIN_V11,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// clkArduino	=>  Location: PIN_Y15,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// clk_step	=>  Location: PIN_AE22,	 I/O Standard: 2.5 V,	 Current Strength: Default
 // rst	=>  Location: PIN_Y24,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// start	=>  Location: PIN_W24,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// dataIn[0]	=>  Location: PIN_AG25,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// dataIn[1]	=>  Location: PIN_AH26,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// dataIn[2]	=>  Location: PIN_AH24,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// dataIn[3]	=>  Location: PIN_AF25,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// dataIn[4]	=>  Location: PIN_AG23,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// dataIn[5]	=>  Location: PIN_AF23,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// dataIn[6]	=>  Location: PIN_AG24,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// dataIn[7]	=>  Location: PIN_AH22,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// dataArduino[0]	=>  Location: PIN_AC24,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// dataArduino[1]	=>  Location: PIN_AA15,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// dataArduino[2]	=>  Location: PIN_AD26,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// dataArduino[3]	=>  Location: PIN_AG28,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// dataArduino[4]	=>  Location: PIN_AF28,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// dataArduino[5]	=>  Location: PIN_AE25,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// dataArduino[6]	=>  Location: PIN_AF27,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// dataArduino[7]	=>  Location: PIN_AG26,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// clk_select	=>  Location: PIN_W14,	 I/O Standard: 2.5 V,	 Current Strength: Default
 
 
 wire gnd;
@@ -78,147 +58,11 @@ tri1 devclrn;
 tri1 devpor;
 tri1 devoe;
 wire \clk~input_o ;
-wire \clkArduino~input_o ;
+wire \clk_step~input_o ;
 wire \rst~input_o ;
-wire \start~input_o ;
-wire \dataIn[0]~input_o ;
-wire \dataIn[1]~input_o ;
-wire \dataIn[2]~input_o ;
-wire \dataIn[3]~input_o ;
-wire \dataIn[4]~input_o ;
-wire \dataIn[5]~input_o ;
-wire \dataIn[6]~input_o ;
-wire \dataIn[7]~input_o ;
+wire \clk_select~input_o ;
 wire \~QUARTUS_CREATED_GND~I_combout ;
 
-
-// Location: IOOBUF_X89_Y8_N39
-cyclonev_io_obuf \dataArduino[0]~output (
-	.i(gnd),
-	.oe(vcc),
-	.dynamicterminationcontrol(gnd),
-	.seriesterminationcontrol(16'b0000000000000000),
-	.parallelterminationcontrol(16'b0000000000000000),
-	.devoe(devoe),
-	.o(dataArduino[0]),
-	.obar());
-// synopsys translate_off
-defparam \dataArduino[0]~output .bus_hold = "false";
-defparam \dataArduino[0]~output .open_drain_output = "false";
-defparam \dataArduino[0]~output .shift_series_termination_control = "false";
-// synopsys translate_on
-
-// Location: IOOBUF_X64_Y0_N19
-cyclonev_io_obuf \dataArduino[1]~output (
-	.i(gnd),
-	.oe(vcc),
-	.dynamicterminationcontrol(gnd),
-	.seriesterminationcontrol(16'b0000000000000000),
-	.parallelterminationcontrol(16'b0000000000000000),
-	.devoe(devoe),
-	.o(dataArduino[1]),
-	.obar());
-// synopsys translate_off
-defparam \dataArduino[1]~output .bus_hold = "false";
-defparam \dataArduino[1]~output .open_drain_output = "false";
-defparam \dataArduino[1]~output .shift_series_termination_control = "false";
-// synopsys translate_on
-
-// Location: IOOBUF_X89_Y6_N56
-cyclonev_io_obuf \dataArduino[2]~output (
-	.i(gnd),
-	.oe(vcc),
-	.dynamicterminationcontrol(gnd),
-	.seriesterminationcontrol(16'b0000000000000000),
-	.parallelterminationcontrol(16'b0000000000000000),
-	.devoe(devoe),
-	.o(dataArduino[2]),
-	.obar());
-// synopsys translate_off
-defparam \dataArduino[2]~output .bus_hold = "false";
-defparam \dataArduino[2]~output .open_drain_output = "false";
-defparam \dataArduino[2]~output .shift_series_termination_control = "false";
-// synopsys translate_on
-
-// Location: IOOBUF_X86_Y0_N36
-cyclonev_io_obuf \dataArduino[3]~output (
-	.i(gnd),
-	.oe(vcc),
-	.dynamicterminationcontrol(gnd),
-	.seriesterminationcontrol(16'b0000000000000000),
-	.parallelterminationcontrol(16'b0000000000000000),
-	.devoe(devoe),
-	.o(dataArduino[3]),
-	.obar());
-// synopsys translate_off
-defparam \dataArduino[3]~output .bus_hold = "false";
-defparam \dataArduino[3]~output .open_drain_output = "false";
-defparam \dataArduino[3]~output .shift_series_termination_control = "false";
-// synopsys translate_on
-
-// Location: IOOBUF_X88_Y0_N54
-cyclonev_io_obuf \dataArduino[4]~output (
-	.i(gnd),
-	.oe(vcc),
-	.dynamicterminationcontrol(gnd),
-	.seriesterminationcontrol(16'b0000000000000000),
-	.parallelterminationcontrol(16'b0000000000000000),
-	.devoe(devoe),
-	.o(dataArduino[4]),
-	.obar());
-// synopsys translate_off
-defparam \dataArduino[4]~output .bus_hold = "false";
-defparam \dataArduino[4]~output .open_drain_output = "false";
-defparam \dataArduino[4]~output .shift_series_termination_control = "false";
-// synopsys translate_on
-
-// Location: IOOBUF_X89_Y6_N39
-cyclonev_io_obuf \dataArduino[5]~output (
-	.i(gnd),
-	.oe(vcc),
-	.dynamicterminationcontrol(gnd),
-	.seriesterminationcontrol(16'b0000000000000000),
-	.parallelterminationcontrol(16'b0000000000000000),
-	.devoe(devoe),
-	.o(dataArduino[5]),
-	.obar());
-// synopsys translate_off
-defparam \dataArduino[5]~output .bus_hold = "false";
-defparam \dataArduino[5]~output .open_drain_output = "false";
-defparam \dataArduino[5]~output .shift_series_termination_control = "false";
-// synopsys translate_on
-
-// Location: IOOBUF_X88_Y0_N37
-cyclonev_io_obuf \dataArduino[6]~output (
-	.i(gnd),
-	.oe(vcc),
-	.dynamicterminationcontrol(gnd),
-	.seriesterminationcontrol(16'b0000000000000000),
-	.parallelterminationcontrol(16'b0000000000000000),
-	.devoe(devoe),
-	.o(dataArduino[6]),
-	.obar());
-// synopsys translate_off
-defparam \dataArduino[6]~output .bus_hold = "false";
-defparam \dataArduino[6]~output .open_drain_output = "false";
-defparam \dataArduino[6]~output .shift_series_termination_control = "false";
-// synopsys translate_on
-
-// Location: IOOBUF_X82_Y0_N76
-cyclonev_io_obuf \dataArduino[7]~output (
-	.i(gnd),
-	.oe(vcc),
-	.dynamicterminationcontrol(gnd),
-	.seriesterminationcontrol(16'b0000000000000000),
-	.parallelterminationcontrol(16'b0000000000000000),
-	.devoe(devoe),
-	.o(dataArduino[7]),
-	.obar());
-// synopsys translate_off
-defparam \dataArduino[7]~output .bus_hold = "false";
-defparam \dataArduino[7]~output .open_drain_output = "false";
-defparam \dataArduino[7]~output .shift_series_termination_control = "false";
-// synopsys translate_on
 
 // Location: IOIBUF_X32_Y0_N1
 cyclonev_io_ibuf \clk~input (
@@ -231,15 +75,15 @@ defparam \clk~input .bus_hold = "false";
 defparam \clk~input .simulate_z_as = "z";
 // synopsys translate_on
 
-// Location: IOIBUF_X64_Y0_N1
-cyclonev_io_ibuf \clkArduino~input (
-	.i(clkArduino),
+// Location: IOIBUF_X76_Y0_N18
+cyclonev_io_ibuf \clk_step~input (
+	.i(clk_step),
 	.ibar(gnd),
 	.dynamicterminationcontrol(gnd),
-	.o(\clkArduino~input_o ));
+	.o(\clk_step~input_o ));
 // synopsys translate_off
-defparam \clkArduino~input .bus_hold = "false";
-defparam \clkArduino~input .simulate_z_as = "z";
+defparam \clk_step~input .bus_hold = "false";
+defparam \clk_step~input .simulate_z_as = "z";
 // synopsys translate_on
 
 // Location: IOIBUF_X89_Y25_N4
@@ -253,106 +97,18 @@ defparam \rst~input .bus_hold = "false";
 defparam \rst~input .simulate_z_as = "z";
 // synopsys translate_on
 
-// Location: IOIBUF_X89_Y25_N21
-cyclonev_io_ibuf \start~input (
-	.i(start),
+// Location: IOIBUF_X60_Y0_N1
+cyclonev_io_ibuf \clk_select~input (
+	.i(clk_select),
 	.ibar(gnd),
 	.dynamicterminationcontrol(gnd),
-	.o(\start~input_o ));
+	.o(\clk_select~input_o ));
 // synopsys translate_off
-defparam \start~input .bus_hold = "false";
-defparam \start~input .simulate_z_as = "z";
+defparam \clk_select~input .bus_hold = "false";
+defparam \clk_select~input .simulate_z_as = "z";
 // synopsys translate_on
 
-// Location: IOIBUF_X86_Y0_N18
-cyclonev_io_ibuf \dataIn[0]~input (
-	.i(dataIn[0]),
-	.ibar(gnd),
-	.dynamicterminationcontrol(gnd),
-	.o(\dataIn[0]~input_o ));
-// synopsys translate_off
-defparam \dataIn[0]~input .bus_hold = "false";
-defparam \dataIn[0]~input .simulate_z_as = "z";
-// synopsys translate_on
-
-// Location: IOIBUF_X84_Y0_N52
-cyclonev_io_ibuf \dataIn[1]~input (
-	.i(dataIn[1]),
-	.ibar(gnd),
-	.dynamicterminationcontrol(gnd),
-	.o(\dataIn[1]~input_o ));
-// synopsys translate_off
-defparam \dataIn[1]~input .bus_hold = "false";
-defparam \dataIn[1]~input .simulate_z_as = "z";
-// synopsys translate_on
-
-// Location: IOIBUF_X80_Y0_N52
-cyclonev_io_ibuf \dataIn[2]~input (
-	.i(dataIn[2]),
-	.ibar(gnd),
-	.dynamicterminationcontrol(gnd),
-	.o(\dataIn[2]~input_o ));
-// synopsys translate_off
-defparam \dataIn[2]~input .bus_hold = "false";
-defparam \dataIn[2]~input .simulate_z_as = "z";
-// synopsys translate_on
-
-// Location: IOIBUF_X86_Y0_N1
-cyclonev_io_ibuf \dataIn[3]~input (
-	.i(dataIn[3]),
-	.ibar(gnd),
-	.dynamicterminationcontrol(gnd),
-	.o(\dataIn[3]~input_o ));
-// synopsys translate_off
-defparam \dataIn[3]~input .bus_hold = "false";
-defparam \dataIn[3]~input .simulate_z_as = "z";
-// synopsys translate_on
-
-// Location: IOIBUF_X78_Y0_N1
-cyclonev_io_ibuf \dataIn[4]~input (
-	.i(dataIn[4]),
-	.ibar(gnd),
-	.dynamicterminationcontrol(gnd),
-	.o(\dataIn[4]~input_o ));
-// synopsys translate_off
-defparam \dataIn[4]~input .bus_hold = "false";
-defparam \dataIn[4]~input .simulate_z_as = "z";
-// synopsys translate_on
-
-// Location: IOIBUF_X78_Y0_N18
-cyclonev_io_ibuf \dataIn[5]~input (
-	.i(dataIn[5]),
-	.ibar(gnd),
-	.dynamicterminationcontrol(gnd),
-	.o(\dataIn[5]~input_o ));
-// synopsys translate_off
-defparam \dataIn[5]~input .bus_hold = "false";
-defparam \dataIn[5]~input .simulate_z_as = "z";
-// synopsys translate_on
-
-// Location: IOIBUF_X80_Y0_N35
-cyclonev_io_ibuf \dataIn[6]~input (
-	.i(dataIn[6]),
-	.ibar(gnd),
-	.dynamicterminationcontrol(gnd),
-	.o(\dataIn[6]~input_o ));
-// synopsys translate_off
-defparam \dataIn[6]~input .bus_hold = "false";
-defparam \dataIn[6]~input .simulate_z_as = "z";
-// synopsys translate_on
-
-// Location: IOIBUF_X78_Y0_N52
-cyclonev_io_ibuf \dataIn[7]~input (
-	.i(dataIn[7]),
-	.ibar(gnd),
-	.dynamicterminationcontrol(gnd),
-	.o(\dataIn[7]~input_o ));
-// synopsys translate_off
-defparam \dataIn[7]~input .bus_hold = "false";
-defparam \dataIn[7]~input .simulate_z_as = "z";
-// synopsys translate_on
-
-// Location: LABCELL_X74_Y36_N0
+// Location: LABCELL_X57_Y36_N0
 cyclonev_lcell_comb \~QUARTUS_CREATED_GND~I (
 // Equation(s):
 

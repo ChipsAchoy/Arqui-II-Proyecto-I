@@ -1,0 +1,1 @@
+python compiler.py ./tests/int_add_sub.asm ../custom_simulation/program.mem

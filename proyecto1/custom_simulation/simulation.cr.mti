@@ -1,0 +1,631 @@
+/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/pcRegister.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/pcRegister.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pcRegister
+
+Top level modules:
+	pcRegister
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ChipSet.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ChipSet.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ChipSet
+
+Top level modules:
+	ChipSet
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/instruction_mem_bb.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/instruction_mem_bb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module instruction_mem
+
+Top level modules:
+	instruction_mem
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux_2_to_1_32
+
+Top level modules:
+	mux_2_to_1_32
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Commonregister_4.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Commonregister_4.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Commonregister_4
+
+Top level modules:
+	Commonregister_4
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/arith_alu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module arith_alu
+-- Compiling module resultado
+-- Compiling module n_bit_substractor
+-- Compiling module n_bit_adder
+-- Compiling module n_bit_adder_sub
+-- Compiling module full_adder
+-- Compiling module n_bit_compare
+-- Compiling module bit_compare
+-- Compiling module shiftR_arith
+-- Compiling module shift_a
+
+Top level modules:
+	arith_alu
+	bit_compare
+	shift_a
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemRAM_bb.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemRAM_bb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dataMemRAM
+
+Top level modules:
+	dataMemRAM
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/register_tb.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/register_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register_tb
+
+Top level modules:
+	register_tb
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram2_bb.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram2_bb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ram2
+
+Top level modules:
+	ram2
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/rom_TB.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/rom_TB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rom_TB
+
+Top level modules:
+	rom_TB
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RAM_ARD_tb.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RAM_ARD_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RAM_ARD_tb
+
+Top level modules:
+	RAM_ARD_tb
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DataMemory_bb.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DataMemory_bb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataMemory
+
+Top level modules:
+	DataMemory
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux_2_to_1_32
+
+Top level modules:
+	mux_2_to_1_32
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RamDataMem.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RamDataMem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RamDataMem
+
+Top level modules:
+	RamDataMem
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32_vec.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32_vec.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux_2_to_1_32_vec
+
+Top level modules:
+	mux_2_to_1_32_vec
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Decoder.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Decoder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Decoder
+
+Top level modules:
+	Decoder
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RomDataMem_bb.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RomDataMem_bb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RomDataMem
+
+Top level modules:
+	RomDataMem
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/image.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/image.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module image
+
+Top level modules:
+	image
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RamDataMem_bb.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RamDataMem_bb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RamDataMem
+
+Top level modules:
+	RamDataMem
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/plus_n.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/plus_n.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module plus_n
+
+Top level modules:
+	plus_n
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/MainDecoder.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/MainDecoder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MainDecoder
+
+Top level modules:
+	MainDecoder
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/contadorXY.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/contadorXY.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module contadorXY
+
+Top level modules:
+	contadorXY
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemoryRam_bb.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemoryRam_bb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dataMemoryRam
+
+Top level modules:
+	dataMemoryRam
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DRAMMem_bb.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DRAMMem_bb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DRAMMem
+
+Top level modules:
+	DRAMMem
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ram
+
+Top level modules:
+	ram
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegDE.sv {2 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegDE.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PipeRegDE
+** Warning: /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegDE.sv(6): (vlog-13314) Defaulting port 'RD1D' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegDE.sv(7): (vlog-13314) Defaulting port 'RD2D' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	PipeRegDE
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/controladorVGA.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/controladorVGA.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controladorVGA
+
+Top level modules:
+	controladorVGA
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mem_control
+
+Top level modules:
+	mem_control
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu_TB.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu_TB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu_TB
+
+Top level modules:
+	alu_TB
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/multiplyUnit.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/multiplyUnit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplyUnit
+
+Top level modules:
+	multiplyUnit
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/modUnit.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/modUnit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module modUnit
+
+Top level modules:
+	modUnit
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/AluDecoder.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/AluDecoder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module AluDecoder
+
+Top level modules:
+	AluDecoder
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DataMemory.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DataMemory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataMemory
+
+Top level modules:
+	DataMemory
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Extend.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Extend.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Extend
+
+Top level modules:
+	Extend
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/adder_alu.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/adder_alu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module procesador
+
+Top level modules:
+	procesador
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/instRegister.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/instRegister.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module instRegister
+
+Top level modules:
+	instRegister
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterFile.sv {2 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterFile.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RegisterFile
+** Warning: /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterFile.sv(4): (vlog-13314) Defaulting port 'wd3' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	RegisterFile
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_tb.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module program_tb
+
+Top level modules:
+	program_tb
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionLogic.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionLogic.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ConditionLogic
+
+Top level modules:
+	ConditionLogic
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DRAMMemory_bb.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DRAMMemory_bb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DRAMMemory
+
+Top level modules:
+	DRAMMemory
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/instruction_mem.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/instruction_mem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module instruction_mem
+
+Top level modules:
+	instruction_mem
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ArduinoLogic.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ArduinoLogic.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ArduinoLogic
+
+Top level modules:
+	ArduinoLogic
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemoryRam.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemoryRam.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dataMemoryRam
+
+Top level modules:
+	dataMemoryRam
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DRAMMem.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DRAMMem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DRAMMem
+
+Top level modules:
+	DRAMMem
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/addUnit.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/addUnit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module addUnit
+
+Top level modules:
+	addUnit
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/subUnit.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/subUnit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module subUnit
+
+Top level modules:
+	subUnit
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesadorArm.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesadorArm.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module procesadorArm
+
+Top level modules:
+	procesadorArm
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_3_to_1_32.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_3_to_1_32.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux_3_to_1_32
+
+Top level modules:
+	mux_3_to_1_32
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemRom.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemRom.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dataMemRom
+
+Top level modules:
+	dataMemRom
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterArduino.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterArduino.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RegisterArduino
+
+Top level modules:
+	RegisterArduino
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv {2 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module cpu
+** Warning: /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv(3): (vlog-13314) Defaulting port 'dataRead_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	cpu
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ControlUnit.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ControlUnit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ControlUnit
+
+Top level modules:
+	ControlUnit
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DROMMemory_bb.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DROMMemory_bb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DROMMemory
+
+Top level modules:
+	DROMMemory
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram_TB.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram_TB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ram_tb
+
+Top level modules:
+	ram_tb
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram2.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ram2
+
+Top level modules:
+	ram2
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module logic_alu
+-- Compiling module and_gate
+-- Compiling module or_gate
+-- Compiling module xor_gate
+-- Compiling module not_gate
+-- Compiling module shiftR_gate
+-- Compiling module shiftL_gate
+
+Top level modules:
+	logic_alu
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DRAMMemoryArd.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DRAMMemoryArd.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DRAMMemoryArd
+
+Top level modules:
+	DRAMMemoryArd
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ArduinoAdd_p1.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ArduinoAdd_p1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ArduinoAdd_p1
+
+Top level modules:
+	ArduinoAdd_p1
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DataMemory.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DataMemory.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataMemory
+
+Top level modules:
+	DataMemory
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/divisorClock.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/divisorClock.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module divisorClock
+
+Top level modules:
+	divisorClock
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionCheck.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionCheck.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ConditionCheck
+
+Top level modules:
+	ConditionCheck
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemRom_bb.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemRom_bb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dataMemRom
+
+Top level modules:
+	dataMemRom
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/instruction_TB.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/instruction_TB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module instruction_TB
+
+Top level modules:
+	instruction_TB
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DROMMemory.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DROMMemory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DROMMemory
+
+Top level modules:
+	DROMMemory
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/WriteToMIF.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/WriteToMIF.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module WriteToMIF
+
+Top level modules:
+	WriteToMIF
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DRAMMemory.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DRAMMemory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DRAMMemory
+
+Top level modules:
+	DRAMMemory
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RomDataMem.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RomDataMem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RomDataMem
+
+Top level modules:
+	RomDataMem
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DRAMMemoryArd_bb.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/DRAMMemoryArd_bb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DRAMMemoryArd
+
+Top level modules:
+	DRAMMemoryArd
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RAM_INC_tb.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RAM_INC_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RAM_INC_tb
+
+Top level modules:
+	RAM_INC_tb
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_final_tb.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_final_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module program_final_tb
+
+Top level modules:
+	program_final_tb
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegFD.sv {2 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegFD.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PipeRegFD
+** Warning: /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegFD.sv(5): (vlog-13314) Defaulting port 'perf_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegFD.sv(18): (vlog-2597) '3221225472' is being treated as 32-bit signed integer and will overflow.
+
+Top level modules:
+	PipeRegFD
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegEM.sv {2 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegEM.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PipeRegEM
+** Warning: /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegEM.sv(6): (vlog-13314) Defaulting port 'ALUResultE' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegEM.sv(7): (vlog-13314) Defaulting port 'WriteDataE' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	PipeRegEM
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemoryROM.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemoryROM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dataMemoryROM
+
+Top level modules:
+	dataMemoryROM
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegMW.sv {2 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegMW.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PipeRegMW
+** Warning: /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegMW.sv(6): (vlog-13314) Defaulting port 'ALUOutM' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegMW.sv(7): (vlog-13314) Defaulting port 'ReadDataM' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	PipeRegMW
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_4.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_4.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux_2_to_1_4
+
+Top level modules:
+	mux_2_to_1_4
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PCLogic.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PCLogic.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PCLogic
+
+Top level modules:
+	PCLogic
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemoryROM_bb.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemoryROM_bb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dataMemoryROM
+
+Top level modules:
+	dataMemoryROM
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/perfRegister.sv {2 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/perfRegister.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module perfRegister
+** Warning: /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/perfRegister.sv(2): (vlog-13314) Defaulting port 'pcin' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	perfRegister
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/videocontroller.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/videocontroller.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module videocontroller
+
+Top level modules:
+	videocontroller
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/divUnit.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/divUnit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module divUnit
+
+Top level modules:
+	divUnit
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/image_bb.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/image_bb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module image
+
+Top level modules:
+	image
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/tests/data_instructions_tb.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/tests/data_instructions_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module data_instructions_tb
+
+Top level modules:
+	data_instructions_tb
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Commonregister.sv {1 {vlog -work work -sv -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Commonregister.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Commonregister
+
+Top level modules:
+	Commonregister
+
+} {} {}} /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemRAM.v {1 {vlog -work work -stats=none /home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/dataMemRAM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dataMemRAM
+
+Top level modules:
+	dataMemRAM
+
+} {} {}}

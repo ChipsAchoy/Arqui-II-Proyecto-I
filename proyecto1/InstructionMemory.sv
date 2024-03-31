@@ -5,7 +5,7 @@ module InstructionMemory(input clk,rst,
 	logic [7:0] rom [4000:0];
 	logic [31:0] outaux;
 	
-	initial $readmemh("program.mem", rom);
+	initial $readmemh("./program.mem", rom);
 	
 	always_ff @(posedge clk or posedge rst) begin
 	
