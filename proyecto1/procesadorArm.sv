@@ -1,10 +1,11 @@
 
-module procesadorArm(input logic clk, clkArduino, rst, start, 
-input logic [7:0] dataIn, output logic  [7:0] dataArduino);
+module procesadorArm(input logic clk, clk_step, rst, clk_select);
 
 	
 	
-	procesador PR(clk, clkArduino, rst, start, dataIn, dataArduino);
-				  
+	procesador PR(clk_final, rst);
+	
+
+	assign clk_final = (clk_select == 0) ? clk : clk_step;
 
 endmodule

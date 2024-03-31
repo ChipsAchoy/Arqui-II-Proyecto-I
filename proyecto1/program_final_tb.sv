@@ -2,14 +2,13 @@
 module program_final_tb();
 	
 	logic clk, rst;
-	logic  [7:0]r,g,b;
-	logic clk_25;
-	logic H_SYNC, V_SYNC, SYNC_B, SYNC_BLANK;
+	logic clk_step, clk_select;
 	
-	procesadorArm PARM(clk, clk_25, rst, clk, r,g);
+	procesadorArm PARM(clk, clk_step, rst, clk_select);
 	
 	initial begin 
-
+	
+		clk_select = 0;
 		rst = 0;
 		clk = 0;
 		#40

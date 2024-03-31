@@ -1,19 +1,23 @@
 
-module divUnit #(parameter N=32)(input logic [N-1:0] a,b, output logic [N-1:0] c, output cout, zero, overflow);
+module divUnit #(parameter N=32)(input logic [N-1:0] a,b, output logic [N-1:0] c, output cout, zero, overflow, neg);
 
 
-	logic [N+1:0] a_op, b_op, c_op;
+	logic [15:0] a_op, b_op, c_op;
 	
+	assign a_op[14:0] = a[14:0];
+	assign b_op[14:0] = b[14:0];
 	
-   assign a_op[N+1:N] = 2'b00;
-	assign b_op[N+1:N] = 2'b00;
-	assign a_op[N-1:0] = a;
-	assign b_op[N-1:0] = b;
+	assign a_op[15] = 0;
+	assign b_op[15] = 0;
+	
    assign c_op = a_op / b_op;
-	assign c = c_op[N-1:0];
+	assign c[14:0] = c_op[14:0];
+	assign c[31:16] = 0;
+	assign c[15] = a[15] ^ b[15];
 	assign zero = (a_op == 0);
-	assign cout = c_op[N];
-	assign overflow = c_op[N+1];
+	assign cout = c_op[15];
+	assign overflow = 0;
+	assign neg = c[15];
 
 
 endmodule
