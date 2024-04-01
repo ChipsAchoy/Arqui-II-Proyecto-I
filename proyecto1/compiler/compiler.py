@@ -84,7 +84,7 @@ def branch_instruction(op_code, cond_key, branch_label, labels):
                 if(cond == None):
                     raise Exception(f'Invalid condition: {cond_key}')
                 
-                label_pc = to_binary_string(label['pc'], 16)
+                label_pc = to_binary_string(label['current_pc'], 16)
                 label_pc = split_bytes(label_pc)
                 
                 return [op_code, cmd, ind, cond, EMPTY_NIBBLE] + label_pc
@@ -172,7 +172,7 @@ def get_inst_type(cmd_key):
             cmd = inst_type['cmd'][cmd_key]
             type = inst_type['type']
             return op_code, cmd, type
-
+        
     raise Exception(f'Error: invalid operation "{cmd_key}"')
 
 
@@ -202,10 +202,11 @@ def split_instruction(instruction):
     return cmd_key, operands
 
 
-def compile_instructions(instructions, labels, compiled_file):
+def compile_instructions(instructions, labels, compiled_file): 
     pc = 0
     for instruction in instructions:
         print('-'*75)
+        print(f'Instruction: {instruction}')
         if(instruction == 'nop'):
             instruction_bytes = stall_instruction()
             print(f'Adding Stall...')
@@ -315,11 +316,11 @@ def resolve_dependencies(instructions, labels):
         if(has_dependencies(instruction_0, instruction_1, instruction_2)):
             new_instructions.append('nop')
             new_instructions.append('nop')
+            new_instructions.append('nop')
             for label in labels:
-                if(label['pc'] == current_pc and not label['updated']):
-                    label['pc'] += 8
-                    label['updated'] = True
-                    print(f'Updating Label "{label["label_name"]}" PC from {current_pc} to {label["pc"]}')
+                if(label['original_pc'] > current_pc):
+                    label['current_pc'] += 12
+                    print(f'Updating Label "{label["label_name"]}" PC from {label["current_pc"] - 12} to {label["current_pc"]}')
                     
         if(is_branch_instruction(instruction_0)):
             new_instructions.append('nop')
@@ -328,14 +329,13 @@ def resolve_dependencies(instructions, labels):
             new_instructions.append('nop')
             new_instructions.append('nop')
             for label in labels:
-                if(label['pc'] == current_pc and not label['updated']):
-                    label['pc'] += 20
-                    label['updated'] = True
-                    print(f'Updating Label "{label["label_name"]}" PC from {current_pc} to {label["pc"]}')
-        
+                if(label['original_pc'] > current_pc):
+                    label['current_pc'] += 20
+                    print(f'Updating Label "{label["label_name"]}" PC from {label["current_pc"] - 20} to {label["current_pc"]}')
+                    
     for instruction in new_instructions:
         print(instruction)
-        
+                    
     print('-'*100)
     
     return new_instructions, labels
@@ -353,8 +353,8 @@ def read_instructions(instructions_file):
         elif(instruction[-1] == ':'):
             label = {
                 'label_name': instruction[:-1], 
-                'pc': pc, 
-                'updated': False
+                'original_pc': pc,
+                'current_pc': pc
             }
             labels.append(label)
             continue

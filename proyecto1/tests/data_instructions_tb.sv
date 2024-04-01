@@ -22,7 +22,7 @@ module data_instructions_tb();
     #1;
     reset = 0;
 
-    #2000;
+    #8000;
     
     $stop;
   end
