@@ -84,7 +84,7 @@ def branch_instruction(op_code, cond_key, branch_label, labels):
                 if(cond == None):
                     raise Exception(f'Invalid condition: {cond_key}')
                 
-                label_pc = to_binary_string(label['pc'] * 4, 16)
+                label_pc = to_binary_string(label['pc'], 16)
                 label_pc = split_bytes(label_pc)
                 
                 return [op_code, cmd, ind, cond, EMPTY_NIBBLE] + label_pc
@@ -312,13 +312,24 @@ def resolve_dependencies(instructions, labels):
         else:
             instruction_2 = None
             
-        if((has_dependencies(instruction_0, instruction_1, instruction_2)) or
-           (is_branch_instruction(instruction_0))):
+        if(has_dependencies(instruction_0, instruction_1, instruction_2)):
             new_instructions.append('nop')
             new_instructions.append('nop')
             for label in labels:
                 if(label['pc'] == current_pc and not label['updated']):
                     label['pc'] += 8
+                    label['updated'] = True
+                    print(f'Updating Label "{label["label_name"]}" PC from {current_pc} to {label["pc"]}')
+                    
+        if(is_branch_instruction(instruction_0)):
+            new_instructions.append('nop')
+            new_instructions.append('nop')
+            new_instructions.append('nop')
+            new_instructions.append('nop')
+            new_instructions.append('nop')
+            for label in labels:
+                if(label['pc'] == current_pc and not label['updated']):
+                    label['pc'] += 20
                     label['updated'] = True
                     print(f'Updating Label "{label["label_name"]}" PC from {current_pc} to {label["pc"]}')
         
@@ -340,7 +351,11 @@ def read_instructions(instructions_file):
         if(instruction == '' or instruction[0] == ';'):
             continue
         elif(instruction[-1] == ':'):
-            label = {'label_name': instruction[:-1], 'pc': pc, 'updated': False}
+            label = {
+                'label_name': instruction[:-1], 
+                'pc': pc, 
+                'updated': False
+            }
             labels.append(label)
             continue
         else:
