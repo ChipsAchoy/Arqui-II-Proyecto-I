@@ -1,5 +1,5 @@
 Analysis & Elaboration report for procesadorArm
-Sat Mar 30 02:33:11 2024
+Wed Apr  3 20:05:10 2024
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -313,7 +313,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                 ;
 +-------------------------------+------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Sat Mar 30 02:33:11 2024          ;
+; Analysis & Elaboration Status ; Successful - Wed Apr  3 20:05:10 2024          ;
 ; Quartus Prime Version         ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                 ; procesadorArm                                  ;
 ; Top-level Entity Name         ; procesadorArm                                  ;
@@ -4209,7 +4209,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Sat Mar 30 02:32:58 2024
+    Info: Processing started: Wed Apr  3 20:04:58 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off procesadorArm -c procesadorArm --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -4442,7 +4442,6 @@ Info (12128): Elaborating entity "PipeRegMW" for hierarchy "procesador:PR|cpu:CP
 Info (12128): Elaborating entity "mux_2_to_1_4" for hierarchy "procesador:PR|cpu:CPU|mux_2_to_1_4:M0" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 54
 Info (12128): Elaborating entity "plus_n" for hierarchy "procesador:PR|cpu:CPU|plus_n:P4" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 58
 Info (12128): Elaborating entity "RegisterFile" for hierarchy "procesador:PR|cpu:CPU|RegisterFile:R0" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 64
-Warning (10036): Verilog HDL or VHDL warning at RegisterFile.sv(9): object "r_perf" assigned a value but never read File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterFile.sv Line: 9
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "rf_v" into its bus
 Info (12128): Elaborating entity "Extend" for hierarchy "procesador:PR|cpu:CPU|Extend:E0" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 66
 Info (12128): Elaborating entity "mux_2_to_1_32_vec" for hierarchy "procesador:PR|cpu:CPU|mux_2_to_1_32_vec:M2" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 68
@@ -4463,23 +4462,23 @@ Info (12128): Elaborating entity "divUnit" for hierarchy "procesador:PR|cpu:CPU|
 Info (12128): Elaborating entity "modUnit" for hierarchy "procesador:PR|cpu:CPU|alu:A0|modUnit:MOD" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv Line: 23
 Info (12128): Elaborating entity "mux_2_to_1_32" for hierarchy "procesador:PR|cpu:CPU|mux_2_to_1_32:M4" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 89
 Info (12128): Elaborating entity "mem_control" for hierarchy "procesador:PR|mem_control:MEM" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv Line: 57
-Warning (10230): Verilog HDL assignment warning at mem_control.sv(40): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 40
-Warning (10230): Verilog HDL assignment warning at mem_control.sv(52): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 52
-Warning (10230): Verilog HDL assignment warning at mem_control.sv(64): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 64
-Warning (10230): Verilog HDL assignment warning at mem_control.sv(78): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 78
-Warning (10230): Verilog HDL assignment warning at mem_control.sv(91): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 91
-Warning (10230): Verilog HDL assignment warning at mem_control.sv(103): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 103
-Warning (10230): Verilog HDL assignment warning at mem_control.sv(115): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 115
-Warning (10230): Verilog HDL assignment warning at mem_control.sv(128): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 128
-Warning (10230): Verilog HDL assignment warning at mem_control.sv(140): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 140
-Warning (10230): Verilog HDL assignment warning at mem_control.sv(152): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 152
-Warning (10230): Verilog HDL assignment warning at mem_control.sv(165): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 165
-Warning (10230): Verilog HDL assignment warning at mem_control.sv(178): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 178
-Warning (10230): Verilog HDL assignment warning at mem_control.sv(190): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 190
-Warning (10230): Verilog HDL assignment warning at mem_control.sv(202): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 202
-Warning (10230): Verilog HDL assignment warning at mem_control.sv(214): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 214
-Warning (10230): Verilog HDL assignment warning at mem_control.sv(226): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 226
-Info (12128): Elaborating entity "ram" for hierarchy "procesador:PR|mem_control:MEM|ram:ram0" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 47
+Warning (10230): Verilog HDL assignment warning at mem_control.sv(42): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 42
+Warning (10230): Verilog HDL assignment warning at mem_control.sv(54): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 54
+Warning (10230): Verilog HDL assignment warning at mem_control.sv(66): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 66
+Warning (10230): Verilog HDL assignment warning at mem_control.sv(80): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 80
+Warning (10230): Verilog HDL assignment warning at mem_control.sv(93): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 93
+Warning (10230): Verilog HDL assignment warning at mem_control.sv(105): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 105
+Warning (10230): Verilog HDL assignment warning at mem_control.sv(117): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 117
+Warning (10230): Verilog HDL assignment warning at mem_control.sv(130): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 130
+Warning (10230): Verilog HDL assignment warning at mem_control.sv(142): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 142
+Warning (10230): Verilog HDL assignment warning at mem_control.sv(154): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 154
+Warning (10230): Verilog HDL assignment warning at mem_control.sv(167): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 167
+Warning (10230): Verilog HDL assignment warning at mem_control.sv(180): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 180
+Warning (10230): Verilog HDL assignment warning at mem_control.sv(192): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 192
+Warning (10230): Verilog HDL assignment warning at mem_control.sv(204): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 204
+Warning (10230): Verilog HDL assignment warning at mem_control.sv(216): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 216
+Warning (10230): Verilog HDL assignment warning at mem_control.sv(228): truncated value with size 32 to match size of target (18) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 228
+Info (12128): Elaborating entity "ram" for hierarchy "procesador:PR|mem_control:MEM|ram:ram0" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 49
 Info (12128): Elaborating entity "altsyncram" for hierarchy "procesador:PR|mem_control:MEM|ram:ram0|altsyncram:altsyncram_component" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram.v Line: 89
 Info (12130): Elaborated megafunction instantiation "procesador:PR|mem_control:MEM|ram:ram0|altsyncram:altsyncram_component" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram.v Line: 89
 Info (12133): Instantiated megafunction "procesador:PR|mem_control:MEM|ram:ram0|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram.v Line: 89
@@ -4602,11 +4601,11 @@ Warning (12030): Port "ordered port 6" on the entity instantiation of "LU" is co
 Warning (12030): Port "ordered port 7" on the entity instantiation of "LU" is connected to a signal of width 1. The formal width of the signal in the module is 32.  The extra bits will be left dangling without any fan-out logic. File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv Line: 18
 Warning (12241): 5 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (144001): Generated suppressed messages file C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/output_files/procesadorArm.map.smsg
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 124 warnings
-    Info: Peak virtual memory: 4991 megabytes
-    Info: Processing ended: Sat Mar 30 02:33:11 2024
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:26
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 123 warnings
+    Info: Peak virtual memory: 4989 megabytes
+    Info: Processing ended: Wed Apr  3 20:05:10 2024
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:25
 
 
 +--------------------------------------------+

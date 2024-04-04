@@ -6,7 +6,7 @@ module RegisterFile(input  logic clk,rst,we3,
 
 	logic [15:0][15:0][31:0] rf_v;
 	logic [14:0][31:0] rf_s;
-	logic [5:0][31:0] r_perf;
+	//logic [5:0][31:0] r_perf;
 	
 	
 	always_ff @(negedge clk or posedge rst) begin
@@ -14,7 +14,7 @@ module RegisterFile(input  logic clk,rst,we3,
 		if(rst) begin
 			
 			rf_s[14:0] = 0;
-			r_perf[5:0] = 0;
+			//r_perf[5:0] = 0;
 			rf_v[15][15:0] = 0;
 			rf_v[14][15:0] = 0;
 			rf_v[13][15:0] = 0;
@@ -81,7 +81,7 @@ module RegisterFile(input  logic clk,rst,we3,
 			rf_v[2][3] = 1;
 			rf_v[2][2] = 1;
 			rf_v[2][1] = 1;
-			rf_v[2][0] = 1;
+			rf_v[2][0] = 2;
 			
 			
 			rf_v[4][15] = 0;
@@ -90,12 +90,12 @@ module RegisterFile(input  logic clk,rst,we3,
 			rf_s[5] = 12;
 			rf_s[8] = 0;
 			rf_s[2] = 1;
-			
+			rf_s[9] = 0;
 			
 		end
 		else begin
 			if (we3 & (selec_v_s_w == 1'b0)) begin
-				rf_s[ra3] <= wd3[15];
+				rf_s[ra3] <= wd3[0];
 			end else if (we3 & (selec_v_s_w == 1'b1)) begin
 				rf_v[ra3] <= wd3;
 			end
