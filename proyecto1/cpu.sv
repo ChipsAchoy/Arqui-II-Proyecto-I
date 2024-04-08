@@ -88,8 +88,8 @@ module cpu(input logic clk, rst, input logic [31:0] instructionD,
 	mux_2_to_1_32_vec M3(dataRead_i, ALUResultW, MemtoRegW, resultPc);
 	mux_2_to_1_32 M4(resultPc[15], pc_plus_4, PCSrcW, pcOut);
 	
-	assign ExtImmSrc[15] = ExtImmE;
-	assign ExtImmSrc[14:0] = 0;
+	assign ExtImmSrc[0] = ExtImmE;
+	assign ExtImmSrc[15:1] = 0;
 	
 
 	assign addr = ALUResultM[15][12:0];
