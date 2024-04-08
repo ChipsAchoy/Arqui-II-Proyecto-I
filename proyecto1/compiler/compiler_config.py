@@ -1,4 +1,4 @@
-MEMORY_SIZE = 400 # In bytes
+MEMORY_SIZE = 1024 # In bytes
 
 EMPTY_NIBBLE = '0000'
 

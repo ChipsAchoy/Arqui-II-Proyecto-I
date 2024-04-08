@@ -31,6 +31,7 @@ def to_binary_string(number, width):
     
 def to_q7_8(number):
     decimal_representation = round(abs(number) * (2 ** 8))
+    
     binary_representation = to_binary_string(decimal_representation, 15)
     
     signed_bit = True if number < 0 else False
@@ -312,26 +313,36 @@ def resolve_dependencies(instructions, labels):
             instruction_2 = instructions[index + 2]
         else:
             instruction_2 = None
+
+        new_instructions.append('nop')
+        new_instructions.append('nop')
+        new_instructions.append('nop')
+        new_instructions.append('nop')
+        new_instructions.append('nop')       
+        for label in labels:
+            if(label['original_pc'] > current_pc):
+                label['current_pc'] += 20
+                print(f'Updating Label "{label["label_name"]}" PC from {label["current_pc"] - 20} to {label["current_pc"]}')
             
-        if(has_dependencies(instruction_0, instruction_1, instruction_2)):
-            new_instructions.append('nop')
-            new_instructions.append('nop')
-            new_instructions.append('nop')
-            for label in labels:
-                if(label['original_pc'] > current_pc):
-                    label['current_pc'] += 12
-                    print(f'Updating Label "{label["label_name"]}" PC from {label["current_pc"] - 12} to {label["current_pc"]}')
+        # if(has_dependencies(instruction_0, instruction_1, instruction_2)):
+        #     new_instructions.append('nop')
+        #     new_instructions.append('nop')
+        #     new_instructions.append('nop')
+        #     for label in labels:
+        #         if(label['original_pc'] > current_pc):
+        #             label['current_pc'] += 12
+        #             print(f'Updating Label "{label["label_name"]}" PC from {label["current_pc"] - 12} to {label["current_pc"]}')
                     
-        if(is_branch_instruction(instruction_0)):
-            new_instructions.append('nop')
-            new_instructions.append('nop')
-            new_instructions.append('nop')
-            new_instructions.append('nop')
-            new_instructions.append('nop')
-            for label in labels:
-                if(label['original_pc'] > current_pc):
-                    label['current_pc'] += 20
-                    print(f'Updating Label "{label["label_name"]}" PC from {label["current_pc"] - 20} to {label["current_pc"]}')
+        # if(is_branch_instruction(instruction_0)):
+        #     new_instructions.append('nop')
+        #     new_instructions.append('nop')
+        #     new_instructions.append('nop')
+        #     new_instructions.append('nop')
+        #     new_instructions.append('nop')
+        #     for label in labels:
+        #         if(label['original_pc'] > current_pc):
+        #             label['current_pc'] += 20
+        #             print(f'Updating Label "{label["label_name"]}" PC from {label["current_pc"] - 20} to {label["current_pc"]}')
                     
     for instruction in new_instructions:
         print(instruction)
