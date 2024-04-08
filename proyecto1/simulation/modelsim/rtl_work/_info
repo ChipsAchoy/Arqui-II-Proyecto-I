@@ -10,7 +10,7 @@ cModel Technology
 Z0 dC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/simulation/modelsim
 vaddUnit
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1712607645
+Z2 !s110 1712616090
 !i10b 1
 !s100 d5JJM4@c469aa]Z`HHM9b1
 IYXfJk1GS9^RQbX4M8HHc13
@@ -26,7 +26,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1712607645.000000
+Z5 !s108 1712616090.000000
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/addUnit.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/addUnit.sv|
 !i113 1
@@ -36,7 +36,7 @@ Z8 tCvgOpt 0
 nadd@unit
 valu
 R1
-R2
+Z9 !s110 1712616089
 !i10b 1
 !s100 5n>hHCAbNOdf:`ENWd4W62
 Id^4KUOV29XAcEaAREUKzI3
@@ -52,7 +52,7 @@ R4
 r1
 !s85 0
 31
-R5
+Z10 !s108 1712616089.000000
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv|
 !i113 1
@@ -61,7 +61,7 @@ R7
 R8
 vAluDecoder
 R1
-Z9 !s110 1712607644
+Z11 !s110 1712616088
 !i10b 1
 !s100 3d4oz1;OnAhnHBc<=?@AE1
 IAK^VHOTZH[D?0z^=]8S_A3
@@ -77,7 +77,7 @@ R4
 r1
 !s85 0
 31
-Z10 !s108 1712607644.000000
+Z12 !s108 1712616088.000000
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/AluDecoder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/AluDecoder.sv|
 !i113 1
@@ -87,32 +87,32 @@ R8
 n@alu@decoder
 vand_gate
 R1
-R2
+R9
 !i10b 1
 !s100 HMal[KYQC17Yc0loB:dZ32
 InHWf<J?;SdO@iTGJ<G1M91
 R3
-Z11 !s105 logic_alu_sv_unit
+Z13 !s105 logic_alu_sv_unit
 S1
 R0
-Z12 w1697789687
-Z13 8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
-Z14 FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+Z14 w1697789687
+Z15 8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
+Z16 FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv
 L0 12
 R4
 r1
 !s85 0
 31
-R5
-Z15 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv|
-Z16 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv|
+R10
+Z17 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv|
+Z18 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv|
 !i113 1
 R6
 R7
 R8
 vConditionCheck
 R1
-R9
+R11
 !i10b 1
 !s100 S<j3:jA^akMh`L9L2WIDG0
 IJ6AQ?[z`TaHl1<@=E9YhH1
@@ -120,7 +120,7 @@ R3
 !s105 ConditionCheck_sv_unit
 S1
 R0
-Z17 w1697789686
+Z19 w1697789686
 8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionCheck.sv
 FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionCheck.sv
 L0 2
@@ -128,7 +128,7 @@ R4
 r1
 !s85 0
 31
-R10
+R12
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionCheck.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionCheck.sv|
 !i113 1
@@ -138,7 +138,7 @@ R8
 n@condition@check
 vConditionLogic
 R1
-R9
+R11
 !i10b 1
 !s100 :lOg]92ML7oEfZ`aihCcJ1
 Ib<2QC:98[QlShU70maaaM2
@@ -146,7 +146,7 @@ R3
 !s105 ConditionLogic_sv_unit
 S1
 R0
-R17
+R19
 8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionLogic.sv
 FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionLogic.sv
 L0 2
@@ -154,7 +154,7 @@ R4
 r1
 !s85 0
 31
-R10
+R12
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionLogic.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionLogic.sv|
 !i113 1
@@ -164,15 +164,15 @@ R8
 n@condition@logic
 vcpu
 R1
-R2
+R9
 !i10b 1
-!s100 :NGie@o3kW@CU=eD9abmQ2
-I=TLVeo8XJ;5OA^>=mmKZi2
+!s100 KX9ocEnimL`m?@U9Yl6gb2
+I>>V3<YJiJAD2BEGH?P8GK3
 R3
 !s105 cpu_sv_unit
 S1
 R0
-w1712607571
+w1712615879
 8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv
 FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv
 L0 2
@@ -180,7 +180,7 @@ R4
 r1
 !s85 0
 31
-R5
+R10
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv|
 !i113 1
@@ -189,7 +189,7 @@ R7
 R8
 vDecoder
 R1
-R9
+R11
 !i10b 1
 !s100 jV?IXSb]I62dX??miF3Lg1
 Ic7P^N6K`BM60ZihdT;caj0
@@ -205,7 +205,7 @@ R4
 r1
 !s85 0
 31
-R10
+R12
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Decoder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Decoder.sv|
 !i113 1
@@ -215,7 +215,7 @@ R8
 n@decoder
 vdivUnit
 R1
-R2
+R9
 !i10b 1
 !s100 JN[PXSKBgKKO=RFJ>z2FM1
 Ik>O5W?F?>GQ@=Lg0fmF820
@@ -231,7 +231,7 @@ R4
 r1
 !s85 0
 31
-R5
+R10
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/divUnit.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/divUnit.sv|
 !i113 1
@@ -241,7 +241,7 @@ R8
 ndiv@unit
 vExtend
 R1
-R9
+R11
 !i10b 1
 !s100 Z:lO?71foJ<h`51C9oJ9B1
 I?1Eb3T5Jc;7AzRcBWMNm80
@@ -249,7 +249,7 @@ R3
 !s105 Extend_sv_unit
 S1
 R0
-R17
+R19
 8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Extend.sv
 FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Extend.sv
 L0 2
@@ -257,7 +257,7 @@ R4
 r1
 !s85 0
 31
-R10
+R12
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Extend.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Extend.sv|
 !i113 1
@@ -267,7 +267,7 @@ R8
 n@extend
 vInstructionMemory
 R1
-Z18 !s110 1712607646
+R2
 !i10b 1
 !s100 gaC6BO0UhDkTW?Em_W;AU0
 ILNdAFSFBg5mH9:WcmnCT>3
@@ -275,7 +275,7 @@ R3
 !s105 InstructionMemory_sv_unit
 S1
 R0
-R17
+R19
 8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv
 FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv
 L0 1
@@ -283,7 +283,7 @@ R4
 r1
 !s85 0
 31
-Z19 !s108 1712607646.000000
+R5
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv|
 !i113 1
@@ -293,32 +293,32 @@ R8
 n@instruction@memory
 vlogic_alu
 R1
-R2
+R9
 !i10b 1
 !s100 ncjiCgHU7ReGQP0SK9[b]1
 IC`:Ba4F:lTjJ<eY?NLG:k1
 R3
-R11
+R13
 S1
 R0
-R12
-R13
 R14
+R15
+R16
 L0 1
 R4
 r1
 !s85 0
 31
-R5
-R15
-R16
+R10
+R17
+R18
 !i113 1
 R6
 R7
 R8
 vMainDecoder
 R1
-R9
+R11
 !i10b 1
 !s100 2_jOPk7j4OaZGaL]d7kED3
 IC>@<GbQLE`CYLi[RBE>O31
@@ -326,7 +326,7 @@ R3
 !s105 MainDecoder_sv_unit
 S1
 R0
-R17
+R19
 8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/MainDecoder.sv
 FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/MainDecoder.sv
 L0 2
@@ -334,7 +334,7 @@ R4
 r1
 !s85 0
 31
-R10
+R12
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/MainDecoder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/MainDecoder.sv|
 !i113 1
@@ -344,15 +344,15 @@ R8
 n@main@decoder
 vmem_control
 R1
-R2
+R9
 !i10b 1
-!s100 g2_c^]5OOWj<P`zYgWNio3
-IU@[PVeXo`EIjNKTPmO:6T3
+!s100 c?Qa5B=XM423JSj6eBD^g0
+I5nGSRelTi@:[;:Je>Yh3k3
 R3
 !s105 mem_control_sv_unit
 S1
 R0
-Z20 w1712605538
+w1712616004
 8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv
 FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv
 L0 1
@@ -360,7 +360,7 @@ R4
 r1
 !s85 0
 31
-R5
+R10
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv|
 !i113 1
@@ -369,7 +369,7 @@ R7
 R8
 vmodUnit
 R1
-R2
+R9
 !i10b 1
 !s100 S1aQd;i4UhC>PKgdDKCLb0
 IYzFKG[Q^c[Nz;MJDoJX4V2
@@ -385,7 +385,7 @@ R4
 r1
 !s85 0
 31
-R5
+R10
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/modUnit.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/modUnit.sv|
 !i113 1
@@ -395,7 +395,7 @@ R8
 nmod@unit
 vmultiplyUnit
 R1
-R2
+R9
 !i10b 1
 !s100 <:flFCPe_NF<cjlX:YD391
 I[O:Bb6od6MU:IgXTj?nR90
@@ -411,7 +411,7 @@ R4
 r1
 !s85 0
 31
-R5
+R10
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/multiplyUnit.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/multiplyUnit.sv|
 !i113 1
@@ -421,7 +421,7 @@ R8
 nmultiply@unit
 vmux_2_to_1_32
 R1
-R2
+R9
 !i10b 1
 !s100 Aa_3_FJ=6ZHEY6di?Lk_U1
 Io[dTVI0We;<bE6CXQQQe83
@@ -429,7 +429,7 @@ R3
 !s105 mux_2_to_1_32_sv_unit
 S1
 R0
-R12
+R14
 8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32.sv
 FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32.sv
 L0 1
@@ -437,7 +437,7 @@ R4
 r1
 !s85 0
 31
-R5
+R10
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32.sv|
 !i113 1
@@ -446,7 +446,7 @@ R7
 R8
 vmux_2_to_1_32_vec
 R1
-R2
+R9
 !i10b 1
 !s100 b]gBSXGM5SUC0L0C_jo;Z2
 I]Kdh=BoGd_c:8PbGBMF:81
@@ -462,7 +462,7 @@ R4
 r1
 !s85 0
 31
-R5
+R10
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32_vec.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32_vec.sv|
 !i113 1
@@ -471,7 +471,7 @@ R7
 R8
 vmux_2_to_1_4
 R1
-R2
+R9
 !i10b 1
 !s100 cIC9TQ=i>48o9GBRV1g]40
 I;cgVIMUYl?UagSWPKbR6C1
@@ -479,7 +479,7 @@ R3
 !s105 mux_2_to_1_4_sv_unit
 S1
 R0
-R12
+R14
 8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_4.sv
 FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_4.sv
 L0 1
@@ -487,7 +487,7 @@ R4
 r1
 !s85 0
 31
-R5
+R10
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_4.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_4.sv|
 !i113 1
@@ -496,57 +496,57 @@ R7
 R8
 vnot_gate
 R1
-R2
+R9
 !i10b 1
 !s100 fJYo]E]h<THVQE>KNY0U]2
 I:9b0R]AJD[j2NRQbMMnYW2
 R3
-R11
+R13
 S1
 R0
-R12
-R13
 R14
+R15
+R16
 L0 42
 R4
 r1
 !s85 0
 31
-R5
-R15
-R16
+R10
+R17
+R18
 !i113 1
 R6
 R7
 R8
 vor_gate
 R1
-R2
+R9
 !i10b 1
 !s100 G@eM9JALIJOZ6gJK73Yz11
 I]g3NcPO9CcN=dL06ioAn91
 R3
-R11
+R13
 S1
 R0
-R12
-R13
 R14
+R15
+R16
 L0 24
 R4
 r1
 !s85 0
 31
-R5
-R15
-R16
+R10
+R17
+R18
 !i113 1
 R6
 R7
 R8
 vPCLogic
 R1
-R9
+R11
 !i10b 1
 !s100 N3zWgn<oeK_<HT4SNGLo11
 IRKBjKFmXjUbR3@Mj=C7OX3
@@ -554,7 +554,7 @@ R3
 !s105 PCLogic_sv_unit
 S1
 R0
-R17
+R19
 8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PCLogic.sv
 FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PCLogic.sv
 L0 2
@@ -562,7 +562,7 @@ R4
 r1
 !s85 0
 31
-R10
+R12
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PCLogic.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PCLogic.sv|
 !i113 1
@@ -572,7 +572,7 @@ R8
 n@p@c@logic
 vpcRegister
 R1
-R2
+R9
 !i10b 1
 !s100 m57KoZ8AXadPl`8Dcehfi1
 I8;]^;;[3Ei`agFEl5_[DX1
@@ -588,7 +588,7 @@ R4
 r1
 !s85 0
 31
-R5
+R10
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/pcRegister.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/pcRegister.sv|
 !i113 1
@@ -614,7 +614,7 @@ R4
 r1
 !s85 0
 31
-R5
+R10
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/perfRegister.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/perfRegister.sv|
 !i113 1
@@ -624,7 +624,7 @@ R8
 nperf@register
 vPipeRegDE
 R1
-R9
+R11
 !i10b 1
 !s100 :EU`^a:DI^9OOMKP7H1[d0
 IlGDf^IJbUOZEEQSIiENQ;0
@@ -640,7 +640,7 @@ R4
 r1
 !s85 0
 31
-R10
+R12
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegDE.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegDE.sv|
 !i113 1
@@ -650,7 +650,7 @@ R8
 n@pipe@reg@d@e
 vPipeRegEM
 R1
-R9
+R11
 !i10b 1
 !s100 UPQH1Qama>ZkXKo?I=U>g3
 IaX_Aco2WClESB3hT0a_>T1
@@ -666,7 +666,7 @@ R4
 r1
 !s85 0
 31
-R10
+R12
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegEM.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegEM.sv|
 !i113 1
@@ -676,7 +676,7 @@ R8
 n@pipe@reg@e@m
 vPipeRegFD
 R1
-R9
+R11
 !i10b 1
 !s100 45E=`X=Mi7;gH1:e_ia2G1
 IdedWN:idh4ZX@]j?dRB8N3
@@ -692,7 +692,7 @@ R4
 r1
 !s85 0
 31
-R10
+R12
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegFD.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegFD.sv|
 !i113 1
@@ -702,7 +702,7 @@ R8
 n@pipe@reg@f@d
 vPipeRegMW
 R1
-R9
+R11
 !i10b 1
 !s100 OM>]]e4V8h>4nSG52gY2Q1
 Iz8Y4?eTb@O8428PJQ@fJ13
@@ -718,7 +718,7 @@ R4
 r1
 !s85 0
 31
-R10
+R12
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegMW.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegMW.sv|
 !i113 1
@@ -736,7 +736,7 @@ R3
 !s105 plus_n_sv_unit
 S1
 R0
-R12
+R14
 8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/plus_n.sv
 FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/plus_n.sv
 L0 1
@@ -753,7 +753,7 @@ R7
 R8
 vprocesador
 R1
-R2
+R9
 !i10b 1
 !s100 KVhkS>E:G5mHCAT9N?zRX0
 IfX_YJgObBVTBCXBC@jl[S0
@@ -761,7 +761,7 @@ R3
 !s105 procesador_sv_unit
 S1
 R0
-R20
+Z20 w1712605538
 8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv
 FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv
 L0 1
@@ -769,7 +769,7 @@ R4
 r1
 !s85 0
 31
-R5
+R10
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv|
 !i113 1
@@ -778,7 +778,7 @@ R7
 R8
 vprocesadorArm
 R1
-R2
+R9
 !i10b 1
 !s100 LHGz]@5OL6G^W=18FB?170
 I3lIYnI5OU];YHXkT]>XME1
@@ -794,7 +794,7 @@ R4
 r1
 !s85 0
 31
-R5
+R10
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesadorArm.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesadorArm.sv|
 !i113 1
@@ -804,15 +804,15 @@ R8
 nprocesador@arm
 vprogram_final_tb
 R1
-R18
+R2
 !i10b 1
-!s100 ?n<dei?aT`j7@:K38`<Dh1
-ILEQD8MXZUezU[7OG<dB]22
+!s100 LbnoM?5M[c=S97>T=EC?I2
+I4hQ6d_I:@1[bH3G__5cEZ2
 R3
 !s105 program_final_tb_sv_unit
 S1
 R0
-w1712607590
+w1712615283
 8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_final_tb.sv
 FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_final_tb.sv
 L0 2
@@ -820,7 +820,7 @@ R4
 r1
 !s85 0
 31
-R19
+R5
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_final_tb.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_final_tb.sv|
 !i113 1
@@ -828,7 +828,7 @@ R6
 R7
 R8
 vram
-R9
+R11
 !i10b 1
 !s100 fmTOUCjZl6<QElO6jOdcV1
 I<eN=1oN:_V2W]X_fG6[9X2
@@ -842,7 +842,7 @@ R4
 r1
 !s85 0
 31
-R10
+R12
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram.v|
 !i113 1
@@ -851,15 +851,15 @@ o-vlog01compat -work work
 R8
 vRegisterFile
 R1
-R9
+R11
 !i10b 1
-!s100 `V4@omM`L[Kb4B`YD`0700
-ICSnk6ogC3l]eLEikAfifV3
+!s100 ORIC4MiP0<5L3h[1;AARR2
+IhemLT`abcbF;^I6W:7X?Q2
 R3
 !s105 RegisterFile_sv_unit
 S1
 R0
-w1712196012
+w1712616031
 8C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterFile.sv
 FC:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterFile.sv
 L0 2
@@ -867,7 +867,7 @@ R4
 r1
 !s85 0
 31
-R10
+R12
 !s107 C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterFile.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1|C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterFile.sv|
 !i113 1
@@ -877,25 +877,25 @@ R8
 n@register@file
 vshiftL_gate
 R1
-R2
+R9
 !i10b 1
 !s100 Ig94oA7iLkh]1m;Nc=@NI2
 I_DI0fW]4c6:9k]a7;QaaR0
 R3
-R11
+R13
 S1
 R0
-R12
-R13
 R14
+R15
+R16
 L0 61
 R4
 r1
 !s85 0
 31
-R5
-R15
-R16
+R10
+R17
+R18
 !i113 1
 R6
 R7
@@ -903,25 +903,25 @@ R8
 nshift@l_gate
 vshiftR_gate
 R1
-R2
+R9
 !i10b 1
 !s100 <nOmbQI;Ji5bAE=CLK1oh1
 IZ0=HdkT6XLMBR28RPJ_Y50
 R3
-R11
+R13
 S1
 R0
-R12
-R13
 R14
+R15
+R16
 L0 51
 R4
 r1
 !s85 0
 31
-R5
-R15
-R16
+R10
+R17
+R18
 !i113 1
 R6
 R7
@@ -929,7 +929,7 @@ R8
 nshift@r_gate
 vsubUnit
 R1
-R18
+R2
 !i10b 1
 !s100 MQ=0<KGBmgnfMTzWffkNY0
 I_7jFeIeiV?W;YALdDmW]^3
@@ -955,25 +955,25 @@ R8
 nsub@unit
 vxor_gate
 R1
-R2
+R9
 !i10b 1
 !s100 Ae<lETXW78i?CzJ38DVaH1
 I[JUWJPJ]9[3S5Sj`gUoek1
 R3
-R11
+R13
 S1
 R0
-R12
-R13
 R14
+R15
+R16
 L0 33
 R4
 r1
 !s85 0
 31
-R5
-R15
-R16
+R10
+R17
+R18
 !i113 1
 R6
 R7
