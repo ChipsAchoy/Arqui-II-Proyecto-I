@@ -10,7 +10,7 @@ module mem_control(
 	input	  rst;
 	input	  clk;
 	input	[15:0][31:0]  data;
-	input	[17:0]  address;
+	input	[12:0]  address;
 	input	  wren;
 	input	  vec_scalar;
 	output [15:0][31:0]  q;
@@ -36,9 +36,13 @@ module mem_control(
 	/*
 	---------------------------RAM 0-------------------------------------
 	*/
+<<<<<<< Updated upstream
 	logic [17:0] address0;
 	logic [15:0]data0;
 	assign data0 = vec_scalar ? data[0][15:0]: data[15][15:0];
+=======
+	logic [12:0] address0;
+>>>>>>> Stashed changes
 	assign address0 = address + 0;
 	
 	ram ram0( rst,
@@ -50,7 +54,7 @@ module mem_control(
 	/*
 	---------------------------RAM 1-------------------------------------
 	*/
-	logic [17:0] address1;
+	logic [12:0] address1;
 	assign address1 = address + 1;
 	ram ram1( rst,
 				clk,
@@ -62,7 +66,7 @@ module mem_control(
 	---------------------------RAM 2-------------------------------------
 	*/
 	
-	logic [17:0] address2;
+	logic [12:0] address2;
 	assign address2 = address + 2;
 	ram ram2( rst,
 				clk,
@@ -76,7 +80,7 @@ module mem_control(
 	*/
 	
 	
-	logic [17:0] address3;
+	logic [12:0] address3;
 	assign address3 = address + 3;
 	ram ram3( rst,
 				clk,
@@ -89,7 +93,7 @@ module mem_control(
 	---------------------------RAM 4-------------------------------------
 	*/
 	
-	logic [17:0] address4;
+	logic [12:0] address4;
 	assign address4 = address + 4;
 	ram ram4( rst,
 				clk,
@@ -101,7 +105,7 @@ module mem_control(
 	---------------------------RAM 5-------------------------------------
 	*/
 	
-	logic [17:0] address5;
+	logic [12:0] address5;
 	assign address5 = address + 5;
 	ram ram5( rst,
 				clk,
@@ -113,7 +117,7 @@ module mem_control(
 	---------------------------RAM 6-------------------------------------
 	*/
 	
-	logic [17:0] address6;
+	logic [12:0] address6;
 	assign address6 = address + 6;
 	ram ram6( rst,
 				clk,
@@ -126,7 +130,7 @@ module mem_control(
 	---------------------------RAM 7-------------------------------------
 	*/
 
-	logic [17:0] address7;
+	logic [12:0] address7;
 	assign address7 = address + 7;
 	ram ram7( rst,
 				clk,
@@ -138,7 +142,7 @@ module mem_control(
 	---------------------------RAM 8-------------------------------------
 	*/
 	
-	logic [17:0] address8;
+	logic [12:0] address8;
 	assign address8 = address + 8;
 	ram ram8( rst,
 				clk,
@@ -150,7 +154,7 @@ module mem_control(
 	---------------------------RAM 9-------------------------------------
 	*/
 	
-	logic [17:0] address9;
+	logic [12:0] address9;
 	assign address9 = address + 9;
 	ram ram9( rst,
 				clk,
@@ -163,7 +167,7 @@ module mem_control(
 	---------------------------RAM 10-------------------------------------
 	*/
 	
-	logic [17:0] address10;
+	logic [12:0] address10;
 	assign address10 = address + 10;
 	ram ram10( rst,
 				clk,
@@ -176,7 +180,7 @@ module mem_control(
 	---------------------------RAM 11-------------------------------------
 	*/
 	
-	logic [17:0] address11;
+	logic [12:0] address11;
 	assign address11 = address + 11;
 	ram ram11( rst,
 				clk,
@@ -188,7 +192,7 @@ module mem_control(
 	---------------------------RAM 12-------------------------------------
 	*/
 	
-	logic [17:0] address12;
+	logic [12:0] address12;
 	assign address12 = address + 12;
 	ram ram12( rst,
 				clk,
@@ -200,7 +204,7 @@ module mem_control(
 	---------------------------RAM 13-------------------------------------
 	*/
 	
-	logic [17:0] address13;
+	logic [12:0] address13;
 	assign address13 = address + 13;
 	ram ram13( rst,
 				clk,
@@ -212,7 +216,7 @@ module mem_control(
 	---------------------------RAM 14-------------------------------------
 	*/
 	
-	logic [17:0] address14;
+	logic [12:0] address14;
 	assign address14 = address + 14;
 	ram ram14( rst,
 				clk,
@@ -224,7 +228,7 @@ module mem_control(
 	---------------------------RAM 15-------------------------------------
 	*/
 	
-	logic [17:0] address15;
+	logic [12:0] address15;
 	assign address15 = address + 15;
 	ram ram15( rst,
 				clk,

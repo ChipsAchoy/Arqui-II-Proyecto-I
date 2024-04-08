@@ -2,7 +2,7 @@
 module cpu(input logic clk, rst, input logic [31:0] instructionD, 
             input logic [15:0][31:0] dataRead_i, input logic [31:0] pc,
 				output logic [31:0] pcOut, output logic [15:0][31:0] dataWrite_i, output logic memWrite, 
-				output [17:0] addr, output logic vec_scalar);
+				output [12:0] addr, output logic vec_scalar);
 	
 	logic [3:0] aluFlags, CondE, FlagsD, FlagsE;
 	logic [3:0] aluFlagsF1, aluFlagsF2, aluFlagsF3, aluFlagsF4, aluFlagsF5, aluFlagsF6, aluFlagsF7;
@@ -92,7 +92,7 @@ module cpu(input logic clk, rst, input logic [31:0] instructionD,
 	assign ExtImmSrc[14:0] = 0;
 	
 
-	assign addr = ALUResultM[15][17:0];
+	assign addr = ALUResultM[15][12:0];
 	assign dataWrite_i = WriteDataM;
 	assign memWrite = MemWriteM;
 	assign vec_scalar = v_s_m;
