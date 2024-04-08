@@ -66,7 +66,7 @@ module RegisterFile(input  logic clk,rst,we3,
 			rf_v[1][1] = 6;
 			rf_v[1][0] = 2;
 			
-			rf_v[2][15] = 1;
+			rf_v[2][15] = 5;
 			rf_v[2][14] = 1;
 			rf_v[2][13] = 1;
 			rf_v[2][12] = 1;
@@ -86,16 +86,18 @@ module RegisterFile(input  logic clk,rst,we3,
 			
 			rf_v[4][15] = 0;
 			
-			rf_s[4] = 1;
+			rf_s[4] = 0;
 			rf_s[5] = 12;
 			rf_s[8] = 0;
-			rf_s[2] = 1;
+			rf_s[2] = 17;
 			rf_s[9] = 0;
-			
+			rf_s[0] = 4;
+			rf_s[1] = 12;
+
 		end
 		else begin
 			if (we3 & (selec_v_s_w == 1'b0)) begin
-				rf_s[ra3] <= wd3[0];
+				rf_s[ra3] <= wd3[15];
 			end else if (we3 & (selec_v_s_w == 1'b1)) begin
 				rf_v[ra3] <= wd3;
 			end

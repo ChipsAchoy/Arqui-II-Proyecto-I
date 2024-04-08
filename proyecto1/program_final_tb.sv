@@ -17,7 +17,7 @@ module program_final_tb();
 		rst = 0;
 		#40
 		
-		for (int i =0; i<30; i=i+1 ) begin
+		for (int i =0; i<50; i=i+1 ) begin
 			clk = 0;
 			#40
 			clk = 1;

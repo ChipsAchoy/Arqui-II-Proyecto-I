@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Users/INTEL/Desktop/VarasDeLaU/PrimerSem12023/proyecto1/simulation/modelsim
 valt_bidir_buf
-Z0 !s110 1712607629
+Z0 !s110 1712616072
 !i10b 1
 !s100 `k9N_NNE[omlCfHHm=PO53
 In13gT<NH<J`Pni07a=RiL3
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1712607628.000000
+Z7 !s108 1712616072.000000
 Z8 !s107 d:/quartuslite/quartus/eda/sim_lib/altera_primitives.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|altera_ver|d:/quartuslite/quartus/eda/sim_lib/altera_primitives.v|
 !i113 1
@@ -219,7 +219,7 @@ R9
 R10
 R11
 vcarry
-Z12 !s110 1712607628
+R0
 !i10b 1
 !s100 0ICFPGeo=D<cUPW66HGND3
 IB:Xe<<LQR[B6N_43E_E042
@@ -240,7 +240,7 @@ R9
 R10
 R11
 vcarry_sum
-R12
+R0
 !i10b 1
 !s100 7Wh^>o51d99jMK2ao5S<71
 IcLk2h[22B2m:EjJL4P<k[2
@@ -261,7 +261,7 @@ R9
 R10
 R11
 vcascade
-R12
+R0
 !i10b 1
 !s100 8molX8AzAGGlLiJMkCdJW0
 IgeLDg@LH3?n_Agcd:TDog0
@@ -429,7 +429,7 @@ R9
 R10
 R11
 vexp
-R12
+R0
 !i10b 1
 !s100 S8Hlo[BJ@]GA_;PLCDLHF0
 Il6VYP2mYh45XaSOA;XDmk3
@@ -450,7 +450,7 @@ R9
 R10
 R11
 vglobal
-R12
+R0
 !i10b 1
 !s100 PYc0FeJbjBoPb`HNl3=W20
 IzUAWbibCi8Y=@h>:eaa=l0
@@ -534,7 +534,7 @@ R9
 R10
 R11
 vlut_input
-R12
+R0
 !i10b 1
 !s100 A74hWU1l783Jb@M@NEWL[1
 I[>bOb0:o5FKTBZ8;HG`>A0
@@ -576,7 +576,7 @@ R9
 R10
 R11
 vopndrn
-R12
+R0
 !i10b 1
 !s100 SbP7Lmfm2l3o<=VUXXj^V2
 IzJT:8gYcNRalHIF<?e^d12
@@ -618,7 +618,7 @@ R9
 R10
 R11
 UPRIM_GDFF_HIGH
-R0
+Z12 !s110 1712616073
 !i10b 1
 !s100 SScBZ?gdYFgRTOVYmj^Jh2
 IkoW^M709bE1AoR6clJEaP0
@@ -640,7 +640,7 @@ R10
 R11
 n@p@r@i@m_@g@d@f@f_@h@i@g@h
 UPRIM_GDFF_HIGH_SCLR_PRIORITY
-R0
+R12
 !i10b 1
 !s100 F63MIm7BDi6=;U3:nVoTc3
 I=KYCz6JRn3R>Vz1[H]=b^1
@@ -684,7 +684,7 @@ R10
 R11
 n@p@r@i@m_@g@d@f@f_@l@o@w
 UPRIM_GDFF_LOW_SCLR_PRIORITY
-R0
+R12
 !i10b 1
 !s100 `gUo^mjm:1ILUg``]kfOO1
 I>`;j4Kn64HEVoDG`Vj19f2
@@ -769,7 +769,7 @@ R9
 R10
 R11
 vrow_global
-R12
+R0
 !i10b 1
 !s100 8a3J8?I7z9`=o0f7A<3H@2
 I;ZPgZoHa:LOJP=eaU^?f11
@@ -790,7 +790,7 @@ R9
 R10
 R11
 vsoft
-R12
+R0
 !i10b 1
 !s100 N?lNK?YVRSjaSdS3kflgD0
 I9NfSHKgRij7]5OXf?QP=;1
@@ -895,7 +895,7 @@ R9
 R10
 R11
 vTRI
-R12
+R0
 !i10b 1
 !s100 zijCJ15AMfmk_^o0@gG2o2
 IhVG94MK6H^6G;Da5X^:@o2

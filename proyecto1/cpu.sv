@@ -20,7 +20,7 @@ module cpu(input logic clk, rst, input logic [31:0] instructionD,
 	logic [15:0][31:0] resultPc;
 	logic [3:0] WA3D, WA3E, WA3M, WA3W;
 	logic [31:0] ExtImmD, ExtImmE;
-	logic [15:0][31:0] ALUResultE, ALUResultM, ALUResultW, WriteDataM, ReadDataM, ReadDataW;
+	logic [15:0][31:0] ALUResultE, ALUResultM, ALUResultW, WriteDataM, ReadDataM, ReadDataW, ReadDataUse;
 	logic [15:0][31:0] ExtImmSrc, srcB;
 	logic v_s, v_s_d, v_s_e, v_s_m, v_s_z;
 	
@@ -85,13 +85,14 @@ module cpu(input logic clk, rst, input logic [31:0] instructionD,
 	alu A15(rd1E[0], srcB[0], ALUControlE, ALUResultE[0], aluFlagsF15[1], aluFlagsF15[2], aluFlagsF15[3], aluFlagsF15[0]);
 
 	
-	mux_2_to_1_32_vec M3(dataRead_i, ALUResultW, MemtoRegW, resultPc);
+	mux_2_to_1_32_vec M3(ReadDataW, ALUResultW, MemtoRegW, resultPc);
 	mux_2_to_1_32 M4(resultPc[15], pc_plus_4, PCSrcW, pcOut);
 	
-	assign ExtImmSrc[0] = ExtImmE;
-	assign ExtImmSrc[15:1] = 0;
+	assign ExtImmSrc[15] = ExtImmE;
+	assign ExtImmSrc[14:0] = 0;
 	
-
+	
+	assign ReadDataUse = v_s_w? dataRead_i : ReadDataW;
 	assign addr = ALUResultM[15][12:0];
 	assign dataWrite_i = WriteDataM;
 	assign memWrite = MemWriteM;

@@ -37,16 +37,18 @@ module mem_control(
 	---------------------------RAM 0-------------------------------------
 	*/
 	logic [12:0] address0;
-	logic [15:0]data0;
+	logic [15:0]data0, q0;
 	assign data0 = vec_scalar ? data[0][15:0]: data[15][15:0];
 	assign address0 = address + 0;
+	
+	
 	
 	ram ram0( rst,
 				clk,
 				data0,
 				address0,
 				wren,
-				q[0][15:0] );
+				q0);
 	/*
 	---------------------------RAM 1-------------------------------------
 	*/
@@ -225,13 +227,17 @@ module mem_control(
 	*/
 	
 	logic [12:0] address15;
+	logic [15:0] q15;
 	assign address15 = address + 15;
 	ram ram15( rst,
 				clk,
 				data[15][15:0],
 				address15,
 				wren && vec_scalar,
-				q[15][15:0] );
+				q15);
+				
+	assign q[15][15:0] = vec_scalar ? q15: q0;
+	assign q[0][15:0] = q0;
 
 
 
