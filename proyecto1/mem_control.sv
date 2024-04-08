@@ -36,13 +36,9 @@ module mem_control(
 	/*
 	---------------------------RAM 0-------------------------------------
 	*/
-<<<<<<< Updated upstream
-	logic [17:0] address0;
+	logic [12:0] address0;
 	logic [15:0]data0;
 	assign data0 = vec_scalar ? data[0][15:0]: data[15][15:0];
-=======
-	logic [12:0] address0;
->>>>>>> Stashed changes
 	assign address0 = address + 0;
 	
 	ram ram0( rst,

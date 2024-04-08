@@ -1,5 +1,4 @@
 |procesadorArm
-<<<<<<< Updated upstream
 clk => clk_final.DATAB
 clk_step => clk_final.DATAA
 rst => rst.IN1
@@ -9,17 +8,6 @@ clk_select => clk_final.OUTPUTSELECT
 |procesadorArm|procesador:PR
 clk => clk.IN2
 rst => rst.IN2
-=======
-clk => clk.IN1
-rst => rst.IN1
-start => start.IN1
-
-
-|procesadorArm|procesador:PR
-clk => clk.IN3
-rst => rst.IN3
-readEnable => ~NO_FANOUT~
->>>>>>> Stashed changes
 
 
 |procesadorArm|procesador:PR|pcRegister:P0

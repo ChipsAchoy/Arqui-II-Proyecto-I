@@ -1,10 +1,4 @@
-
-<<<<<<< Updated upstream
 module procesador(input logic clk, rst);
-=======
-module procesador(input logic clk, rst,  readEnable
-/*input logic [7:0] dataIn, output logic [7:0] dataArduino*/);
->>>>>>> Stashed changes
 	
 	logic [31:0] instructionF;
 	logic [31:0] instructionD;

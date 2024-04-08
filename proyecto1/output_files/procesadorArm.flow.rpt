@@ -1,11 +1,6 @@
 Flow report for procesadorArm
-<<<<<<< Updated upstream
-Wed Apr  3 20:05:10 2024
-Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-=======
-Fri Mar 22 14:14:13 2024
+Mon Apr 08 13:22:12 2024
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
->>>>>>> Stashed changes
 
 
 ---------------------
@@ -43,30 +38,10 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-<<<<<<< Updated upstream
-+------------------------------------------------------------------------------+
-; Flow Summary                                                                 ;
-+-----------------------------+------------------------------------------------+
-; Flow Status                 ; Successful - Wed Apr  3 20:05:10 2024          ;
-; Quartus Prime Version       ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
-; Revision Name               ; procesadorArm                                  ;
-; Top-level Entity Name       ; procesadorArm                                  ;
-; Family                      ; Cyclone V                                      ;
-; Device                      ; 5CSEBA6U23I7                                   ;
-; Timing Models               ; Final                                          ;
-; Logic utilization (in ALMs) ; N/A until Partition Merge                      ;
-; Total registers             ; N/A until Partition Merge                      ;
-; Total pins                  ; N/A until Partition Merge                      ;
-; Total virtual pins          ; N/A until Partition Merge                      ;
-; Total block memory bits     ; N/A until Partition Merge                      ;
-; Total PLLs                  ; N/A until Partition Merge                      ;
-; Total DLLs                  ; N/A until Partition Merge                      ;
-+-----------------------------+------------------------------------------------+
-=======
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Fri Mar 22 14:14:13 2024       ;
+; Flow Status                     ; Successful - Mon Apr 08 13:22:12 2024       ;
 ; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                   ; procesadorArm                               ;
 ; Top-level Entity Name           ; procesadorArm                               ;
@@ -74,8 +49,8 @@ https://fpgasoftware.intel.com/eula.
 ; Device                          ; 5CSEMA5F31C6                                ;
 ; Timing Models                   ; Final                                       ;
 ; Logic utilization (in ALMs)     ; 914 / 32,070 ( 3 % )                        ;
-; Total registers                 ; 1215                                        ;
-; Total pins                      ; 3 / 457 ( < 1 % )                           ;
+; Total registers                 ; 1228                                        ;
+; Total pins                      ; 4 / 457 ( < 1 % )                           ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 2,048,000 / 4,065,280 ( 50 % )              ;
 ; Total DSP Blocks                ; 0 / 87 ( 0 % )                              ;
@@ -86,7 +61,6 @@ https://fpgasoftware.intel.com/eula.
 ; Total PLLs                      ; 0 / 6 ( 0 % )                               ;
 ; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
 +---------------------------------+---------------------------------------------+
->>>>>>> Stashed changes
 
 
 +-----------------------------------------+
@@ -94,11 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-<<<<<<< Updated upstream
-; Start date & time ; 04/03/2024 20:04:58 ;
-=======
-; Start date & time ; 03/22/2024 14:11:45 ;
->>>>>>> Stashed changes
+; Start date & time ; 04/08/2024 13:19:30 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; procesadorArm       ;
 +-------------------+---------------------+
@@ -109,11 +79,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-<<<<<<< Updated upstream
-; COMPILER_SIGNATURE_ID                ; 27214212235900.171219629804440         ; --            ; --          ; --                                ;
-=======
-; COMPILER_SIGNATURE_ID                ; 238300921737103.171113830520504        ; --            ; --          ; --                                ;
->>>>>>> Stashed changes
+; COMPILER_SIGNATURE_ID                ; 238300921737103.171260397017308        ; --            ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; RAM_ARD_tb                        ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; register_tb                       ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; ram_TB                            ;
@@ -181,29 +147,18 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 
 
-<<<<<<< Updated upstream
-+----------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                          ;
-+------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:12     ; 1.0                     ; 4989 MB             ; 00:00:25                           ;
-; Total                  ; 00:00:12     ; --                      ; --                  ; 00:00:25                           ;
-+------------------------+--------------+-------------------------+---------------------+------------------------------------+
-=======
 +--------------------------------------------------------------------------------------------------------------------------+
 ; Flow Elapsed Time                                                                                                        ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:20     ; 1.0                     ; 5172 MB             ; 00:00:35                           ;
-; Fitter               ; 00:01:33     ; 1.4                     ; 7890 MB             ; 00:09:46                           ;
-; Assembler            ; 00:00:06     ; 1.0                     ; 4906 MB             ; 00:00:06                           ;
-; Timing Analyzer      ; 00:00:21     ; 2.2                     ; 5413 MB             ; 00:00:33                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4777 MB             ; 00:00:01                           ;
-; Total                ; 00:02:22     ; --                      ; --                  ; 00:11:01                           ;
+; Analysis & Synthesis ; 00:00:18     ; 1.0                     ; 5135 MB             ; 00:00:34                           ;
+; Fitter               ; 00:01:42     ; 1.4                     ; 7887 MB             ; 00:09:37                           ;
+; Assembler            ; 00:00:07     ; 1.0                     ; 4903 MB             ; 00:00:06                           ;
+; Timing Analyzer      ; 00:00:25     ; 2.0                     ; 5411 MB             ; 00:00:37                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4773 MB             ; 00:00:02                           ;
+; Total                ; 00:02:34     ; --                      ; --                  ; 00:10:56                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
->>>>>>> Stashed changes
 
 
 +------------------------------------------------------------------------------------+

@@ -4,11 +4,19 @@
 			"name" : "Top",
 			"pins" : [
 				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "clk_step",
+					"strict" : false
+				},
+				{
 					"name" : "clk",
 					"strict" : false
 				},
 				{
-					"name" : "rst",
+					"name" : "clk_select",
 					"strict" : false
 				}
 			]
