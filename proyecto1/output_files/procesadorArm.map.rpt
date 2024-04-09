@@ -14,7 +14,7 @@ Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 =======
 >>>>>>> Mem
 Analysis & Elaboration report for procesadorArm
-Tue Apr  9 00:36:36 2024
+Tue Apr  9 01:57:00 2024
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 <<<<<<< HEAD
 =======
@@ -1099,7 +1099,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                 ;
 +-------------------------------+------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Tue Apr  9 00:36:36 2024          ;
+; Analysis & Elaboration Status ; Successful - Tue Apr  9 01:57:00 2024          ;
 ; Quartus Prime Version         ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                 ; procesadorArm                                  ;
 ; Top-level Entity Name         ; procesadorArm                                  ;
@@ -16222,7 +16222,7 @@ Info: *******************************************************************
 >>>>>>> Mem
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Tue Apr  9 00:36:07 2024
+    Info: Processing started: Tue Apr  9 01:56:31 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off procesadorArm -c procesadorArm --analysis_and_elaboration
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17330,7 +17330,11 @@ Warning (12030): Port "ordered port 5" on the entity instantiation of "LU" is co
 Warning (12030): Port "ordered port 6" on the entity instantiation of "LU" is connected to a signal of width 1. The formal width of the signal in the module is 32.  The extra bits will be left dangling without any fan-out logic. File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv Line: 18
 Warning (12030): Port "ordered port 7" on the entity instantiation of "LU" is connected to a signal of width 1. The formal width of the signal in the module is 32.  The extra bits will be left dangling without any fan-out logic. File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv Line: 18
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
+<<<<<<< HEAD
 Info (11172): 2024.04.09.00:36:24 Progress: Loading slde9f3dc22/alt_sld_fab_wrapper_hw.tcl
+>>>>>>> Mem
+=======
+Info (11172): 2024.04.09.01:56:48 Progress: Loading slde9f3dc22/alt_sld_fab_wrapper_hw.tcl
 >>>>>>> Mem
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
@@ -17497,10 +17501,10 @@ The suppressed messages can be found in D:/Proyectos/Quartus/Arqui-II-Proyecto-I
 Warning (12241): 8 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (144001): Generated suppressed messages file C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/output_files/procesadorArm.map.smsg
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 124 warnings
-    Info: Peak virtual memory: 5018 megabytes
-    Info: Processing ended: Tue Apr  9 00:36:36 2024
+    Info: Peak virtual memory: 5009 megabytes
+    Info: Processing ended: Tue Apr  9 01:57:00 2024
     Info: Elapsed time: 00:00:29
-    Info: Total CPU time (on all processors): 00:00:57
+    Info: Total CPU time (on all processors): 00:00:56
 
 
 +--------------------------------------------+
