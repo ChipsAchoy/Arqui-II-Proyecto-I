@@ -1,5 +1,5 @@
 Flow report for procesadorArm
-Tue Apr  9 01:57:00 2024
+Tue Apr  9 02:04:59 2024
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +-----------------------------+------------------------------------------------+
-; Flow Status                 ; Successful - Tue Apr  9 01:57:00 2024          ;
+; Flow Status                 ; Successful - Tue Apr  9 02:04:59 2024          ;
 ; Quartus Prime Version       ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name               ; procesadorArm                                  ;
 ; Top-level Entity Name       ; procesadorArm                                  ;
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/09/2024 01:56:32 ;
+; Start date & time ; 04/09/2024 02:04:32 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; procesadorArm       ;
 +-------------------+---------------------+
@@ -74,7 +74,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+------------------------------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                                      ; Default Value ; Entity Name ; Section Id                        ;
 +--------------------------------------+------------------------------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 27214212235900.171264939213864                             ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 27214212235900.171264987116204                             ; --            ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                                         ; --            ; --          ; RAM_ARD_tb                        ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                                         ; --            ; --          ; register_tb                       ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                                         ; --            ; --          ; ram_TB                            ;
@@ -153,8 +153,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:28     ; 1.0                     ; 5009 MB             ; 00:00:56                           ;
-; Total                  ; 00:00:28     ; --                      ; --                  ; 00:00:56                           ;
+; Analysis & Elaboration ; 00:00:28     ; 1.0                     ; 5017 MB             ; 00:00:55                           ;
+; Total                  ; 00:00:28     ; --                      ; --                  ; 00:00:55                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
