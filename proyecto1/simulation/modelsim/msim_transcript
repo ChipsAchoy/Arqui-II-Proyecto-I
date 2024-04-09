@@ -18,7 +18,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {d:/quartuslite/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:36:46 on Apr 09,2024
+# Start time: 01:57:11 on Apr 09,2024
 # vlog -reportprogress 300 -vlog01compat -work altera_ver d:/quartuslite/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -100,7 +100,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 00:36:47 on Apr 09,2024, Elapsed time: 0:00:01
+# End time: 01:57:12 on Apr 09,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -111,7 +111,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {d:/quartuslite/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:36:47 on Apr 09,2024
+# Start time: 01:57:13 on Apr 09,2024
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver d:/quartuslite/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -175,7 +175,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 00:36:47 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:13 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -186,7 +186,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {d:/quartuslite/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:36:47 on Apr 09,2024
+# Start time: 01:57:13 on Apr 09,2024
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver d:/quartuslite/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -228,7 +228,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 00:36:48 on Apr 09,2024, Elapsed time: 0:00:01
+# End time: 01:57:13 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -239,7 +239,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {d:/quartuslite/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:36:48 on Apr 09,2024
+# Start time: 01:57:14 on Apr 09,2024
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver d:/quartuslite/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -369,7 +369,7 @@
 # 	alt_fault_injection
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 00:36:49 on Apr 09,2024, Elapsed time: 0:00:01
+# End time: 01:57:15 on Apr 09,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -380,7 +380,7 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {d:/quartuslite/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:36:49 on Apr 09,2024
+# Start time: 01:57:15 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver d:/quartuslite/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
@@ -463,7 +463,7 @@
 # 	altera_iopll
 # 	fourteennm_altera_iopll
 # 	fourteennm_simple_iopll
-# End time: 00:36:50 on Apr 09,2024, Elapsed time: 0:00:01
+# End time: 01:57:16 on Apr 09,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_ver
@@ -474,7 +474,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_ver {d:/quartuslite/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:36:50 on Apr 09,2024
+# Start time: 01:57:16 on Apr 09,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver d:/quartuslite/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -488,19 +488,19 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 00:36:53 on Apr 09,2024, Elapsed time: 0:00:03
+# End time: 01:57:18 on Apr 09,2024, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 20
 # vlog -vlog01compat -work cyclonev_ver {d:/quartuslite/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:36:53 on Apr 09,2024
+# Start time: 01:57:19 on Apr 09,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver d:/quartuslite/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 00:36:54 on Apr 09,2024, Elapsed time: 0:00:01
+# End time: 01:57:20 on Apr 09,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_ver {d:/quartuslite/quartus/eda/sim_lib/cyclonev_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:36:54 on Apr 09,2024
+# Start time: 01:57:20 on Apr 09,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver d:/quartuslite/quartus/eda/sim_lib/cyclonev_atoms.v 
 # -- Compiling UDP CYCLONEV_PRIM_DFFE
 # -- Compiling UDP CYCLONEV_PRIM_DFFEAS
@@ -640,7 +640,7 @@
 # 	cyclonev_mem_phy
 # 	cyclonev_oscillator
 # 	cyclonev_hps_interface_fpga2sdram
-# End time: 00:36:55 on Apr 09,2024, Elapsed time: 0:00:01
+# End time: 01:57:21 on Apr 09,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_hssi_ver
@@ -651,15 +651,15 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_hssi_ver {d:/quartuslite/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:36:55 on Apr 09,2024
+# Start time: 01:57:21 on Apr 09,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver d:/quartuslite/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 00:36:57 on Apr 09,2024, Elapsed time: 0:00:02
+# End time: 01:57:23 on Apr 09,2024, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_hssi_ver {d:/quartuslite/quartus/eda/sim_lib/cyclonev_hssi_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:36:57 on Apr 09,2024
+# Start time: 01:57:23 on Apr 09,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver d:/quartuslite/quartus/eda/sim_lib/cyclonev_hssi_atoms.v 
 # -- Compiling module cyclonev_hssi_8g_pcs_aggregate
 # -- Compiling module cyclonev_hssi_8g_rx_pcs
@@ -759,7 +759,7 @@
 # 	arriav_hssi_avmm_interface
 # 	arriav_hssi_pma_hi_pmaif
 # 	arriav_hssi_pma_hi_xcvrif
-# End time: 00:36:58 on Apr 09,2024, Elapsed time: 0:00:01
+# End time: 01:57:24 on Apr 09,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_pcie_hip_ver
@@ -770,7 +770,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {d:/quartuslite/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:36:58 on Apr 09,2024
+# Start time: 01:57:24 on Apr 09,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver d:/quartuslite/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -780,18 +780,18 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 00:37:01 on Apr 09,2024, Elapsed time: 0:00:03
+# End time: 01:57:26 on Apr 09,2024, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 12
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {d:/quartuslite/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:01 on Apr 09,2024
+# Start time: 01:57:26 on Apr 09,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver d:/quartuslite/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v 
 # -- Compiling module cyclonev_hd_altpe2_hip_top
 # -- Compiling module arriav_hd_altpe2_hip_top
 # 
 # Top level modules:
 # 	cyclonev_hd_altpe2_hip_top
-# End time: 00:37:01 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:27 on Apr 09,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -811,208 +811,208 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work probe_pc +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/probe_pc/synthesis {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/probe_pc/synthesis/probe_pc.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:01 on Apr 09,2024
+# Start time: 01:57:27 on Apr 09,2024
 # vlog -reportprogress 300 -vlog01compat -work probe_pc "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/probe_pc/synthesis" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/probe_pc/synthesis/probe_pc.v 
 # -- Compiling module probe_pc
 # 
 # Top level modules:
 # 	probe_pc
-# End time: 00:37:01 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:27 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work probe_pc +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/probe_pc/synthesis/submodules {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/probe_pc/synthesis/submodules/altsource_probe_top.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:01 on Apr 09,2024
+# Start time: 01:57:27 on Apr 09,2024
 # vlog -reportprogress 300 -vlog01compat -work probe_pc "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/probe_pc/synthesis/submodules" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/probe_pc/synthesis/submodules/altsource_probe_top.v 
 # -- Compiling module altsource_probe_top
 # 
 # Top level modules:
 # 	altsource_probe_top
-# End time: 00:37:01 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:27 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:01 on Apr 09,2024
+# Start time: 01:57:27 on Apr 09,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ram.v 
 # -- Compiling module ram
 # 
 # Top level modules:
 # 	ram
-# End time: 00:37:01 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:27 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegMW.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:01 on Apr 09,2024
+# Start time: 01:57:27 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegMW.sv 
 # -- Compiling module PipeRegMW
 # 
 # Top level modules:
 # 	PipeRegMW
-# End time: 00:37:01 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:27 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegFD.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:01 on Apr 09,2024
+# Start time: 01:57:27 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegFD.sv 
 # -- Compiling module PipeRegFD
 # ** Warning: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegFD.sv(18): (vlog-2597) '3221225472' is being treated as 32-bit signed integer and will overflow.
 # 
 # Top level modules:
 # 	PipeRegFD
-# End time: 00:37:01 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:27 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegEM.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:01 on Apr 09,2024
+# Start time: 01:57:27 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegEM.sv 
 # -- Compiling module PipeRegEM
 # 
 # Top level modules:
 # 	PipeRegEM
-# End time: 00:37:01 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:27 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegDE.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:01 on Apr 09,2024
+# Start time: 01:57:27 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PipeRegDE.sv 
 # -- Compiling module PipeRegDE
 # 
 # Top level modules:
 # 	PipeRegDE
-# End time: 00:37:02 on Apr 09,2024, Elapsed time: 0:00:01
+# End time: 01:57:27 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:02 on Apr 09,2024
+# Start time: 01:57:27 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv 
 # -- Compiling module InstructionMemory
 # 
 # Top level modules:
 # 	InstructionMemory
-# End time: 00:37:02 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:27 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterFile.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:02 on Apr 09,2024
+# Start time: 01:57:27 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/RegisterFile.sv 
 # -- Compiling module RegisterFile
 # 
 # Top level modules:
 # 	RegisterFile
-# End time: 00:37:02 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:28 on Apr 09,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/MainDecoder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:02 on Apr 09,2024
+# Start time: 01:57:28 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/MainDecoder.sv 
 # -- Compiling module MainDecoder
 # 
 # Top level modules:
 # 	MainDecoder
-# End time: 00:37:02 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:28 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/AluDecoder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:02 on Apr 09,2024
+# Start time: 01:57:28 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/AluDecoder.sv 
 # -- Compiling module AluDecoder
 # 
 # Top level modules:
 # 	AluDecoder
-# End time: 00:37:02 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:28 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PCLogic.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:02 on Apr 09,2024
+# Start time: 01:57:28 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/PCLogic.sv 
 # -- Compiling module PCLogic
 # 
 # Top level modules:
 # 	PCLogic
-# End time: 00:37:02 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:28 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Decoder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:02 on Apr 09,2024
+# Start time: 01:57:28 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Decoder.sv 
 # -- Compiling module Decoder
 # 
 # Top level modules:
 # 	Decoder
-# End time: 00:37:02 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:28 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionCheck.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:02 on Apr 09,2024
+# Start time: 01:57:28 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionCheck.sv 
 # -- Compiling module ConditionCheck
 # 
 # Top level modules:
 # 	ConditionCheck
-# End time: 00:37:02 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:28 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionLogic.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:02 on Apr 09,2024
+# Start time: 01:57:28 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionLogic.sv 
 # -- Compiling module ConditionLogic
 # 
 # Top level modules:
 # 	ConditionLogic
-# End time: 00:37:02 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:28 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Extend.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:02 on Apr 09,2024
+# Start time: 01:57:28 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Extend.sv 
 # -- Compiling module Extend
 # 
 # Top level modules:
 # 	Extend
-# End time: 00:37:02 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:28 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/plus_n.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:02 on Apr 09,2024
+# Start time: 01:57:28 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/plus_n.sv 
 # -- Compiling module plus_n
 # 
 # Top level modules:
 # 	plus_n
-# End time: 00:37:02 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:28 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:02 on Apr 09,2024
+# Start time: 01:57:28 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32.sv 
 # -- Compiling module mux_2_to_1_32
 # 
 # Top level modules:
 # 	mux_2_to_1_32
-# End time: 00:37:02 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:28 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_4.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:02 on Apr 09,2024
+# Start time: 01:57:28 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_4.sv 
 # -- Compiling module mux_2_to_1_4
 # 
 # Top level modules:
 # 	mux_2_to_1_4
-# End time: 00:37:02 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:28 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:02 on Apr 09,2024
+# Start time: 01:57:28 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 00:37:02 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:28 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:02 on Apr 09,2024
+# Start time: 01:57:28 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv 
 # -- Compiling module logic_alu
 # -- Compiling module and_gate
@@ -1024,153 +1024,153 @@
 # 
 # Top level modules:
 # 	logic_alu
-# End time: 00:37:03 on Apr 09,2024, Elapsed time: 0:00:01
+# End time: 01:57:28 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/pcRegister.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:03 on Apr 09,2024
+# Start time: 01:57:28 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/pcRegister.sv 
 # -- Compiling module pcRegister
 # 
 # Top level modules:
 # 	pcRegister
-# End time: 00:37:03 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:28 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:03 on Apr 09,2024
+# Start time: 01:57:28 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv 
 # -- Compiling module cpu
 # 
 # Top level modules:
 # 	cpu
-# End time: 00:37:03 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:28 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:03 on Apr 09,2024
+# Start time: 01:57:28 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv 
 # -- Compiling module procesador
 # 
 # Top level modules:
 # 	procesador
-# End time: 00:37:03 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:29 on Apr 09,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesadorArm.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:03 on Apr 09,2024
+# Start time: 01:57:29 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesadorArm.sv 
 # -- Compiling module procesadorArm
 # 
 # Top level modules:
 # 	procesadorArm
-# End time: 00:37:03 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:29 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/multiplyUnit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:03 on Apr 09,2024
+# Start time: 01:57:29 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/multiplyUnit.sv 
 # -- Compiling module multiplyUnit
 # 
 # Top level modules:
 # 	multiplyUnit
-# End time: 00:37:03 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:29 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/divUnit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:03 on Apr 09,2024
+# Start time: 01:57:29 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/divUnit.sv 
 # -- Compiling module divUnit
 # 
 # Top level modules:
 # 	divUnit
-# End time: 00:37:03 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:29 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32_vec.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:03 on Apr 09,2024
+# Start time: 01:57:29 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mux_2_to_1_32_vec.sv 
 # -- Compiling module mux_2_to_1_32_vec
 # 
 # Top level modules:
 # 	mux_2_to_1_32_vec
-# End time: 00:37:03 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:29 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/modUnit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:03 on Apr 09,2024
+# Start time: 01:57:29 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/modUnit.sv 
 # -- Compiling module modUnit
 # 
 # Top level modules:
 # 	modUnit
-# End time: 00:37:03 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:29 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:03 on Apr 09,2024
+# Start time: 01:57:29 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv 
 # -- Compiling module mem_control
 # 
 # Top level modules:
 # 	mem_control
-# End time: 00:37:03 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:29 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/perfRegister.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:03 on Apr 09,2024
+# Start time: 01:57:29 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/perfRegister.sv 
 # -- Compiling module perfRegister
 # 
 # Top level modules:
 # 	perfRegister
-# End time: 00:37:03 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:29 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/addUnit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:03 on Apr 09,2024
+# Start time: 01:57:29 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/addUnit.sv 
 # -- Compiling module addUnit
 # 
 # Top level modules:
 # 	addUnit
-# End time: 00:37:03 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:29 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/subUnit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:03 on Apr 09,2024
+# Start time: 01:57:29 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/subUnit.sv 
 # -- Compiling module subUnit
 # 
 # Top level modules:
 # 	subUnit
-# End time: 00:37:03 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:29 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/sumatoria.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:03 on Apr 09,2024
+# Start time: 01:57:29 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/sumatoria.sv 
 # -- Compiling module sumatoria
 # 
 # Top level modules:
 # 	sumatoria
-# End time: 00:37:03 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:29 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_final_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:37:04 on Apr 09,2024
+# Start time: 01:57:29 on Apr 09,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1" C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_final_tb.sv 
 # -- Compiling module program_final_tb
 # 
 # Top level modules:
 # 	program_final_tb
-# End time: 00:37:04 on Apr 09,2024, Elapsed time: 0:00:00
+# End time: 01:57:29 on Apr 09,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -L probe_pc -voptargs="+acc"  program_final_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -L probe_pc -voptargs=""+acc"" program_final_tb 
-# Start time: 00:37:04 on Apr 09,2024
+# Start time: 01:57:29 on Apr 09,2024
 # Loading sv_std.std
 # Loading work.program_final_tb
 # Loading work.procesadorArm
@@ -1614,13 +1614,13 @@
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: INTEL  Hostname: DESKTOP-LMJ5G1R  ProcessID: 26120
-#           Attempting to use alternate WLF file "./wlftktdacr".
+#           Attempting to use alternate WLF file "./wlft260yy8".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftktdacr
+#           Using alternate file: ./wlft260yy8
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# End time: 00:37:49 on Apr 09,2024, Elapsed time: 0:00:45
+# End time: 01:57:52 on Apr 09,2024, Elapsed time: 0:00:23
 # Errors: 0, Warnings: 250
