@@ -13,6 +13,12 @@ module data_instructions_tb();
     .clk_select(clk_select)
   );
 
+  integer instructions = 10;
+  integer stalls = instructions * 5;
+  integer cycles = instructions + stalls;
+  
+  integer i;
+
   initial begin
     clk = 0;
     clk_step = 0;
@@ -22,7 +28,7 @@ module data_instructions_tb();
     #1;
     reset = 0;
 
-    #10000;
+    for(i = 0; i < cycles; i = i+1) #20;
     
     $stop;
   end
