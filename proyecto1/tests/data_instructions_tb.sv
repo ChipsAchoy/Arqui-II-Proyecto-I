@@ -13,9 +13,8 @@ module data_instructions_tb();
     .clk_select(clk_select)
   );
 
-  integer instructions = 10;
-  integer stalls = instructions * 5;
-  integer cycles = instructions + stalls;
+  integer max_pc = 840;
+  integer cycles = (max_pc / 4) + 10;
   
   integer i;
 
