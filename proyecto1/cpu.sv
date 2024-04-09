@@ -94,7 +94,7 @@ module cpu(input logic clk, rst, input logic [31:0] instructionD,
 	assign ALUResultEUse[15] = (ALUControlE == 3'b101) & (v_s_e == 1'b1) ? SUM_Result : ALUResultE[15];
 	assign ALUResultEUse[14:0] = ALUResultE[14:0];
 	assign ReadDataUse = v_s_w? dataRead_i : ReadDataW;
-	assign addr = (ALUControlE == 3'b000) ? ALUResultEUse[15][12:0] : ALUResultM[15][12:0];
+	assign addr = (ALUControlE == 3'b001) ? ALUResultEUse[15][12:0] : ALUResultM[15][12:0];
 	assign dataWrite_i = WriteDataM;
 	assign memWrite = MemWriteM;
 	assign vec_scalar = v_s_m;
