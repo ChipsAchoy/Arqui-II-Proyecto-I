@@ -13,6 +13,12 @@ module data_instructions_tb();
     .clk_select(clk_select)
   );
 
+  // integer max_pc = 864;
+  // integer cycles = (max_pc / 4) + 10;
+  integer cycles = 20000;
+  
+  integer i;
+
   initial begin
     clk = 0;
     clk_step = 0;
@@ -22,7 +28,7 @@ module data_instructions_tb();
     #1;
     reset = 0;
 
-    #1000;
+    for(i = 0; i < cycles; i = i+1) #20;
     
     $stop;
   end

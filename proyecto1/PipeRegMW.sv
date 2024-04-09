@@ -4,6 +4,7 @@ module PipeRegMW (
 	 input logic RST,
     // Input signals       					 	
     input logic [15:0][31:0] ALUOutM,
+	 input logic [2:0] ALUControlM,
     input logic [15:0][31:0] ReadDataM,
     input logic PCSrcM,
     input logic RegWriteM,
@@ -12,6 +13,7 @@ module PipeRegMW (
 	 input logic v_s_m,
     // Output signals
     output logic [15:0][31:0] ALUOutW,
+	 output logic [2:0] ALUControlW,
     output logic [15:0][31:0] ReadDataW,
     output logic PCSrcW,
     output logic RegWriteW,
@@ -24,6 +26,7 @@ module PipeRegMW (
 
     logic [15:0][31:0] ALUOutReg;
     logic [15:0][31:0] ReadDataReg;
+	 logic [2:0] ALUControlReg;
     logic PCSrcReg;
     logic RegWriteReg;
     logic MemtoRegReg;
@@ -40,6 +43,7 @@ module PipeRegMW (
         MemtoRegReg <= 0;
 		  WA3Reg <= 0;
 		  v_s_reg <= 0;
+		  ALUControlReg <= 0;
 		 end else begin
         ALUOutReg <= ALUOutM;
         ReadDataReg <= ReadDataM;
@@ -48,6 +52,7 @@ module PipeRegMW (
         MemtoRegReg <= MemtoRegM;
 		  WA3Reg <= WA3M;
 		  v_s_reg <= v_s_m;
+		  ALUControlReg <= ALUControlM;
 		 end
 
     end
@@ -59,5 +64,6 @@ module PipeRegMW (
     assign MemtoRegW = MemtoRegReg;
 	 assign WA3W = WA3Reg;
 	 assign v_s_w = v_s_reg;
+	 assign ALUControlW = ALUControlReg;
 
 endmodule

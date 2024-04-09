@@ -2,14 +2,14 @@
 module cpu(input logic clk, rst, input logic [31:0] instructionD, 
             input logic [15:0][31:0] dataRead_i, input logic [31:0] pc,
 				output logic [31:0] pcOut, output logic [15:0][31:0] dataWrite_i, output logic memWrite, 
-				output [17:0] addr, output logic vec_scalar);
+				output [12:0] addr, output logic vec_scalar);
 	
 	logic [3:0] aluFlags, CondE, FlagsD, FlagsE;
 	logic [3:0] aluFlagsF1, aluFlagsF2, aluFlagsF3, aluFlagsF4, aluFlagsF5, aluFlagsF6, aluFlagsF7;
 	logic [3:0] aluFlagsF8, aluFlagsF9, aluFlagsF10, aluFlagsF11, aluFlagsF12, aluFlagsF13, aluFlagsF14, aluFlagsF15;
 	logic pcSrc, regWrite, memtoReg, aluSrc;
 	logic [1:0] regSrc, FlagWriteD, FlagWriteE, ImmSrcD;
-	logic [2:0] ALUControlD, ALUControlE, aluControl;
+	logic [2:0] ALUControlD, ALUControlE, aluControl, ALUControlM, ALUControlW;
 	logic [2:0] ALUControlE1, ALUControlE2, ALUControlE3, ALUControlE4, ALUControlE5, ALUControlE6, ALUControlE7, ALUControlE8;
 	logic [2:0] ALUControlE9, ALUControlE10, ALUControlE11, ALUControlE12, ALUControlE13, ALUControlE14, ALUControlE15;
 	logic [3:0] a1, a2, a3;
@@ -20,8 +20,9 @@ module cpu(input logic clk, rst, input logic [31:0] instructionD,
 	logic [15:0][31:0] resultPc;
 	logic [3:0] WA3D, WA3E, WA3M, WA3W;
 	logic [31:0] ExtImmD, ExtImmE;
-	logic [15:0][31:0] ALUResultE, ALUResultM, ALUResultW, WriteDataM, ReadDataM, ReadDataW;
+	logic [15:0][31:0] ALUResultE, ALUResultEUse, ALUResultM, ALUResultW, WriteDataM, ReadDataM, ReadDataW, ReadDataUse;
 	logic [15:0][31:0] ExtImmSrc, srcB;
+	logic [31:0] SUM_Result;
 	logic v_s, v_s_d, v_s_e, v_s_m, v_s_z;
 	
 	logic PCSrcD, PCSrcE, PCSrcE2, PCSrcM, PCSrcW, 
@@ -43,12 +44,12 @@ module cpu(input logic clk, rst, input logic [31:0] instructionD,
 						   PCSrcE, RegWriteE, MemWriteE, clk, rst, PCSrcE2, RegWriteE2, MemWriteE2);
 	
 	PipeRegEM regEM(clk, rst, 
-						 ALUResultE, rd2E, PCSrcE2, RegWriteE2, MemtoRegE, MemWriteE2, WA3E, v_s_e,
-						 ALUResultM, WriteDataM, PCSrcM, RegWriteM, MemtoRegM, MemWriteM, WA3M, v_s_m);
+						 ALUResultEUse, ALUControlE, rd2E, PCSrcE2, RegWriteE2, MemtoRegE, MemWriteE2, WA3E, v_s_e,
+						 ALUResultM, ALUControlM, WriteDataM, PCSrcM, RegWriteM, MemtoRegM, MemWriteM, WA3M, v_s_m);
 	
 	PipeRegMW regMW(clk, rst, 
-						 ALUResultM, dataRead_i, PCSrcM, RegWriteM, MemtoRegM, WA3M, v_s_m,
-						 ALUResultW, ReadDataW, PCSrcW, RegWriteW, MemtoRegW, WA3W, v_s_w);
+						 ALUResultM, ALUControlM, dataRead_i, PCSrcM, RegWriteM, MemtoRegM, WA3M, v_s_m,
+						 ALUResultW, ALUControlW, ReadDataW, PCSrcW, RegWriteW, MemtoRegW, WA3W, v_s_w);
 						 
 	
 	mux_2_to_1_4 M0(4'd15, instructionD[19:16], regSrc[0], a1);
@@ -60,7 +61,7 @@ module cpu(input logic clk, rst, input logic [31:0] instructionD,
 	
 	RegisterFile R0(clk,rst, RegWriteW, 
                a1, a2, WA3W,
-               resultPc, pc_plus_4, instructionD[26], v_s_w,
+               resultPc, pc_plus_4, instructionD[26], v_s_w, ALUControlW,
                rd1D, rd2D);
 	
 	Extend E0(instructionD[15:0], ImmSrcD, ExtImmD);
@@ -84,15 +85,16 @@ module cpu(input logic clk, rst, input logic [31:0] instructionD,
 	alu A14(rd1E[1], srcB[1], ALUControlE, ALUResultE[1], aluFlagsF14[1], aluFlagsF14[2], aluFlagsF14[3], aluFlagsF14[0]);
 	alu A15(rd1E[0], srcB[0], ALUControlE, ALUResultE[0], aluFlagsF15[1], aluFlagsF15[2], aluFlagsF15[3], aluFlagsF15[0]);
 
-	
-	mux_2_to_1_32_vec M3(dataRead_i, ALUResultW, MemtoRegW, resultPc);
+	sumatoria SM(rd1E, SUM_Result);
+	mux_2_to_1_32_vec M3(ReadDataW, ALUResultW, MemtoRegW, resultPc);
 	mux_2_to_1_32 M4(resultPc[15], pc_plus_4, PCSrcW, pcOut);
 	
 	assign ExtImmSrc[15] = ExtImmE;
 	assign ExtImmSrc[14:0] = 0;
-	
-
-	assign addr = ALUResultM[15][17:0];
+	assign ALUResultEUse[15] = (ALUControlE == 3'b101) & (v_s_e == 1'b1) ? SUM_Result : ALUResultE[15];
+	assign ALUResultEUse[14:0] = ALUResultE[14:0];
+	assign ReadDataUse = v_s_w? dataRead_i : ReadDataW;
+	assign addr = (ALUControlE == 3'b001) ? ALUResultEUse[15][12:0] : ALUResultM[15][12:0];
 	assign dataWrite_i = WriteDataM;
 	assign memWrite = MemWriteM;
 	assign vec_scalar = v_s_m;

@@ -1,4 +1,3 @@
-
 module procesador(input logic clk, rst);
 	
 	logic [31:0] instructionF;
@@ -7,7 +6,7 @@ module procesador(input logic clk, rst);
 	logic [31:0] pcUse;
 	logic [15:0][31:0] dataRead, dataWrite;
 	logic memWrite;
-	logic [17:0] addr;
+	logic [12:0] addr;
 	logic [1:0] select; 
 	logic [19:0] out_addr;
 	logic [31:0] i1, i2, i3;
@@ -39,9 +38,15 @@ module procesador(input logic clk, rst);
 	
 	pcRegister P0(clk, rst, pc, pcUse);
 	
+	probe_pc p_pc(pcUse);
+	
+	probe_pc p_clk(clk);
+	
 	perfRegister REG(clk, rst, perf_countD, perf_countF);
 	
 	InstructionMemory IM(clk,rst, pcUse, instructionF);
+	
+	probe_pc p_ins(instructionF);
 	
 	PipeRegFD regFD(clk, rst, instructionF, perf_countF, instructionD, perf_countD);
 	

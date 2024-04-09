@@ -1,4 +1,4 @@
-MEMORY_SIZE = 400 # In bytes
+MEMORY_SIZE = 1024 # In bytes
 
 EMPTY_NIBBLE = '0000'
 
@@ -62,7 +62,7 @@ BRANCH_COND = {
     'LT':   '1011',
     'GT':   '1100',
     'LE':   '1101',
-    'JUMP': '1110'
+    'JMP': '1110'
 }
 
 IND = {
@@ -133,7 +133,7 @@ inst_types = [
             'blt':  BRANCH_COND['LT'],
             'bgt':  BRANCH_COND['GT'],
             'ble':  BRANCH_COND['LE'],
-            'jump': BRANCH_COND['JUMP']
+            'jmp': BRANCH_COND['JMP']
         }
     }
 ]

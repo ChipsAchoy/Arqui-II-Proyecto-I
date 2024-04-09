@@ -4,6 +4,7 @@ module PipeRegEM (
 	 input logic RST,
     // Input signals       					 	
     input logic [15:0][31:0] ALUResultE,
+	 input logic [2:0] ALUControlE,
     input logic [15:0][31:0] WriteDataE,
     input logic PCSrcE,
     input logic RegWriteE,
@@ -13,6 +14,7 @@ module PipeRegEM (
 	 input logic v_s_e,
     // Output signals
     output logic [15:0][31:0] ALUResultM,
+	 output logic [2:0] ALUControlM,
     output logic [15:0][31:0] WriteDataM,
     output logic PCSrcM,
     output logic RegWriteM,
@@ -26,6 +28,7 @@ module PipeRegEM (
 
     logic [15:0][31:0] ALUResultReg;
     logic [15:0][31:0] WriteDataReg;
+	 logic [2:0] ALUControlReg;
     logic PCSrcReg;
     logic RegWriteReg;
     logic MemtoRegReg;
@@ -44,8 +47,10 @@ module PipeRegEM (
         MemWriteReg <= 0;
 		  WA3Reg <= 0;
 		  v_s_reg <= 0;
+		  ALUControlReg <= 0;
 		 end else begin
 		  ALUResultReg <= ALUResultE;
+		  ALUControlReg <= ALUControlE;
         WriteDataReg <= WriteDataE;
         PCSrcReg <= PCSrcE;
         RegWriteReg <= RegWriteE;
@@ -59,6 +64,7 @@ module PipeRegEM (
 
     assign ALUResultM = ALUResultReg;
     assign WriteDataM = WriteDataReg;
+	 assign ALUControlM = ALUControlReg;
     assign PCSrcM = PCSrcReg;
     assign RegWriteM = RegWriteReg;
     assign MemtoRegM = MemtoRegReg;
