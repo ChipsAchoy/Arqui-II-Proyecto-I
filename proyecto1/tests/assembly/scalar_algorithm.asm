@@ -24,14 +24,14 @@ mov r13, #48
 mul r13, r14, r13
 ; r4 = [r13] = M
 ldr r4, r13 
+mul r4, r4, r14
 
 ; r13 = N Memory Address
 mov r13, #49
 mul r13, r14, r13
 ; r5 = [r13] = N
 ldr r5, r13
-
-; ------------------------------- PEDACITO 1 -------------------------------
+mul r5, r5, r14
 
 _filter_loop:
 	; m = 0
@@ -40,16 +40,12 @@ _filter_loop:
 	mov r6, #0
 
 	_sum_loop:
-		; r13 = m memory offset
-		mul r13, r3, r14
 		; r13 = [&coeff[0] + m]
-		add r13, r0, r13
+		add r13, r0, r3
 		; r7 = [r13] = [&coeff[0] + m] => h_m
 		ldr r7, r13
 		; r12 = r2 - r3 = (n - m)
 		sub r12, r2, r3
-		; r12 = (n - m) * memory_map => (n - m) memory offset
-		mul r12, r12, r14
 		; r12 = &samples[0] + (n - m) => &x(n - m)
 		add r12, r1, r12
 		; r8 = x(n - m)
@@ -58,19 +54,17 @@ _filter_loop:
 		mul r9, r7, r8
 		; r6 = y_n + h_m * x(n - m)
 		add r6, r6, r9
-		; r13 = 1
-		mov r13, #1
-		; r3 = m++
-		add r3, r3, r13
 
 		cmp r13, r2, r3
 		; if n > m, check that m < M
 		bgt _check_m_lt_M
 		; if n <= m, go to next y_n
-		cmp r13, r13, #0
-		bne _next_y_n
+		cmp r13, r13, r13
+		beq _next_y_n
 
 			_check_m_lt_M:
+				; r3 = m++
+				add r3, r3, r14
 				cmp r13, r4, r3
 				; if M > m, use the next coefficient
 				bgt _sum_loop
@@ -79,16 +73,12 @@ _filter_loop:
 			; r13 = &filtered[0]
 			mov r13, #50
 			mul r13, r13, r14
-			;r12 = n memory_offset
-			mul r12, r2, r14
-			; r13 = &filtered[0] + n memory offset
-			add r13, r13, r12
+			; r13 = &filtered[0] + n
+			add r13, r13, r2
 			; [&filtered[0] + n] = y_n
 			str r6, r13
-			; r13 = 1
-			mov r13, #1
 			; r2++ = n++
-			add r2, r2, r13
+			add r2, r2, r14
 			cmp r13, r5, r2
 			; if N > n, calculate y_n_p1
 			bgt _filter_loop
