@@ -1,17 +1,27 @@
+<<<<<<< HEAD
 Fitter Status : Successful - Mon Apr  8 17:24:30 2024
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+=======
+Fitter Status : Successful - Mon Apr 08 20:19:12 2024
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+>>>>>>> origin/Mem
 Revision Name : procesadorArm
 Top-level Entity Name : procesadorArm
 Family : Cyclone V
 Device : 5CSEMA5F31C6
 Timing Models : Final
+<<<<<<< HEAD
 Logic utilization (in ALMs) : 923 / 32,070 ( 3 % )
 Total registers : 1280
+=======
+Logic utilization (in ALMs) : 18,611 / 32,070 ( 58 % )
+Total registers : 8371
+>>>>>>> origin/Mem
 Total pins : 4 / 457 ( < 1 % )
 Total virtual pins : 0
 Total block memory bits : 2,048,000 / 4,065,280 ( 50 % )
 Total RAM Blocks : 256 / 397 ( 64 % )
-Total DSP Blocks : 0 / 87 ( 0 % )
+Total DSP Blocks : 48 / 87 ( 55 % )
 Total HSSI RX PCSs : 0
 Total HSSI PMA RX Deserializers : 0
 Total HSSI TX PCSs : 0
