@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Quartus_Version = Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Version_Index = 520278016
 Creation_Time = Mon Apr  8 17:21:48 2024
@@ -13,3 +14,8 @@ Quartus_Version = Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 Version_Index = 520275712
 Creation_Time = Mon Apr 08 21:56:59 2024
 >>>>>>> origin/Mem
+=======
+Quartus_Version = Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Version_Index = 553882368
+Creation_Time = Mon Apr  8 23:38:30 2024
+>>>>>>> Mem
