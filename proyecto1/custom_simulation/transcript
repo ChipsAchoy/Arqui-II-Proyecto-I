@@ -1,1 +1,94 @@
+# Compile of adder_alu.sv was successful.
+# Compile of addUnit.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_TB.sv was successful.
+# Compile of AluDecoder.sv was successful.
+# Compile of ArduinoAdd_p1.sv was successful.
+# Compile of ArduinoLogic.sv was successful.
+# Compile of arith_alu.sv was successful.
+# Compile of ChipSet.sv was successful.
+# Compile of Commonregister.sv was successful.
+# Compile of Commonregister_4.sv was successful.
+# Compile of ConditionCheck.sv was successful.
+# Compile of ConditionLogic.sv was successful.
+# Compile of contadorXY.sv was successful.
+# Compile of controladorVGA.sv was successful.
+# Compile of ControlUnit.sv was successful.
+# Compile of cpu.sv was successful with warnings.
+# Compile of DataMemory.sv was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DataMemory_bb.v was successful.
+# Compile of dataMemoryRam.v was successful.
+# Compile of dataMemoryRam_bb.v was successful.
+# Compile of dataMemoryROM.v was successful.
+# Compile of dataMemoryROM_bb.v was successful.
+# Compile of dataMemRAM.v was successful.
+# Compile of dataMemRAM_bb.v was successful.
+# Compile of dataMemRom.v was successful.
+# Compile of dataMemRom_bb.v was successful.
+# Compile of Decoder.sv was successful.
+# Compile of divisorClock.sv was successful.
+# Compile of divUnit.sv was successful.
+# Compile of DRAMMem.v was successful.
+# Compile of DRAMMem_bb.v was successful.
+# Compile of DRAMMemory.v was successful.
+# Compile of DRAMMemory_bb.v was successful.
+# Compile of DRAMMemoryArd.v was successful.
+# Compile of DRAMMemoryArd_bb.v was successful.
+# Compile of DROMMemory.v was successful.
+# Compile of DROMMemory_bb.v was successful.
+# Compile of Extend.sv was successful.
+# Compile of image.v was successful.
+# Compile of image_bb.v was successful.
+# Compile of instRegister.sv was successful.
+# Compile of instruction_mem.v was successful.
+# Compile of instruction_mem_bb.v was successful.
+# Compile of instruction_TB.sv was successful.
+# Compile of InstructionMemory.sv was successful.
+# Compile of logic_alu.sv was successful.
+# Compile of MainDecoder.sv was successful.
+# Compile of mem_control.sv was successful.
+# Compile of modUnit.sv was successful.
+# Compile of multiplyUnit.sv was successful.
+# Compile of mux_2_to_1.sv was successful.
+# Compile of mux_2_to_1_4.sv was successful.
+# Compile of mux_2_to_1_32.sv was successful.
+# Compile of mux_2_to_1_32_vec.sv was successful.
+# Compile of mux_3_to_1_32.sv was successful.
+# Compile of PCLogic.sv was successful.
+# Compile of pcRegister.sv was successful.
+# Compile of perfRegister.sv was successful with warnings.
+# Compile of PipeRegDE.sv was successful with warnings.
+# Compile of PipeRegEM.sv was successful with warnings.
+# Compile of PipeRegFD.sv was successful with warnings.
+# Compile of PipeRegMW.sv was successful with warnings.
+# Compile of plus_n.sv was successful.
+# Compile of procesador.sv was successful.
+# Compile of procesadorArm.sv was successful.
+# Compile of program_final_tb.sv was successful.
+# Compile of program_tb.sv was successful.
+# Compile of ram.v was successful.
+# Compile of ram2.v was successful.
+# Compile of ram2_bb.v was successful.
+# Compile of RAM_ARD_tb.sv was successful.
+# Compile of RAM_INC_tb.sv was successful.
+# Compile of ram_TB.sv was successful.
+# Compile of RamDataMem.v was successful.
+# Compile of RamDataMem_bb.v was successful.
+# Compile of register_tb.sv was successful.
+# Compile of RegisterArduino.sv was successful.
+# Compile of RegisterFile.sv was successful with warnings.
+# Compile of rom_TB.sv was successful.
+# Compile of RomDataMem.v was successful.
+# Compile of RomDataMem_bb.v was successful.
+# Compile of subUnit.sv was successful.
+# Compile of videocontroller.sv was successful.
+# Compile of WriteToMIF.sv was successful.
+# Compile of data_instructions_tb.sv was successful.
+# Compile of ram_ini.mif failed with 1 errors.
+# Compile of sumatoria.sv was successful with warnings.
+# Compile of probe_pc.v was successful.
+# Compile of probe_pc_bb.v was successful.
+# Compile of altsource_probe_top.v was successful.
+# 92 compiles, 1 failed with 1 error.
 do simulation_start.do

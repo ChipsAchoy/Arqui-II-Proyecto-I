@@ -1,7 +1,7 @@
 ; Index
 mov r0, #0
 ; Index Increment
-mov r1, #1  
+mov r1, #1
 ; Stop Condition
 mov r2, #10
 ; Memory increment (0.00390625 = 1)

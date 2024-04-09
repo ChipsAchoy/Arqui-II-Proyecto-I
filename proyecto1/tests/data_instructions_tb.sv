@@ -13,8 +13,9 @@ module data_instructions_tb();
     .clk_select(clk_select)
   );
 
-  integer max_pc = 840;
-  integer cycles = (max_pc / 4) + 10;
+  // integer max_pc = 864;
+  // integer cycles = (max_pc / 4) + 10;
+  integer cycles = 5000;
   
   integer i;
 
