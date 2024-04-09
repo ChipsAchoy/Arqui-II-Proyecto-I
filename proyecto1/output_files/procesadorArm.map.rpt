@@ -1,5 +1,5 @@
 Analysis & Elaboration report for procesadorArm
-Mon Apr  8 16:41:00 2024
+Mon Apr  8 18:30:55 2024
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -313,7 +313,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                 ;
 +-------------------------------+------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Mon Apr  8 16:41:00 2024          ;
+; Analysis & Elaboration Status ; Successful - Mon Apr  8 18:30:55 2024          ;
 ; Quartus Prime Version         ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                 ; procesadorArm                                  ;
 ; Top-level Entity Name         ; procesadorArm                                  ;
@@ -4229,7 +4229,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Mon Apr  8 16:40:33 2024
+    Info: Processing started: Mon Apr  8 18:30:27 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off procesadorArm -c procesadorArm --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -4366,6 +4366,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file addunit
     Info (12023): Found entity 1: addUnit File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/addUnit.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file subunit.sv
     Info (12023): Found entity 1: subUnit File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/subUnit.sv Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file sumatoria.sv
+    Info (12023): Found entity 1: sumatoria File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/sumatoria.sv Line: 2
 Warning (10236): Verilog HDL Implicit Net warning at ControlUnit.sv(18): created implicit net for "aluFlags" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ControlUnit.sv Line: 18
 Warning (10236): Verilog HDL Implicit Net warning at alu.sv(18): created implicit net for "r_and" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv Line: 18
 Warning (10236): Verilog HDL Implicit Net warning at alu.sv(18): created implicit net for "r_or" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv Line: 18
@@ -4373,14 +4375,14 @@ Warning (10236): Verilog HDL Implicit Net warning at alu.sv(18): created implici
 Warning (10236): Verilog HDL Implicit Net warning at alu.sv(18): created implicit net for "r_shiftR" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv Line: 18
 Warning (10236): Verilog HDL Implicit Net warning at alu.sv(18): created implicit net for "r_shiftL" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv Line: 18
 Warning (10236): Verilog HDL Implicit Net warning at alu.sv(18): created implicit net for "r_not" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv Line: 18
-Warning (10236): Verilog HDL Implicit Net warning at cpu.sv(51): created implicit net for "v_s_w" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 51
+Warning (10236): Verilog HDL Implicit Net warning at cpu.sv(52): created implicit net for "v_s_w" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 52
 Warning (10236): Verilog HDL Implicit Net warning at procesadorArm.sv(5): created implicit net for "clk_final" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesadorArm.sv Line: 5
 Info (12127): Elaborating entity "procesadorArm" for the top level hierarchy
 Info (12128): Elaborating entity "procesador" for hierarchy "procesador:PR" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesadorArm.sv Line: 5
 Info (12128): Elaborating entity "pcRegister" for hierarchy "procesador:PR|pcRegister:P0" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv Line: 39
 Info (12128): Elaborating entity "perfRegister" for hierarchy "procesador:PR|perfRegister:REG" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv Line: 41
 Info (12128): Elaborating entity "InstructionMemory" for hierarchy "procesador:PR|InstructionMemory:IM" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv Line: 43
-Warning (10850): Verilog HDL warning at InstructionMemory.sv(8): number of words (8) in memory file does not match the number of elements in the address range [0:4000] File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv Line: 8
+Warning (10850): Verilog HDL warning at InstructionMemory.sv(8): number of words (4) in memory file does not match the number of elements in the address range [0:4000] File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv Line: 8
 Warning (10855): Verilog HDL warning at InstructionMemory.sv(8): initial value for variable rom should be constant File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv Line: 8
 Warning (10030): Net "rom" at InstructionMemory.sv(5) has no driver or initial value, using a default initial value '0' File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv Line: 5
 Info (12128): Elaborating entity "PipeRegFD" for hierarchy "procesador:PR|PipeRegFD:regFD" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv Line: 45
@@ -4451,22 +4453,22 @@ Info (10041): Inferred latch for "perf_reg[1][31]" at PipeRegFD.sv(22) File: C:/
 Info (12128): Elaborating entity "cpu" for hierarchy "procesador:PR|cpu:CPU" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv Line: 47
 Warning (10036): Verilog HDL or VHDL warning at cpu.sv(23): object "ReadDataUse" assigned a value but never read File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 23
 Warning (10030): Net "FlagsD" at cpu.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 7
-Info (12128): Elaborating entity "Decoder" for hierarchy "procesador:PR|cpu:CPU|Decoder:D0" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 35
+Info (12128): Elaborating entity "Decoder" for hierarchy "procesador:PR|cpu:CPU|Decoder:D0" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 36
 Info (12128): Elaborating entity "MainDecoder" for hierarchy "procesador:PR|cpu:CPU|Decoder:D0|MainDecoder:M0" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Decoder.sv Line: 10
 Info (12128): Elaborating entity "PCLogic" for hierarchy "procesador:PR|cpu:CPU|Decoder:D0|PCLogic:L0" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Decoder.sv Line: 12
 Info (12128): Elaborating entity "AluDecoder" for hierarchy "procesador:PR|cpu:CPU|Decoder:D0|AluDecoder:A0" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/Decoder.sv Line: 13
-Info (12128): Elaborating entity "PipeRegDE" for hierarchy "procesador:PR|cpu:CPU|PipeRegDE:regDE" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 40
-Info (12128): Elaborating entity "ConditionLogic" for hierarchy "procesador:PR|cpu:CPU|ConditionLogic:C1" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 43
+Info (12128): Elaborating entity "PipeRegDE" for hierarchy "procesador:PR|cpu:CPU|PipeRegDE:regDE" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 41
+Info (12128): Elaborating entity "ConditionLogic" for hierarchy "procesador:PR|cpu:CPU|ConditionLogic:C1" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 44
 Info (12128): Elaborating entity "ConditionCheck" for hierarchy "procesador:PR|cpu:CPU|ConditionLogic:C1|ConditionCheck:H0" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/ConditionLogic.sv Line: 9
-Info (12128): Elaborating entity "PipeRegEM" for hierarchy "procesador:PR|cpu:CPU|PipeRegEM:regEM" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 47
-Info (12128): Elaborating entity "PipeRegMW" for hierarchy "procesador:PR|cpu:CPU|PipeRegMW:regMW" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 51
-Info (12128): Elaborating entity "mux_2_to_1_4" for hierarchy "procesador:PR|cpu:CPU|mux_2_to_1_4:M0" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 54
-Info (12128): Elaborating entity "plus_n" for hierarchy "procesador:PR|cpu:CPU|plus_n:P4" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 58
-Info (12128): Elaborating entity "RegisterFile" for hierarchy "procesador:PR|cpu:CPU|RegisterFile:R0" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 64
+Info (12128): Elaborating entity "PipeRegEM" for hierarchy "procesador:PR|cpu:CPU|PipeRegEM:regEM" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 48
+Info (12128): Elaborating entity "PipeRegMW" for hierarchy "procesador:PR|cpu:CPU|PipeRegMW:regMW" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 52
+Info (12128): Elaborating entity "mux_2_to_1_4" for hierarchy "procesador:PR|cpu:CPU|mux_2_to_1_4:M0" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 55
+Info (12128): Elaborating entity "plus_n" for hierarchy "procesador:PR|cpu:CPU|plus_n:P4" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 59
+Info (12128): Elaborating entity "RegisterFile" for hierarchy "procesador:PR|cpu:CPU|RegisterFile:R0" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 65
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "rf_v" into its bus
-Info (12128): Elaborating entity "Extend" for hierarchy "procesador:PR|cpu:CPU|Extend:E0" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 66
-Info (12128): Elaborating entity "mux_2_to_1_32_vec" for hierarchy "procesador:PR|cpu:CPU|mux_2_to_1_32_vec:M2" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 68
-Info (12128): Elaborating entity "alu" for hierarchy "procesador:PR|cpu:CPU|alu:A0" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 70
+Info (12128): Elaborating entity "Extend" for hierarchy "procesador:PR|cpu:CPU|Extend:E0" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 67
+Info (12128): Elaborating entity "mux_2_to_1_32_vec" for hierarchy "procesador:PR|cpu:CPU|mux_2_to_1_32_vec:M2" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 69
+Info (12128): Elaborating entity "alu" for hierarchy "procesador:PR|cpu:CPU|alu:A0" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 71
 Info (12128): Elaborating entity "logic_alu" for hierarchy "procesador:PR|cpu:CPU|alu:A0|logic_alu:LU" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv Line: 18
 Info (12128): Elaborating entity "and_gate" for hierarchy "procesador:PR|cpu:CPU|alu:A0|logic_alu:LU|and_gate:u1" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv Line: 4
 Info (12128): Elaborating entity "or_gate" for hierarchy "procesador:PR|cpu:CPU|alu:A0|logic_alu:LU|or_gate:u2" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/logic_alu.sv Line: 5
@@ -4481,7 +4483,8 @@ Warning (10230): Verilog HDL assignment warning at subUnit.sv(22): truncated val
 Info (12128): Elaborating entity "multiplyUnit" for hierarchy "procesador:PR|cpu:CPU|alu:A0|multiplyUnit:MUL" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv Line: 21
 Info (12128): Elaborating entity "divUnit" for hierarchy "procesador:PR|cpu:CPU|alu:A0|divUnit:DIV" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv Line: 22
 Info (12128): Elaborating entity "modUnit" for hierarchy "procesador:PR|cpu:CPU|alu:A0|modUnit:MOD" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv Line: 23
-Info (12128): Elaborating entity "mux_2_to_1_32" for hierarchy "procesador:PR|cpu:CPU|mux_2_to_1_32:M4" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 89
+Info (12128): Elaborating entity "sumatoria" for hierarchy "procesador:PR|cpu:CPU|sumatoria:SM" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 88
+Info (12128): Elaborating entity "mux_2_to_1_32" for hierarchy "procesador:PR|cpu:CPU|mux_2_to_1_32:M4" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/cpu.sv Line: 90
 Info (12128): Elaborating entity "mem_control" for hierarchy "procesador:PR|mem_control:MEM" File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/procesador.sv Line: 56
 Warning (10230): Verilog HDL assignment warning at mem_control.sv(42): truncated value with size 32 to match size of target (13) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 42
 Warning (10230): Verilog HDL assignment warning at mem_control.sv(56): truncated value with size 32 to match size of target (13) File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/mem_control.sv Line: 56
@@ -4629,7 +4632,7 @@ Warning (12030): Port "ordered port 5" on the entity instantiation of "LU" is co
 Warning (12030): Port "ordered port 6" on the entity instantiation of "LU" is connected to a signal of width 1. The formal width of the signal in the module is 32.  The extra bits will be left dangling without any fan-out logic. File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv Line: 18
 Warning (12030): Port "ordered port 7" on the entity instantiation of "LU" is connected to a signal of width 1. The formal width of the signal in the module is 32.  The extra bits will be left dangling without any fan-out logic. File: C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/alu.sv Line: 18
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2024.04.08.16:40:50 Progress: Loading slde9f3dc22/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2024.04.08.18:30:44 Progress: Loading slde9f3dc22/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -4655,10 +4658,10 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/ip/s
 Warning (12241): 5 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (144001): Generated suppressed messages file C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/output_files/procesadorArm.map.smsg
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 124 warnings
-    Info: Peak virtual memory: 4992 megabytes
-    Info: Processing ended: Mon Apr  8 16:41:00 2024
-    Info: Elapsed time: 00:00:27
-    Info: Total CPU time (on all processors): 00:00:52
+    Info: Peak virtual memory: 5004 megabytes
+    Info: Processing ended: Mon Apr  8 18:30:55 2024
+    Info: Elapsed time: 00:00:28
+    Info: Total CPU time (on all processors): 00:00:55
 
 
 +--------------------------------------------+

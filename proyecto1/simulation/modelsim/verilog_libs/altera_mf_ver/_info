@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Users/INTEL/Desktop/VarasDeLaU/PrimerSem12023/proyecto1/simulation/modelsim
 va_graycounter
-Z0 !s110 1712616075
+Z0 !s110 1712623010
 !i10b 1
 !s100 dbSQenUhE^>zo5H5zAI>X2
 I;I[AFP7AUPf`CZhVn9[:M3
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1712616074.000000
+Z7 !s108 1712623009.000000
 Z8 !s107 d:/quartuslite/quartus/eda/sim_lib/altera_mf.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|altera_mf_ver|d:/quartuslite/quartus/eda/sim_lib/altera_mf.v|
 !i113 1
@@ -219,7 +219,7 @@ R9
 R10
 R11
 valt_fault_injection
-R0
+Z12 !s110 1712623011
 !i10b 1
 !s100 `W:i5k:EQ256Tf1J7<o?_0
 IhSmPiz[Z@5<]e4cooEGLa1
@@ -366,7 +366,7 @@ R9
 R10
 R11
 vALTERA_DEVICE_FAMILIES
-Z12 !s110 1712616074
+R0
 !i10b 1
 !s100 Ie0_`X3Yi6=65^n?0c5aN3
 I`NNY4h>G[zYNceo^3S5[g3
@@ -388,7 +388,7 @@ R10
 R11
 n@a@l@t@e@r@a_@d@e@v@i@c@e_@f@a@m@i@l@i@e@s
 vALTERA_MF_HINT_EVALUATION
-R12
+R0
 !i10b 1
 !s100 PH5i_RH6C@2cMRnc4>ae12
 IGIFe7JC4A3<o;l^am:c:c0
@@ -410,7 +410,7 @@ R10
 R11
 n@a@l@t@e@r@a_@m@f_@h@i@n@t_@e@v@a@l@u@a@t@i@o@n
 vALTERA_MF_MEMORY_INITIALIZATION
-R12
+R0
 !i10b 1
 !s100 nTma^h04MOBz8;HdmmAdW1
 I[YIa0bGCJ6gZ30P3^`09_0
@@ -621,7 +621,7 @@ R9
 R10
 R11
 valtparallel_flash_loader
-R0
+R12
 !i10b 1
 !s100 dzb_D_gb:O@7aSg]CJoA50
 IMAXlj<]>?97KN:=gC_31z3
@@ -663,7 +663,7 @@ R9
 R10
 R11
 valtserial_flash_loader
-R0
+R12
 !i10b 1
 !s100 ^@[hVnahLMR0TZX@;LO;Z1
 Ib5L9[R<hXP`2_PPdnW]h<2
@@ -705,7 +705,7 @@ R9
 R10
 R11
 valtsource_probe
-R0
+R12
 !i10b 1
 !s100 h@lgdJd;]DEgSaM?83i_b1
 IPFo>Vlj@bfoM0cDbG8gme0
@@ -768,7 +768,7 @@ R9
 R10
 R11
 valtstratixii_oct
-R0
+R12
 !i10b 1
 !s100 `2zMMCO8b?C8?mS`2>JBE0
 IUMRHUnQ>R^W>0i7`Hb;:W3
@@ -1125,7 +1125,7 @@ R9
 R10
 R11
 vdffp
-R12
+R0
 !i10b 1
 !s100 SnNjJNaU3KC[OThjodVFi2
 IXMcM0T6]i7lV7CGKc<8AM1
@@ -1146,7 +1146,7 @@ R9
 R10
 R11
 vdummy_hub
-R0
+R12
 !i10b 1
 !s100 O2SP42lETAUU:H;0^=g[P2
 I]Y0=ONAFQGPDLIAG`3N:N2
@@ -1209,7 +1209,7 @@ R9
 R10
 R11
 vjtag_tap_controller
-R0
+R12
 !i10b 1
 !s100 TMjXJdE4iVa`CCcZ08RjH0
 I<kMVBeo0XJUG<IASSXiiS0
@@ -1230,7 +1230,7 @@ R9
 R10
 R11
 vlcell
-R12
+R0
 !i10b 1
 !s100 5QGV:R[KdXJ5TR1bkQiUU0
 I6;Wg9R4OU61SDj7Ba>A:90
@@ -1361,7 +1361,7 @@ R10
 R11
 n@m@f_cycloneiiigl_scale_cntr
 vMF_pll_reg
-R12
+R0
 !i10b 1
 !s100 0HDLA_Ae606hC35WQ6^7]2
 IR9NH0YoBZh^n4Lj6JfklI0
@@ -1470,7 +1470,7 @@ R9
 R10
 R11
 vpll_iobuf
-R12
+R0
 !i10b 1
 !s100 Y>n^z1AP@XWBOng[;X`=B1
 I5fKWZlk[@Ef8X1X<MZM:_1
@@ -1512,7 +1512,7 @@ R9
 R10
 R11
 vsignal_gen
-R0
+R12
 !i10b 1
 !s100 0c[jE0:@22UFeoQiWHh1o2
 IORNeD__G2d;N9ZHd3^iWL1
@@ -1533,7 +1533,7 @@ R9
 R10
 R11
 vsld_signaltap
-R0
+R12
 !i10b 1
 !s100 X`P0g;3PN62PBDXdk=5`M1
 I3F36>`JFd=K8b[lmkze1=3
@@ -1554,7 +1554,7 @@ R9
 R10
 R11
 vsld_virtual_jtag
-R0
+R12
 !i10b 1
 !s100 543o=[kScDSLNkFY4Fi0T0
 IZ2ohfIfoB8=dE4LceC[1K0
@@ -1575,7 +1575,7 @@ R9
 R10
 R11
 vsld_virtual_jtag_basic
-R0
+R12
 !i10b 1
 !s100 Q5zLF_ELBgB[>Q^WK8QAh1
 IXaPZcBOjzUL4AmUdz[[KV3
@@ -1785,7 +1785,7 @@ R9
 R10
 R11
 vstx_m_cntr
-R12
+R0
 !i10b 1
 !s100 ?>o7Q<XCBPSD4HoGd5:>A0
 IXJL4VLdSen3nmbi4O_O?n0
@@ -1806,7 +1806,7 @@ R9
 R10
 R11
 vstx_n_cntr
-R12
+R0
 !i10b 1
 !s100 ?P@b:4DafJ_^m9ka]DFD53
 I_gni@0C0zVGkOP`GbQzcQ0
@@ -1827,7 +1827,7 @@ R9
 R10
 R11
 vstx_scale_cntr
-R12
+R0
 !i10b 1
 !s100 a@[2eTC]]LIFm0QFl5WUj2
 I?NX<[eSBSh7YP]afdjB9:2

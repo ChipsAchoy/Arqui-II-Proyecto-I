@@ -75,6 +75,7 @@ vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/
 vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/perfRegister.sv}
 vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/addUnit.sv}
 vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/subUnit.sv}
+vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/sumatoria.sv}
 vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/InstructionMemory.sv}
 
 vlog -sv -work work +incdir+C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1 {C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/program_final_tb.sv}
