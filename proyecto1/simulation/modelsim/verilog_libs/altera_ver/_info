@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Users/INTEL/Desktop/VarasDeLaU/PrimerSem12023/proyecto1/simulation/modelsim
 valt_bidir_buf
-Z0 !s110 1712623007
+Z0 !s110 1712644606
 !i10b 1
 !s100 `k9N_NNE[omlCfHHm=PO53
 In13gT<NH<J`Pni07a=RiL3
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1712623007.000000
+Z7 !s108 1712644606.000000
 Z8 !s107 d:/quartuslite/quartus/eda/sim_lib/altera_primitives.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|altera_ver|d:/quartuslite/quartus/eda/sim_lib/altera_primitives.v|
 !i113 1
@@ -618,7 +618,7 @@ R9
 R10
 R11
 UPRIM_GDFF_HIGH
-Z12 !s110 1712623008
+R0
 !i10b 1
 !s100 SScBZ?gdYFgRTOVYmj^Jh2
 IkoW^M709bE1AoR6clJEaP0
@@ -640,7 +640,7 @@ R10
 R11
 n@p@r@i@m_@g@d@f@f_@h@i@g@h
 UPRIM_GDFF_HIGH_SCLR_PRIORITY
-R12
+!s110 1712644607
 !i10b 1
 !s100 F63MIm7BDi6=;U3:nVoTc3
 I=KYCz6JRn3R>Vz1[H]=b^1
@@ -662,7 +662,7 @@ R10
 R11
 n@p@r@i@m_@g@d@f@f_@h@i@g@h_@s@c@l@r_@p@r@i@o@r@i@t@y
 UPRIM_GDFF_LOW
-R12
+R0
 !i10b 1
 !s100 7L1J7:`k0Sb@DRnEAUf5b0
 IeAjRhkU6m[3oiG:XaSb[@3
@@ -684,7 +684,7 @@ R10
 R11
 n@p@r@i@m_@g@d@f@f_@l@o@w
 UPRIM_GDFF_LOW_SCLR_PRIORITY
-R12
+R0
 !i10b 1
 !s100 `gUo^mjm:1ILUg``]kfOO1
 I>`;j4Kn64HEVoDG`Vj19f2
