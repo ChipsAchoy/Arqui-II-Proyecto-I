@@ -7,6 +7,7 @@ from compiler_config import (
     STALL_BYTES,
     OP_CODES,
     SCALAR_DATA_CMD,
+    VECTOR_DATA_CMD,
     BRANCH_CMD,
     IND,
     inst_types,
@@ -101,7 +102,7 @@ def memory_instruction(op_code, cmd, type, operands):
         operand_2 = get_operand(operands[1], 'scalar')
     else:
         operand_1 = get_operand(operands[0], 'vector')
-        operand_2 = get_operand(operands[1], 'scalar')
+        operand_2 = get_operand(operands[1], 'vector')
 
     fill = [EMPTY_NIBBLE for _ in range(4)]
     ind = IND[type]
@@ -135,9 +136,16 @@ def data_instruction(op_code, cmd, type, operands):
         ind = IND['immediate']
         
         result = [op_code, cmd, ind, operand_1, operand_2] + operand_3
-    elif(cmd == SCALAR_DATA_CMD['SLL']):
+    elif(cmd == SCALAR_DATA_CMD['SLL'] and type == 'scalar'):
         operand_1 = get_operand(operands[0], type)
         operand_2 = get_operand(operands[1], type)
+        fill = [EMPTY_NIBBLE for _ in range(4)]
+        ind = IND[type]
+        
+        result = [op_code, cmd, ind, operand_1, operand_2] + fill
+    elif(cmd == VECTOR_DATA_CMD['SUMV'] and type == 'vector'):
+        operand_1 = get_operand(operands[0], 'scalar')
+        operand_2 = get_operand(operands[1], 'vector')
         fill = [EMPTY_NIBBLE for _ in range(4)]
         ind = IND[type]
         

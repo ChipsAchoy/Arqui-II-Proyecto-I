@@ -36,6 +36,7 @@ VECTOR_DATA_CMD = {
     'SUBV': '001',
     'MULV': '010',
     'DIVV': '011',
+    'SUMV': '101'
 }
 
 VECTOR_MEMORY_CMD = {
@@ -103,7 +104,8 @@ inst_types = [
             'addv': VECTOR_DATA_CMD['ADDV'],
             'subv': VECTOR_DATA_CMD['SUBV'],
             'mulv': VECTOR_DATA_CMD['MULV'],
-            'divv': VECTOR_DATA_CMD['DIVV']
+            'divv': VECTOR_DATA_CMD['DIVV'],
+            'sumv': VECTOR_DATA_CMD['SUMV']
         }   
     },
     {
