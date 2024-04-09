@@ -2,7 +2,7 @@
 module RegisterFile(input  logic clk,rst,we3, 
                input  logic [3:0]  ra1, ra2, ra3, 
                input  logic [15:0][31:0] wd3, input  logic [31:0] r15, input logic selec_v_s,
-               input logic selec_v_s_w, output logic [15:0][31:0] rd1, rd2);
+               input logic selec_v_s_w, input logic[2:0] cmd, output logic [15:0][31:0] rd1, rd2);
 
 	logic [15:0][15:0][31:0] rf_v;
 	logic [14:0][31:0] rf_s;
@@ -98,9 +98,12 @@ module RegisterFile(input  logic clk,rst,we3,
 		else begin
 			if (we3 & (selec_v_s_w == 1'b0)) begin
 				rf_s[ra3] <= wd3[15];
+			end else if (we3 & (selec_v_s_w == 1'b1) & (cmd == 3'b101)) begin
+				rf_s[ra3] <= wd3[15];
+			
 			end else if (we3 & (selec_v_s_w == 1'b1)) begin
 				rf_v[ra3] <= wd3;
-			end
+			end 
 			//r_perf = r_perf_in;
 			
 			

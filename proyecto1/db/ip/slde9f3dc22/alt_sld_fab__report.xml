@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
+<<<<<<< HEAD
  date="2024.04.08.17:23:19"
  outputDirectory="/home/rijegaro/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/db/ip/slde9f3dc22/">
+=======
+ date="2024.04.08.18:30:52"
+ outputDirectory="C:/Users/INTEL/Documents/GitHub/Arqui-II-Proyecto-I/proyecto1/db/ip/slde9f3dc22/">
+>>>>>>> Mem
  <perimeter>
   <parameter
      name="AUTO_DEVICE_FAMILY"
