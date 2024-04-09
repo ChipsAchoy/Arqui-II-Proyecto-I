@@ -114,6 +114,8 @@ module RegisterFile(input  logic clk,rst,we3,
 	assign rd2[15] = (ra2 == 4'b1111) & (selec_v_s == 1'b0) ? r15 : (selec_v_s == 1'b0) ? rf_s[ra2] : rf_v[ra2][15];
 	assign rd1[14:0] = rf_v[ra1][14:0];
 	assign rd2[14:0] = rf_v[ra2][14:0];
+	
+	probe_pc p_ins(rf_s[0]);
   
 
 endmodule
