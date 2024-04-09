@@ -8,6 +8,6 @@
 
 # python ../compiler/compiler.py ./assembly/branches.asm ../custom_simulation/program.mem
 
-# python ../compiler/compiler.py ./assembly/scalar_memory.asm ../custom_simulation/program.mem
+python ../compiler/compiler.py ./assembly/scalar_memory.asm ../custom_simulation/program.mem
 
-python ../compiler/compiler.py ./assembly/scalar_algorithm.asm ../custom_simulation/program.mem
+# python ../compiler/compiler.py ./assembly/scalar_algorithm.asm ../custom_simulation/program.mem
