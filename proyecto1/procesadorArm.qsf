@@ -171,5 +171,5 @@ set_global_assignment -name SYSTEMVERILOG_FILE perfRegister.sv
 set_global_assignment -name SYSTEMVERILOG_FILE addUnit.sv
 set_global_assignment -name SYSTEMVERILOG_FILE subUnit.sv
 set_global_assignment -name BOARD "DE1-SoC Board"
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name MIF_FILE procesadorArm.mif
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

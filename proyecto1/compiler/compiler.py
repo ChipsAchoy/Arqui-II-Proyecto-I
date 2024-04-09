@@ -318,7 +318,7 @@ def resolve_dependencies(instructions, labels):
         new_instructions.append('nop')
         new_instructions.append('nop')
         new_instructions.append('nop')
-        new_instructions.append('nop')       
+        new_instructions.append('nop')
         for label in labels:
             if(label['original_pc'] > current_pc):
                 label['current_pc'] += 20

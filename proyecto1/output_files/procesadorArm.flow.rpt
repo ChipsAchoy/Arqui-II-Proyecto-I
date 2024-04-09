@@ -1,6 +1,6 @@
 Flow report for procesadorArm
-Mon Apr  8 16:41:00 2024
-Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Mon Apr  8 17:25:00 2024
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
 ---------------------
@@ -21,7 +21,7 @@ Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2022  Intel Corporation. All rights reserved.
+Copyright (C) 2020  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
@@ -38,24 +38,29 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-+------------------------------------------------------------------------------+
-; Flow Summary                                                                 ;
-+-----------------------------+------------------------------------------------+
-; Flow Status                 ; Successful - Mon Apr  8 16:41:00 2024          ;
-; Quartus Prime Version       ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
-; Revision Name               ; procesadorArm                                  ;
-; Top-level Entity Name       ; procesadorArm                                  ;
-; Family                      ; Cyclone V                                      ;
-; Device                      ; 5CSEMA5F31C6                                   ;
-; Timing Models               ; Final                                          ;
-; Logic utilization (in ALMs) ; N/A until Partition Merge                      ;
-; Total registers             ; N/A until Partition Merge                      ;
-; Total pins                  ; N/A until Partition Merge                      ;
-; Total virtual pins          ; N/A until Partition Merge                      ;
-; Total block memory bits     ; N/A until Partition Merge                      ;
-; Total PLLs                  ; N/A until Partition Merge                      ;
-; Total DLLs                  ; N/A until Partition Merge                      ;
-+-----------------------------+------------------------------------------------+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Mon Apr  8 17:25:00 2024       ;
+; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                   ; procesadorArm                               ;
+; Top-level Entity Name           ; procesadorArm                               ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CSEMA5F31C6                                ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; 923 / 32,070 ( 3 % )                        ;
+; Total registers                 ; 1280                                        ;
+; Total pins                      ; 4 / 457 ( < 1 % )                           ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 2,048,000 / 4,065,280 ( 50 % )              ;
+; Total DSP Blocks                ; 0 / 87 ( 0 % )                              ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0 / 6 ( 0 % )                               ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
++---------------------------------+---------------------------------------------+
 
 
 +-----------------------------------------+
@@ -63,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/08/2024 16:40:33 ;
+; Start date & time ; 04/08/2024 17:23:05 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; procesadorArm       ;
 +-------------------+---------------------+
@@ -74,7 +79,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 27214212235900.171261603310376         ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 18039805738379.171261858543379         ; --            ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; RAM_ARD_tb                        ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; register_tb                       ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; ram_TB                            ;
@@ -142,29 +147,41 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                          ;
-+------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:27     ; 1.0                     ; 4992 MB             ; 00:00:52                           ;
-; Total                  ; 00:00:27     ; --                      ; --                  ; 00:00:52                           ;
-+------------------------+--------------+-------------------------+---------------------+------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:19     ; 1.0                     ; 724 MB              ; 00:00:38                           ;
+; Fitter               ; 00:01:04     ; 1.5                     ; 2464 MB             ; 00:02:54                           ;
+; Assembler            ; 00:00:06     ; 1.0                     ; 569 MB              ; 00:00:06                           ;
+; Timing Analyzer      ; 00:00:19     ; 2.3                     ; 1047 MB             ; 00:00:35                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 726 MB              ; 00:00:02                           ;
+; Total                ; 00:01:49     ; --                      ; --                  ; 00:04:15                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+--------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                      ;
-+------------------------+------------------+------------+------------+----------------+
-; Module Name            ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+------------------------+------------------+------------+------------+----------------+
-; Analysis & Elaboration ; DESKTOP-LMJ5G1R  ; Windows 10 ; 10.0       ; x86_64         ;
-+------------------------+------------------+------------+------------+----------------+
++------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                          ;
++----------------------+------------------+---------------+---------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name       ; OS Version    ; Processor type ;
++----------------------+------------------+---------------+---------------+----------------+
+; Analysis & Synthesis ; rijegaro         ; Manjaro Linux ; Manjaro Linux ; x86_64         ;
+; Fitter               ; rijegaro         ; Manjaro Linux ; Manjaro Linux ; x86_64         ;
+; Assembler            ; rijegaro         ; Manjaro Linux ; Manjaro Linux ; x86_64         ;
+; Timing Analyzer      ; rijegaro         ; Manjaro Linux ; Manjaro Linux ; x86_64         ;
+; EDA Netlist Writer   ; rijegaro         ; Manjaro Linux ; Manjaro Linux ; x86_64         ;
++----------------------+------------------+---------------+---------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
-quartus_map --read_settings_files=on --write_settings_files=off procesadorArm -c procesadorArm --analysis_and_elaboration
+quartus_map --read_settings_files=on --write_settings_files=off procesadorArm -c procesadorArm
+quartus_fit --read_settings_files=off --write_settings_files=off procesadorArm -c procesadorArm
+quartus_asm --read_settings_files=off --write_settings_files=off procesadorArm -c procesadorArm
+quartus_sta procesadorArm -c procesadorArm
+quartus_eda --read_settings_files=off --write_settings_files=off procesadorArm -c procesadorArm
 
 
 
