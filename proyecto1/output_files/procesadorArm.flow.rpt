@@ -1,6 +1,11 @@
 Flow report for procesadorArm
+<<<<<<< Updated upstream
 Mon Apr  8 18:30:55 2024
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+=======
+Mon Apr 08 20:20:06 2024
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+>>>>>>> Stashed changes
 
 
 ---------------------
@@ -21,7 +26,7 @@ Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2022  Intel Corporation. All rights reserved.
+Copyright (C) 2020  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
@@ -38,6 +43,7 @@ https://fpgasoftware.intel.com/eula.
 
 
 
+<<<<<<< Updated upstream
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +-----------------------------+------------------------------------------------+
@@ -56,6 +62,31 @@ https://fpgasoftware.intel.com/eula.
 ; Total PLLs                  ; N/A until Partition Merge                      ;
 ; Total DLLs                  ; N/A until Partition Merge                      ;
 +-----------------------------+------------------------------------------------+
+=======
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Mon Apr 08 20:20:06 2024       ;
+; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Revision Name                   ; procesadorArm                               ;
+; Top-level Entity Name           ; procesadorArm                               ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CSEMA5F31C6                                ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; 18,611 / 32,070 ( 58 % )                    ;
+; Total registers                 ; 8371                                        ;
+; Total pins                      ; 4 / 457 ( < 1 % )                           ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 2,048,000 / 4,065,280 ( 50 % )              ;
+; Total DSP Blocks                ; 48 / 87 ( 55 % )                            ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0 / 6 ( 0 % )                               ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
++---------------------------------+---------------------------------------------+
+>>>>>>> Stashed changes
 
 
 +-----------------------------------------+
@@ -63,12 +94,17 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
+<<<<<<< Updated upstream
 ; Start date & time ; 04/08/2024 18:30:28 ;
+=======
+; Start date & time ; 04/08/2024 20:12:29 ;
+>>>>>>> Stashed changes
 ; Main task         ; Compilation         ;
 ; Revision Name     ; procesadorArm       ;
 +-------------------+---------------------+
 
 
+<<<<<<< Updated upstream
 +-------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Flow Non-Default Global Settings                                                                                                                ;
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
@@ -150,21 +186,122 @@ https://fpgasoftware.intel.com/eula.
 ; Analysis & Elaboration ; 00:00:27     ; 1.0                     ; 5004 MB             ; 00:00:55                           ;
 ; Total                  ; 00:00:27     ; --                      ; --                  ; 00:00:55                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
+=======
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                    ;
++--------------------------------------+------------------------------------------------------------+---------------+-------------+-----------------------------------+
+; Assignment Name                      ; Value                                                      ; Default Value ; Entity Name ; Section Id                        ;
++--------------------------------------+------------------------------------------------------------+---------------+-------------+-----------------------------------+
+; COMPILER_SIGNATURE_ID                ; 238300921737103.171262874907248                            ; --            ; --          ; --                                ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                         ; --            ; --          ; RAM_ARD_tb                        ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                         ; --            ; --          ; register_tb                       ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                         ; --            ; --          ; ram_TB                            ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                         ; --            ; --          ; rom_TB                            ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                         ; --            ; --          ; alu_TB                            ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                         ; --            ; --          ; program_final_tb                  ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                         ; --            ; --          ; RAM_INC_tb                        ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                         ; --            ; --          ; instruction_TB                    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                                        ; --            ; --          ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                                        ; --            ; --          ; eda_board_design_boundary_scan    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                                        ; --            ; --          ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                                        ; --            ; --          ; eda_board_design_symbol           ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; program_final_tb                                           ; --            ; --          ; eda_simulation                    ;
+; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                                          ; --            ; --          ; eda_simulation                    ;
+; EDA_SIMULATION_TOOL                  ; ModelSim (SystemVerilog)                                   ; <None>        ; --          ; --                                ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                                            ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_FILE                  ; RAM_ARD_tb.sv                                              ; --            ; --          ; RAM_ARD_tb                        ;
+; EDA_TEST_BENCH_FILE                  ; register_tb.sv                                             ; --            ; --          ; register_tb                       ;
+; EDA_TEST_BENCH_FILE                  ; ram_TB.sv                                                  ; --            ; --          ; ram_TB                            ;
+; EDA_TEST_BENCH_FILE                  ; Ram.mif                                                    ; --            ; --          ; ram_TB                            ;
+; EDA_TEST_BENCH_FILE                  ; RamDataMem.v                                               ; --            ; --          ; ram_TB                            ;
+; EDA_TEST_BENCH_FILE                  ; rom_TB.sv                                                  ; --            ; --          ; rom_TB                            ;
+; EDA_TEST_BENCH_FILE                  ; ROMSave.mif                                                ; --            ; --          ; rom_TB                            ;
+; EDA_TEST_BENCH_FILE                  ; RomDataMem.v                                               ; --            ; --          ; rom_TB                            ;
+; EDA_TEST_BENCH_FILE                  ; alu_TB.sv                                                  ; --            ; --          ; alu_TB                            ;
+; EDA_TEST_BENCH_FILE                  ; program.mem                                                ; --            ; --          ; program_final_tb                  ;
+; EDA_TEST_BENCH_FILE                  ; DRAM.mif                                                   ; --            ; --          ; program_final_tb                  ;
+; EDA_TEST_BENCH_FILE                  ; DROM.mif                                                   ; --            ; --          ; program_final_tb                  ;
+; EDA_TEST_BENCH_FILE                  ; program_final_tb.sv                                        ; --            ; --          ; program_final_tb                  ;
+; EDA_TEST_BENCH_FILE                  ; RAM_INC_tb.sv                                              ; --            ; --          ; RAM_INC_tb                        ;
+; EDA_TEST_BENCH_FILE                  ; ArduinoLogic.sv                                            ; --            ; --          ; RAM_INC_tb                        ;
+; EDA_TEST_BENCH_FILE                  ; RegisterArduino.sv                                         ; --            ; --          ; RAM_INC_tb                        ;
+; EDA_TEST_BENCH_FILE                  ; ArduinoAdd_p1.sv                                           ; --            ; --          ; RAM_INC_tb                        ;
+; EDA_TEST_BENCH_FILE                  ; instruction_TB.sv                                          ; --            ; --          ; instruction_TB                    ;
+; EDA_TEST_BENCH_FILE                  ; program.mem                                                ; --            ; --          ; instruction_TB                    ;
+; EDA_TEST_BENCH_MODULE_NAME           ; RAM_ARD_tb                                                 ; --            ; --          ; RAM_ARD_tb                        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; register_tb                                                ; --            ; --          ; register_tb                       ;
+; EDA_TEST_BENCH_MODULE_NAME           ; ram_TB                                                     ; --            ; --          ; ram_TB                            ;
+; EDA_TEST_BENCH_MODULE_NAME           ; rom_TB                                                     ; --            ; --          ; rom_TB                            ;
+; EDA_TEST_BENCH_MODULE_NAME           ; alu_TB                                                     ; --            ; --          ; alu_TB                            ;
+; EDA_TEST_BENCH_MODULE_NAME           ; program_final_tb                                           ; --            ; --          ; program_final_tb                  ;
+; EDA_TEST_BENCH_MODULE_NAME           ; RAM_INC_tb                                                 ; --            ; --          ; RAM_INC_tb                        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; instruction_TB                                             ; --            ; --          ; instruction_TB                    ;
+; EDA_TEST_BENCH_NAME                  ; instruction_TB                                             ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; rom_TB                                                     ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; ram_TB                                                     ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; alu_TB                                                     ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; register_tb                                                ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; RAM_ARD_tb                                                 ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; RAM_INC_tb                                                 ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; program_final_tb                                           ; --            ; --          ; eda_simulation                    ;
+; EDA_TIME_SCALE                       ; 1 ps                                                       ; --            ; --          ; eda_simulation                    ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                                         ; --            ; --          ; --                                ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; probe_pc/synthesis/../probe_pc.cmp                         ; --            ; --          ; --                                ;
+; MISC_FILE                            ; probe_pc/synthesis/../../probe_pc.qsys                     ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ram_bb.v                                                   ; --            ; --          ; --                                ;
+; MISC_FILE                            ; DROMMemory_bb.v                                            ; --            ; --          ; --                                ;
+; MISC_FILE                            ; DRAMMemory_bb.v                                            ; --            ; --          ; --                                ;
+; MISC_FILE                            ; DRAMMemoryArd_bb.v                                         ; --            ; --          ; --                                ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family)                     ; --            ; --          ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family)                     ; --            ; --          ; Top                               ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family)                     ; --            ; --          ; Top                               ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                                        ; --            ; --          ; --                                ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                      ; --            ; --          ; --                                ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                                               ; --            ; --          ; --                                ;
+; SLD_FILE                             ; probe_pc/synthesis/probe_pc.debuginfo                      ; --            ; --          ; --                                ;
+; SLD_INFO                             ; QSYS_NAME probe_pc HAS_SOPCINFO 1 GENERATION_ID 1712621426 ; --            ; probe_pc    ; --                                ;
+; SOPCINFO_FILE                        ; probe_pc/synthesis/../../probe_pc.sopcinfo                 ; --            ; --          ; --                                ;
+; SYNTHESIS_ONLY_QIP                   ; On                                                         ; --            ; --          ; --                                ;
++--------------------------------------+------------------------------------------------------------+---------------+-------------+-----------------------------------+
 
 
-+--------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                      ;
-+------------------------+------------------+------------+------------+----------------+
-; Module Name            ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+------------------------+------------------+------------+------------+----------------+
-; Analysis & Elaboration ; DESKTOP-LMJ5G1R  ; Windows 10 ; 10.0       ; x86_64         ;
-+------------------------+------------------+------------+------------+----------------+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:50     ; 4.1                     ; 5254 MB             ; 00:01:37                           ;
+; Fitter               ; 00:05:47     ; 1.5                     ; 8361 MB             ; 00:36:28                           ;
+; Assembler            ; 00:00:14     ; 1.0                     ; 5167 MB             ; 00:00:13                           ;
+; Timing Analyzer      ; 00:00:22     ; 7.5                     ; 5856 MB             ; 00:02:10                           ;
+; EDA Netlist Writer   ; 00:00:07     ; 1.0                     ; 5021 MB             ; 00:00:07                           ;
+; Total                ; 00:07:20     ; --                      ; --                  ; 00:40:35                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+>>>>>>> Stashed changes
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; DESKTOP-UMJH427  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-UMJH427  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-UMJH427  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-UMJH427  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-UMJH427  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
-quartus_map --read_settings_files=on --write_settings_files=off procesadorArm -c procesadorArm --analysis_and_elaboration
+quartus_map --read_settings_files=on --write_settings_files=off procesadorArm -c procesadorArm
+quartus_fit --read_settings_files=off --write_settings_files=off procesadorArm -c procesadorArm
+quartus_asm --read_settings_files=off --write_settings_files=off procesadorArm -c procesadorArm
+quartus_sta procesadorArm -c procesadorArm
+quartus_eda --read_settings_files=off --write_settings_files=off procesadorArm -c procesadorArm
 
 
 

@@ -38,9 +38,15 @@ module procesador(input logic clk, rst);
 	
 	pcRegister P0(clk, rst, pc, pcUse);
 	
+	probe_pc p_pc(pcUse);
+	
+	probe_pc p_clk(clk);
+	
 	perfRegister REG(clk, rst, perf_countD, perf_countF);
 	
 	InstructionMemory IM(clk,rst, pcUse, instructionF);
+	
+	probe_pc p_ins(instructionF);
 	
 	PipeRegFD regFD(clk, rst, instructionF, perf_countF, instructionD, perf_countD);
 	
