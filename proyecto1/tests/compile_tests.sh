@@ -12,6 +12,6 @@
 
 # python ../compiler/compiler.py ./assembly/vectorial_memory.asm ../custom_simulation/program.mem
 
-python ../compiler/compiler.py ./assembly/scalar_algorithm.asm ../custom_simulation/program.mem
+# python ../compiler/compiler.py ./assembly/scalar_algorithm.asm ../custom_simulation/program.mem
 
-# python ../compiler/compiler.py ./assembly/vectorial_algorithm.asm ../custom_simulation/program.mem
+python ../compiler/compiler.py ./assembly/vectorial_algorithm.asm ../custom_simulation/program.mem

@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 def Q7_8_a_decimal(numero_binario):
     # Extraer el signo
     print(numero_binario)
@@ -37,18 +38,23 @@ def Q7_8_formating(array):
         i += 1
 
     return formated_array
+
+
 def generate_time_array(duration, sampling_freq):
     t = np.linspace(0, duration, int(sampling_freq * duration), endpoint=False)
     return t
+
 
 def generate_clean_signal(t, frequency):
     clean_signal = np.sin(2 * np.pi * frequency * t)
     return clean_signal
 
+
 def generate_noisy_signal(clean_signal, noise_std_dev):
     noise = np.random.normal(0, noise_std_dev, len(clean_signal))
     noisy_signal = clean_signal + noise
     return noisy_signal
+
 
 def decimal_a_Q7_8(numero):
     # Determinar el signo
@@ -101,20 +107,24 @@ def main():
     # Convertir señal ruidosa a formato Q7.8
     noisy_signal_q7_8 = [decimal_a_Q7_8(value) for value in noisy_signal]
 
-
     # Coeficientes
     b16 = np.array([8.3436 * (10 ** (-3)), 1.3113 * (10 ** (-2)), 2.6482 * (10 ** (-2)), 4.6922 * (10 ** (-2)),
-                    7.1219 * (10 ** (-2)), 9.5103 * (10 ** (-2)), 1.1414 * (10 ** (-1)), 1.2468 * (10 ** (-1)),
-                    1.2468 * (10 ** (-1)), 1.1414 * (10 ** (-1)), 9.5103 * (10 ** (-2)), 7.1219 * (10 ** (-2)),
+                    7.1219 * (10 ** (-2)), 9.5103 * (10 ** (-2)
+                                                     ), 1.1414 * (10 ** (-1)), 1.2468 * (10 ** (-1)),
+                    1.2468 * (10 ** (-1)), 1.1414 * (10 ** (-1)
+                                                     ), 9.5103 * (10 ** (-2)), 7.1219 * (10 ** (-2)),
                     4.6922 * (10 ** (-2)), 2.6482 * (10 ** (-2)), 1.3113 * (10 ** (-2)), 8.3436 * (10 ** (-3))])
 
     b16_formated_array = Q7_8_formating(b16)
 
     # Array of 20 coefficients
     b20 = np.array([5.9451 * (10 ** (-3)), 8.3257 * (10 ** (-3)), 1.4865 * (10 ** (-2)), 2.5426 * (10 ** (-2)),
-                    3.9222 * (10 ** (-2)), 5.4890 * (10 ** (-2)), 7.0679 * (10 ** (-2)), 8.4692 * (10 ** (-2)),
-                    9.5175 * (10 ** (-2)), 1.0078 * (10 ** (-1)), 1.0078 * (10 ** (-1)), 9.5175 * (10 ** (-2)),
-                    8.4692 * (10 ** (-2)), 7.0679 * (10 ** (-2)), 5.4890 * (10 ** (-2)), 3.9222 * (10 ** (-2)),
+                    3.9222 * (10 ** (-2)), 5.4890 * (10 ** (-2)
+                                                     ), 7.0679 * (10 ** (-2)), 8.4692 * (10 ** (-2)),
+                    9.5175 * (10 ** (-2)), 1.0078 * (10 ** (-1)
+                                                     ), 1.0078 * (10 ** (-1)), 9.5175 * (10 ** (-2)),
+                    8.4692 * (10 ** (-2)), 7.0679 * (10 ** (-2)
+                                                     ), 5.4890 * (10 ** (-2)), 3.9222 * (10 ** (-2)),
                     2.5426 * (10 ** (-2)), 1.4865 * (10 ** (-2)), 8.3257 * (10 ** (-3)), 5.9451 * (10 ** (-3))])
 
     b20_formated_array = Q7_8_formating(b20)
@@ -126,11 +136,12 @@ def main():
     b10_formated_array = Q7_8_formating(b10)
 
     # Seleccionar el arreglo de coeficientes deseado
-    coefficients_array = b10_formated_array
+    coefficients_array = b20_formated_array
 
     # Verificar la longitud de los coeficientes y rellenar si es necesario
     if len(coefficients_array) < 48:
-        coefficients_array = np.pad(coefficients_array, (0, 48 - len(coefficients_array)), mode='constant')
+        coefficients_array = np.pad(
+            coefficients_array, (0, 48 - len(coefficients_array)), mode='constant')
     elif len(coefficients_array) > 48:
         coefficients_array = coefficients_array[:48]
 
@@ -169,6 +180,7 @@ def main():
         file.write(f'{len(data) + 1:04X} : 000{num_samples_q7_8};\n')
 
         file.write('END;\n')
+
 
 if __name__ == "__main__":
     main()
