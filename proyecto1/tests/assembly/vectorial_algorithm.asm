@@ -7,19 +7,19 @@
 ; v15 = Memory Increment by 1
 ; v14 = Memory Increment by 16
 ; v13 = 0 = Coefficients Memory Addresss[0]
-; v12 = 16 = Samples Memory Address[0]
-; v11 = 50 = Filtered Samples Memory Addresss[0]
+; v12 = 48 = Samples Memory Address[0]
+; v11 = 82 = Filtered Samples Memory Addresss[0]
 
 ; r14 = 0.00390625 = 0x0001 (q7.8) => Memory Increment
 mov r14, #0.00390625
 
 ; r13 = M Memory Address
-mov r13, #48
+mov r13, #80
 mul r13, r13, r14
 ldr r13, r13
 
 ; r12 = N Memory Address
-mov r12, #49
+mov r12, #81
 mul r12, r12, r14
 ldr r12, r12
 
@@ -48,8 +48,10 @@ _filter_loop:
 
     ; v2 = y_n_v_i = x_v .* h_v
     mulv v2, v0, v1
+    ; r10 = sum(y_n_v_i)
+    sumv r10, v2
     ; r0 = r0 + sum(y_n_v_i)
-    sumv r0, v2
+    add r0, r0, r10
 
     ; v9 = m_index + 16 -> Vectorial
     addv v9, v9, v14
