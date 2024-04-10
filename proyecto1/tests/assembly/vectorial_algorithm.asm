@@ -8,19 +8,19 @@
 ; v14 = Memory Increment by 16
 ; v13 = 0 = Coefficients Memory Addresss[0]
 ; v12 = 48 = Samples Memory Address[0]
-; v11 = 82 = Filtered Samples Memory Addresss[0]
+; v11 = 48 = Filtered Samples Memory Addresss[0]
 
 ; r14 = 0.00390625 = 0x0001 (q7.8) => Memory Increment
 mov r14, #0.00390625
 
 ; r13 = M Memory Address
-mov r13, #80
-mul r13, r13, r14
+mov r13, #31.2421875
+; mul r13, r13, r14
 ldr r13, r13
 
 ; r12 = N Memory Address
-mov r12, #81
-mul r12, r12, r14
+mov r12, #31.24609375
+; mul r12, r12, r14
 ldr r12, r12
 
 ; v10 = 0 = n index

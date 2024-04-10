@@ -37,7 +37,7 @@ module RegisterFile(input  logic clk,rst,we3,
 			rf_v[14][15] = 16; // Memory Increment by 16
 			rf_v[13][15] = 0;  // Coefficients Memory Addresss[0]
 			rf_v[12][15] = 48; // Samples Memory Address[0]
-			rf_v[11][15] = 82; // Filtered Samples Memory Addresss[0]
+			rf_v[11][15] = 48; // Filtered Samples Memory Addresss[0]
 
 			// rf_v[4][15] = 0;
 
