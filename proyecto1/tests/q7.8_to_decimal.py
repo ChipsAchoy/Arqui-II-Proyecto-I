@@ -213,10 +213,10 @@ axs[0, 1].plot(to_decimal(coeffs_10_sim_result, 16)[0])
 axs[0, 1].set_title('Señal filtrada con 10 coeficientes')
 
 axs[1, 0].plot(to_decimal(coeffs_16_sim_result, 16)[0])
-axs[0, 1].set_title('Señal filtrada con 16 coeficientes')
+axs[1, 0].set_title('Señal filtrada con 16 coeficientes')
 
 axs[1, 1].plot(to_decimal(coeffs_20_sim_result, 16)[0])
-axs[0, 1].set_title('Señal filtrada con 20 coeficientes')
+axs[1, 1].set_title('Señal filtrada con 20 coeficientes')
 
 plt.tight_layout()
 plt.show()
