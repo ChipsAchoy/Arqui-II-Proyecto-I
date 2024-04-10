@@ -227,6 +227,7 @@ def compile_instructions(instructions, labels, compiled_file):
             instruction_bits = "".join(instruction_blocks)
             instruction_bytes = split_bytes(instruction_bits)
             
+            
             print(instruction)
             print(instruction_blocks)
             print(instruction_bytes)
