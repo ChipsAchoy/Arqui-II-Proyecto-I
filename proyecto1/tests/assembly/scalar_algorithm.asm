@@ -11,7 +11,7 @@ mov r14, #0.00390625
 mov r0, #0
 
 ; r1 = Samples Memory Address[0]
-mov r13, #16
+mov r13, #48
 mul r1, r14, r13
 
 ; n => Current Sample
@@ -20,18 +20,14 @@ mov r2, #0
 mov r3, #0
 
 ; r13 = M Memory Address
-mov r13, #48
-mul r13, r14, r13
+mov r13, #31.2421875
 ; r4 = [r13] = M
 ldr r4, r13 
-mul r4, r4, r14
 
 ; r13 = N Memory Address
-mov r13, #49
-mul r13, r14, r13
+mov r13, #31.24609375
 ; r5 = [r13] = N
 ldr r5, r13
-mul r5, r5, r14
 
 _filter_loop:
 	; m = 0
@@ -71,8 +67,7 @@ _filter_loop:
 
 		_next_y_n:
 			; r13 = &filtered[0]
-			mov r13, #50
-			mul r13, r13, r14
+			mov r13, #15.625
 			; r13 = &filtered[0] + n
 			add r13, r13, r2
 			; [&filtered[0] + n] = y_n

@@ -15,7 +15,7 @@ module data_instructions_tb();
 
   // integer max_pc = 864;
   // integer cycles = (max_pc / 4) + 10;
-  integer cycles = 40000;
+  integer cycles = 100000;
   
   integer i;
 
